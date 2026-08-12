@@ -613,7 +613,37 @@ a:focus-visible, button:focus-visible, .rail:focus-visible {
   .layer-hero img { filter: none; }
 }
 
-/* ---------- reduced motion ---------- */
+/* ---------- site-wide footer (always visible after the cinematic section) ---------- */
+.site-footer {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 2.4rem var(--space-edge);
+}
+.site-footer-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.8rem 2rem;
+}
+.site-footer-mark {
+  font-family: var(--font-display); font-size: 1.1rem; color: var(--paper);
+}
+.site-footer-mark span {
+  font-family: var(--font-ui); font-size: .74rem; letter-spacing: .2em;
+  text-transform: uppercase; color: rgba(244, 237, 227, 0.6); margin-left: .6rem;
+}
+.site-footer-nav { display: flex; gap: 1.4rem; margin-left: auto; }
+.site-footer-nav a {
+  font-size: .86rem; color: rgba(244, 237, 227, 0.7); text-decoration: none;
+  transition: color 0.2s;
+}
+.site-footer-nav a:hover { color: var(--paper); }
+.site-footer-copy {
+  font-size: .78rem; color: rgba(244, 237, 227, 0.5); width: 100%;
+  margin-top: 0.4rem;
+}
+@media (max-width: 760px) {
+  .site-footer-inner { flex-direction: column; align-items: flex-start; gap: 0.6rem; }
+  .site-footer-nav { margin-left: 0; flex-wrap: wrap; }
+}
 @media (prefers-reduced-motion: reduce) {
   .cinematic-scroll { height: auto; }
   .cinematic-stage {
