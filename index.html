@@ -1,1 +1,317 @@
-PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9IlVURi04
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Social's Way — Marketing Atelier</title>
+<meta name="description" content="Social's Way is a small marketing atelier. Strategy, story, and design for brands with something to say.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/layers/bg-00-1x.webp" imagesrcset="assets/layers/bg-00-1x.webp 1600w, assets/layers/bg-00-2x.webp 2752w" imagesizes="100vw">
+<link rel="preload" as="image" href="assets/layers/mid-20-1x.webp" imagesrcset="assets/layers/mid-20-1x.webp 1400w, assets/layers/mid-20-2x.webp 2400w" imagesizes="100vw">
+<link rel="preload" as="image" href="assets/layers/hero-30-1x.webp" imagesrcset="assets/layers/hero-30-1x.webp 900w, assets/layers/hero-30-2x.webp 1600w" imagesizes="60vw">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#catalog-heading">Skip to the work</a>
+
+<!-- Branded loading state: removed once hero layers have decoded -->
+<div class="loader" id="loader" aria-hidden="true">
+  <p class="loader-mark">Social's Way</p>
+  <p class="loader-sub">Marketing Atelier</p>
+</div>
+
+<main>
+  <section class="cinematic-scroll" id="cinematic" aria-label="Social's Way: an introduction in one continuous scene">
+    <div class="cinematic-stage" id="stage">
+
+      <div class="world" id="world">
+        <!-- depth 0: opaque room plate -->
+        <div class="layer layer-bg" data-depth="0">
+          <img src="assets/layers/bg-00-1x.webp"
+               srcset="assets/layers/bg-00-1x.webp 1600w, assets/layers/bg-00-2x.webp 2752w"
+               sizes="100vw" width="2752" height="1536" alt="" decoding="async" fetchpriority="high">
+        </div>
+
+        <!-- depth 2: worktable -->
+        <div class="layer layer-mid" data-depth="2">
+          <img src="assets/layers/mid-20-1x.webp"
+               srcset="assets/layers/mid-20-1x.webp 1400w, assets/layers/mid-20-2x.webp 2400w"
+               sizes="100vw" width="2400" height="1028" alt="" decoding="async" fetchpriority="high">
+        </div>
+
+        <!-- depth 3: hero portfolio case -->
+        <div class="layer layer-hero" data-depth="3">
+          <img src="assets/layers/hero-30-1x.webp"
+               srcset="assets/layers/hero-30-1x.webp 900w, assets/layers/hero-30-2x.webp 1600w"
+               sizes="(max-width: 760px) 62vw, 34vw" width="1600" height="1073"
+               alt="A caramel leather portfolio case with a linen spine, resting on the studio table."
+               decoding="async" fetchpriority="high">
+          <div class="hero-shadow" aria-hidden="true"></div>
+        </div>
+
+        <!-- depth 4: foreground doors -->
+        <div class="layer layer-door-l" data-depth="4">
+          <img src="assets/layers/40-door-left-1x.webp"
+               srcset="assets/layers/40-door-left-1x.webp 640w, assets/layers/40-door-left-2x.webp 640w"
+               sizes="34vw" width="640" height="1497" alt="" decoding="async">
+        </div>
+        <div class="layer layer-door-r" data-depth="4">
+          <img src="assets/layers/41-door-right-1x.webp"
+               srcset="assets/layers/41-door-right-1x.webp 600w, assets/layers/41-door-right-2x.webp 600w"
+               sizes="34vw" width="600" height="1497" alt="" decoding="async">
+        </div>
+
+        <!-- depth 1: cinematic tint + focus overlay (above world plates, below copy) -->
+        <div class="layer layer-tint" data-depth="1" aria-hidden="true"></div>
+        <div class="layer layer-grain" aria-hidden="true"></div>
+      </div>
+
+      <!-- persistent header -->
+      <header class="site-header">
+        <a class="wordmark" href="#cinematic" data-goto="0">Social's <em>Way</em></a>
+        <nav class="site-nav" aria-label="Scene">
+          <a href="#cinematic" data-goto="0.28">The Studio</a>
+          <a href="#cinematic" data-goto="0.52">Philosophy</a>
+          <a href="#cinematic" data-goto="0.66">Work</a>
+        </nav>
+        <a class="btn btn-header" href="start.html">Start a project</a>
+      </header>
+
+      <!-- intro copy -->
+      <div class="copy copy-intro">
+        <p class="eyebrow">Marketing Atelier</p>
+        <h1 class="display">Social's <em>Way</em></h1>
+        <p class="standfirst">A small studio practising the quiet craft of being heard.
+        Strategy, story, and design for brands with something to say.</p>
+        <p class="scroll-cue" aria-hidden="true"><span>Scroll to enter</span></p>
+      </div>
+
+      <!-- narrative panel A -->
+      <div class="copy copy-panel copy-a" aria-hidden="true">
+        <p class="kicker">01 / The Studio</p>
+        <h2>An atelier, not an agency.</h2>
+        <p>We keep the studio small on purpose. Every account gets the founders,
+        every brief gets time on the table, and nothing leaves the room until it
+        earns its place.</p>
+        <ul class="facts">
+          <li><strong>Est. 2024</strong></li>
+          <li><strong>16</strong> brands served</li>
+          <li><strong>4</strong> people at the table</li>
+        </ul>
+      </div>
+
+      <!-- narrative panel B: the approach -->
+      <div class="copy copy-panel copy-b" aria-hidden="true">
+        <p class="kicker">02 / The Approach</p>
+        <h2>Research before a single pixel.</h2>
+        <p>We read the market like a scholar reads a manuscript: your audience,
+        your rivals, your opening. Every commission begins in the library, so
+        the branding that follows is built on evidence, not instinct.</p>
+      </div>
+
+      <!-- narrative panel C: design philosophy -->
+      <div class="copy copy-panel copy-c" aria-hidden="true">
+        <p class="kicker">03 / Design Philosophy</p>
+        <h2>Insight first, then identity.</h2>
+        <p>Only once the research is read do we move to branding. What we make
+        is shaped by what the market told us, so the work fits the client it
+        serves, not the mood board of the week.</p>
+        <ul class="facts">
+          <li><strong>Research</strong> before reach</li>
+          <li><strong>Type</strong> before decoration</li>
+          <li><strong>Restraint</strong> as a feature</li>
+        </ul>
+      </div>
+
+      <!-- narrative panel D: selected work intro (title card) -->
+      <div class="copy copy-panel copy-d copy-d-title" aria-hidden="true">
+        <p class="kicker">04 / Selected Work</p>
+        <h2>Recent tables we have set.</h2>
+        <p>A few of the brands and businesses we have worked with, in their own light.</p>
+      </div>
+
+      <!-- selected work showcase: video + still cards -->
+      <div class="work-showcase" id="work-showcase" aria-hidden="true">
+        <div class="rail-wrap">
+          <button class="rail-btn rail-prev" type="button" aria-label="Previous project">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+
+          <div class="rail" tabindex="0" role="region" aria-label="Selected work, horizontal scroll">
+            <ul class="rail-track">
+              <li class="card work-card">
+                <div class="work-media">
+                  <img src="assets/work/goa.webp" width="540" height="405" alt="Goa Social: a live band performing on a warmly lit stage." loading="lazy" decoding="async">
+                  <video src="assets/work/goa.mp4" muted loop playsinline preload="none" aria-hidden="true"></video>
+                </div>
+                <div class="card-body">
+                  <p class="card-tag">Hospitality</p>
+                  <h3>Goa Social</h3>
+                  <p>Content and social presence for a hospitality brand.</p>
+                </div>
+              </li>
+              <li class="card work-card">
+                <div class="work-media">
+                  <img src="assets/work/piano.webp" width="540" height="405" alt="The Piano Project: hands preparing a drink behind a bar." loading="lazy" decoding="async">
+                  <video src="assets/work/piano.mp4" muted loop playsinline preload="none" aria-hidden="true"></video>
+                </div>
+                <div class="card-body">
+                  <p class="card-tag">Food &amp; Beverage</p>
+                  <h3>The Piano Project</h3>
+                  <p>Launch content for a new table in town.</p>
+                </div>
+              </li>
+              <li class="card work-card">
+                <div class="work-media">
+                  <img src="assets/work/music.webp" width="540" height="405" alt="Music Events: a DJ performing at red-lit decks." loading="lazy" decoding="async">
+                  <video src="assets/work/music.mp4" muted loop playsinline preload="none" aria-hidden="true"></video>
+                </div>
+                <div class="card-body">
+                  <p class="card-tag">Events</p>
+                  <h3>Music Events</h3>
+                  <p>Promotion and coverage for live music nights.</p>
+                </div>
+              </li>
+              <li class="card work-card">
+                <div class="work-media">
+                  <img src="assets/work/procuta.webp" width="900" height="675" alt="Procuta Skincare: a sunscreen tube beside an orange slice." loading="lazy" decoding="async">
+                </div>
+                <div class="card-body">
+                  <p class="card-tag">Skincare</p>
+                  <h3>Procuta Skincare</h3>
+                  <p>Product, catalogue, and Amazon storefront.</p>
+                </div>
+              </li>
+              <li class="card work-card">
+                <div class="work-media">
+                  <img src="assets/work/surguja.webp" width="900" height="600" alt="Surreal Surguja Culture: brass vessels and betel leaves arranged on an earthen floor." loading="lazy" decoding="async">
+                </div>
+                <div class="card-body">
+                  <p class="card-tag">Culture</p>
+                  <h3>Surreal Surguja Culture</h3>
+                  <p>Coverage and storytelling for a regional showcase.</p>
+                </div>
+              </li>
+              <li class="card work-card">
+                <div class="work-media">
+                  <img src="assets/work/bioskinsy.webp" width="540" height="405" alt="Bio Skinsy: hands applying a nourishing body lotion." loading="lazy" decoding="async">
+                  <video src="assets/work/bioskinsy.mp4" muted loop playsinline preload="none" aria-hidden="true"></video>
+                </div>
+                <div class="card-body">
+                  <p class="card-tag">Skincare</p>
+                  <h3>Bio Skinsy</h3>
+                  <p>Branding and go-to-market for a skincare label.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <button class="rail-btn rail-next" type="button" aria-label="Next project">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <p class="rail-status visually-hidden" role="status"></p>
+      </div>
+
+      <!-- final catalog -->
+      <div class="catalog" id="catalog" aria-hidden="true">
+        <div class="catalog-head">
+          <p class="kicker">06 / What We Do</p>
+          <h2 id="catalog-heading">Six services, one table.</h2>
+        </div>
+
+        <div class="rail-wrap">
+          <button class="rail-btn rail-prev" type="button" aria-label="Previous discipline">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+
+          <div class="rail" id="rail" tabindex="0" role="region" aria-label="Services, horizontal scroll">
+            <ul class="rail-track" id="rail-track">
+              <li class="card">
+                <img src="assets/cards/research-insight.webp" width="900" height="672" alt="A magnifying glass over a sheet of hand-drawn charts." loading="lazy" decoding="async">
+                <div class="card-body">
+                  <p class="card-tag">01 / Strategy</p>
+                  <h3>Marketing Strategy</h3>
+                  <p>Positioning, messaging, and go-to-market plans built on research rather than instinct. The map before the march.</p>
+                </div>
+              </li>
+              <li class="card">
+                <img src="assets/cards/social-campaigns.webp" width="900" height="672" alt="A campaign calendar with pinned blocks and a rolled storyboard." loading="lazy" decoding="async">
+                <div class="card-body">
+                  <p class="card-tag">02 / Paid</p>
+                  <h3>Performance Marketing</h3>
+                  <p>Paid campaigns tuned like instruments: every rupee tracked, every audience tested, every creative accountable to a number.</p>
+                </div>
+              </li>
+              <li class="card">
+                <img src="assets/cards/content-editorial.webp" width="900" height="672" alt="A stack of printed broadsheet pages with coffee and reading glasses." loading="lazy" decoding="async">
+                <div class="card-body">
+                  <p class="card-tag">03 / Social</p>
+                  <h3>Social Media Management</h3>
+                  <p>Calendars, content, community, and the daily discipline of showing up beautifully. Feeds that feel curated, not scheduled.</p>
+                </div>
+              </li>
+              <li class="card">
+                <img src="assets/cards/web-digital.webp" width="900" height="672" alt="A laptop wireframe beside a hand-drawn site map." loading="lazy" decoding="async">
+                <div class="card-body">
+                  <p class="card-tag">04 / Web</p>
+                  <h3>Web Design</h3>
+                  <p>Sites with the gravity of a gallery and the speed of a storefront. Designed, written, and built under one roof, with Regnor.</p>
+                </div>
+              </li>
+              <li class="card">
+                <img src="assets/cards/identity-design.webp" width="900" height="672" alt="Colour swatch cards and a type specimen on the studio table." loading="lazy" decoding="async">
+                <div class="card-body">
+                  <p class="card-tag">05 / Identity</p>
+                  <h3>Branding, Zero to One</h3>
+                  <p>Naming, identity, voice, and the thousand small decisions that make a stranger feel like they have known you for years.</p>
+                </div>
+              </li>
+              <li class="card">
+                <img src="assets/cards/brand-strategy.webp" width="900" height="672" alt="Strategy notebook with a positioning sketch and a brass pen." loading="lazy" decoding="async">
+                <div class="card-body">
+                  <p class="card-tag">06 / Research</p>
+                  <h3>Market &amp; Product Research</h3>
+                  <p>Interviews, audits, and landscape studies that tell you what the market actually wants, before you spend a rupee finding out.</p>
+                </div>
+              </li>
+              <li class="card card-contact">
+                <div class="card-body">
+                  <p class="card-tag">07 / Contact</p>
+                  <h3>Start a project</h3>
+                  <p>Tell us where you are headed. We will read the market with you, then reply within two working days.</p>
+                  <ul class="contact-roster">
+                    <li><span class="contact-name">Romil</span><span class="contact-role">Head of Product and Research</span><a class="contact-line" href="tel:+918109367848">+91 81093 67848</a><a class="contact-line" href="mailto:romil@regnor.systems">romil@regnor.systems</a></li>
+                    <li><span class="contact-name">Alisha</span><span class="contact-role">Creative Director</span><a class="contact-line" href="tel:+919179704671">+91 91797 04671</a></li>
+                  </ul>
+                  <a class="btn" href="start.html">Write us a brief</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <button class="rail-btn rail-next" type="button" aria-label="Next discipline">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+
+        <p class="rail-status visually-hidden" role="status" id="rail-status"></p>
+
+        <footer class="catalog-foot">
+          <p>&copy; Social's Way, Marketing Atelier.</p>
+        </footer>
+      </div>
+
+      <!-- scroll progress -->
+      <div class="progress" aria-hidden="true"><span class="progress-bar"></span></div>
+
+    </div>
+  </section>
+</main>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
