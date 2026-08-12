@@ -1,1 +1,296 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKU29jaWFsJ3MgV2F5IGFzc2V0IHBpcGVsaW5lLgoKVHVybnMgdGhlIGdlbmVyYXRlZCBzb3VyY2UgcGxhdGVzIGludG8gcHJvZHVjdGlvbiBsYXllcnM6CiAgLSBrZXlzIG91dCB0aGUgZmxhdCBncmV5IGJhY2tncm91bmQgKGZsb29kIGZpbGwgZnJvbSBlZGdlcyArIGRpc3RhbmNlIGZhbGxvZmYpCiAgLSBkZXNwaWxscyBncmV5IGZyb20gZWRnZSBwaXhlbHMKICAtIGNyb3BzIHRvIGFscGhhIGJib3ggd2l0aCBibGVlZCBwYWRkaW5nCiAgLSBzcGxpdHMgdGhlIGRvb3IgcGxhdGUgaW50byBsZWZ0L3JpZ2h0IHBhbmVscwogIC0gdW5pZmllcyB0aGUgZ3JhZGUgdG93YXJkIHRoZSB3YXJtIGNyZWFtIHBhbGV0dGUKICAtIGV4cG9ydHMgcmVzcG9uc2l2ZSBXZWJQIHNldHMgd2l0aCBhIEpTT04gbWFuaWZlc3QKClJ1bjogIHB5dGhvbjMgdG9vbHMvcHJvY2Vzc19sYXllcnMucHkKIiIiCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IG51bXB5IGFzIG5wCmZyb20gUElMIGltcG9ydCBJbWFnZSwgSW1hZ2VGaWx0ZXIKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50LnBhcmVudApTUkMgPSBST09UIC8gImFzc2V0cyIgLyAic3JjIgpPVVQgPSBST09UIC8gImFzc2V0cyIgLyAibGF5ZXJzIgpDQVJEUyA9IFJPT1QgLyAiYXNzZXRzIiAvICJjYXJkcyIKT1VULm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKQ0FSRFMubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQoKR1JFWV9UT0wgPSAzNCAgICAgICAgICAjIGRpc3RhbmNlIGluIFJHQiBzcGFjZSBjb25zaWRlcmVkICJiYWNrZ3JvdW5kIGdyZXkiCkZFQVRIRVIgPSAxLjYgICAgICAgICAgIyBweCBnYXVzc2lhbiBmZWF0aGVyIG9uIGFscGhhIGVkZ2VzCkRFU0FUX01JWCA9IDAuNTUgICAgICAgIyBob3cgc3Ryb25nbHkgZWRnZSBwaXhlbHMgZ2V0IGRlc3BpbGxlZAoKCmRlZiBsb2FkKG5hbWUpOgogICAgcmV0dXJuIEltYWdlLm9wZW4oU1JDIC8gbmFtZSkuY29udmVydCgiUkdCIikKCgpkZWYgZ3JleV9rZXlfbWFzayhpbWc6IEltYWdlLkltYWdlLCB0b2w6IGZsb2F0ID0gR1JFWV9UT0wpIC0+IG5wLm5kYXJyYXk6CiAgICAiIiIKICAgIEFscGhhIG1hc2sgd2hlcmUgMjU1ID0gc3ViamVjdCwgMCA9IGZsYXQgZ3JleSBiYWNrZ3JvdW5kLgogICAgU2VlZHMgYSBmbG9vZCBmaWxsIGZyb20gdGhlIGltYWdlIGJvcmRlciBzbyBvbmx5IGJhY2tncm91bmQtY29ubmVjdGVkCiAgICBncmV5IGlzIHJlbW92ZWQgKGdyZXktaXNoIHBhcnRzIG9mIHRoZSBzdWJqZWN0IHN1cnZpdmUpLgogICAgIiIiCiAgICBhcnIgPSBucC5hc2FycmF5KGltZykuYXN0eXBlKG5wLmludDE2KQogICAgaCwgdywgXyA9IGFyci5zaGFwZQoKICAgICMgcmVmZXJlbmNlIGdyZXkgPSBtZWRpYW4gb2YgYm9yZGVyIHBpeGVscwogICAgYm9yZGVyID0gbnAuY29uY2F0ZW5hdGUoWwogICAgICAgIGFyclswLCA6LCA6XSwgYXJyWy0xLCA6LCA6XSwgYXJyWzosIDAsIDpdLCBhcnJbOiwgLTEsIDpdCiAgICBdKQogICAgcmVmID0gbnAubWVkaWFuKGJvcmRlciwgYXhpcz0wKQoKICAgIGRpc3QgPSBucC5zcXJ0KCgoYXJyIC0gcmVmKSAqKiAyKS5zdW0oYXhpcz0yKSkKICAgIGNhbmRpZGF0ZSA9IGRpc3QgPCB0b2wgICAgICAgICAgICAgICAgICAgICAgIyBwb3NzaWJseSBiYWNrZ3JvdW5kCgogICAgIyBmbG9vZCBmaWxsIGZyb20gYWxsIGJvcmRlciBjYW5kaWRhdGUgcGl4ZWxzLCA0LWNvbm5lY3RlZAogICAgdmlzaXRlZCA9IG5wLnplcm9zKChoLCB3KSwgZHR5cGU9Ym9vbCkKICAgIHN0YWNrID0gW10KICAgIGZvciB4IGluIHJhbmdlKHcpOgogICAgICAgIGlmIGNhbmRpZGF0ZVswLCB4XToKICAgICAgICAgICAgc3RhY2suYXBwZW5kKCgwLCB4KSkKICAgICAgICBpZiBjYW5kaWRhdGVbaCAtIDEsIHhdOgogICAgICAgICAgICBzdGFjay5hcHBlbmQoKGggLSAxLCB4KSkKICAgIGZvciB5IGluIHJhbmdlKGgpOgogICAgICAgIGlmIGNhbmRpZGF0ZVt5LCAwXToKICAgICAgICAgICAgc3RhY2suYXBwZW5kKCh5LCAwKSkKICAgICAgICBpZiBjYW5kaWRhdGVbeSwgdyAtIDFdOgogICAgICAgICAgICBzdGFjay5hcHBlbmQoKHksIHcgLSAxKSkKICAgIHdoaWxlIHN0YWNrOgogICAgICAgIHksIHggPSBzdGFjay5wb3AoKQogICAgICAgIGlmIHZpc2l0ZWRbeSwgeF0gb3Igbm90IGNhbmRpZGF0ZVt5LCB4XToKICAgICAgICAgICAgY29udGludWUKICAgICAgICB2aXNpdGVkW3ksIHhdID0gVHJ1ZQogICAgICAgIGlmIHkgPiAwOgogICAgICAgICAgICBzdGFjay5hcHBlbmQoKHkgLSAxLCB4KSkKICAgICAgICBpZiB5IDwgaCAtIDE6CiAgICAgICAgICAgIHN0YWNrLmFwcGVuZCgoeSArIDEsIHgpKQogICAgICAgIGlmIHggPiAwOgogICAgICAgICAgICBzdGFjay5hcHBlbmQoKHksIHggLSAxKSkKICAgICAgICBpZiB4IDwgdyAtIDE6CiAgICAgICAgICAgIHN0YWNrLmFwcGVuZCgoeSwgeCArIDEpKQoKICAgIGFscGhhID0gbnAud2hlcmUodmlzaXRlZCwgMCwgMjU1KS5hc3R5cGUobnAudWludDgpCgogICAgIyBTZWNvbmQgcGFzczogcmVtb3ZlIGFueSByZW1haW5pbmcgZ3JleSBwaXhlbHMgdGhhdCB0aGUgZmxvb2QgZmlsbAogICAgIyBjb3VsZG4ndCByZWFjaCAodHJhcHBlZCBiZXR3ZWVuIGZpbmUgZGV0YWlscyBsaWtlIGZsb3dlciBzdGVtcykuCiAgICAjIFRoZXNlIHBpeGVscyBtYXRjaCB0aGUgZ3JleSByZWZlcmVuY2UgY29sb3IgYnV0IGFyZW4ndCBib3JkZXItY29ubmVjdGVkLgogICAgIyBVc2UgYSB0aWdodGVyIHRvbGVyYW5jZSBzaW5jZSB3ZSdyZSBub3cgdGFyZ2V0aW5nIGludGVyaW9yIGdyZXkgZGlyZWN0bHkuCiAgICBpbnRlcmlvcl9ncmV5ID0gZGlzdCA8IHRvbCAqIDAuNwogICAgYWxwaGEgPSBucC53aGVyZShpbnRlcmlvcl9ncmV5LCAwLCBhbHBoYSkuYXN0eXBlKG5wLnVpbnQ4KQoKICAgICMgc29mdGVuIHRoZSBrZXllZCBlZGdlOiBibHVyIHRoZW4gc2xpZ2h0bHkgZXJvZGUgdG93YXJkIHN1YmplY3QKICAgIGFfaW1nID0gSW1hZ2UuZnJvbWFycmF5KGFscGhhLCAiTCIpLmZpbHRlcihJbWFnZUZpbHRlci5HYXVzc2lhbkJsdXIoRkVBVEhFUikpCiAgICBhbHBoYSA9IG5wLmFzYXJyYXkoYV9pbWcpCiAgICByZXR1cm4gYWxwaGEsIHJlZgoKCmRlZiBkZXNwaWxsKGltZzogSW1hZ2UuSW1hZ2UsIGFscGhhOiBucC5uZGFycmF5LCByZWYpIC0+IEltYWdlLkltYWdlOgogICAgIiIiUHVsbCBncmV5IGZyaW5nZSBvdXQgb2Ygc2VtaS10cmFuc3BhcmVudCBlZGdlIHBpeGVscy4iIiIKICAgIGFyciA9IG5wLmFzYXJyYXkoaW1nKS5hc3R5cGUobnAuZmxvYXQzMikKICAgIGVkZ2UgPSAoYWxwaGEgPiA4KSAmIChhbHBoYSA8IDI0NykKICAgIGlmIGVkZ2UuYW55KCk6CiAgICAgICAgbHVtID0gYXJyLm1lYW4oYXhpcz0yLCBrZWVwZGltcz1UcnVlKQogICAgICAgICMgYmxlbmQgZWRnZSBwaXhlbHMgdG93YXJkIHRoZWlyIG93biBsdW1pbmFuY2UgdG8ga2lsbCBncmV5IGNhc3QsCiAgICAgICAgIyB0aGVuIHB1c2ggc2xpZ2h0bHkgd2FybSBzbyB0aGUgZWRnZSBtZWx0cyBpbnRvIHRoZSBzY2VuZSBncmFkZQogICAgICAgIGFycltlZGdlXSA9IChhcnJbZWRnZV0gKiAoMSAtIERFU0FUX01JWCkKICAgICAgICAgICAgICAgICAgICAgKyBsdW1bZWRnZV0gKiBERVNBVF9NSVgpCiAgICAgICAgYXJyW2VkZ2UsIDBdICo9IDEuMDQgICAjIHdhcm0gdGhlIHJlZCBjaGFubmVsIGEgdG91Y2gKICAgICAgICBhcnJbZWRnZSwgMl0gKj0gMC45NgogICAgb3V0ID0gSW1hZ2UuZnJvbWFycmF5KG5wLmNsaXAoYXJyLCAwLCAyNTUpLmFzdHlwZShucC51aW50OCksICJSR0IiKQogICAgcmV0dXJuIG91dAoKCmRlZiBncmFkZShpbWc6IEltYWdlLkltYWdlLCB3YXJtPTEuMDMsIGNvbnRyYXN0PTEuMDMsIGxpZnQ9NCkgLT4gSW1hZ2UuSW1hZ2U6CiAgICAiIiJTdWJ0bGUgc2hhcmVkIGdyYWRlOiB3YXJtLCBnZW50bGUgY29udHJhc3QsIHRpbnkgYmxhY2sgbGlmdC4iIiIKICAgIGFyciA9IG5wLmFzYXJyYXkoaW1nKS5hc3R5cGUobnAuZmxvYXQzMikKICAgIGFyclsuLi4sIDBdICo9IHdhcm0KICAgIGFyclsuLi4sIDJdIC89IHdhcm0gKiogMC42CiAgICBhcnIgPSAoYXJyIC0gMTI4KSAqIGNvbnRyYXN0ICsgMTI4ICsgbGlmdAogICAgcmV0dXJuIEltYWdlLmZyb21hcnJheShucC5jbGlwKGFyciwgMCwgMjU1KS5hc3R5cGUobnAudWludDgpKQoKCmRlZiBjcm9wX3RvX2FscGhhKGltZzogSW1hZ2UuSW1hZ2UsIHBhZF9mcmFjOiBmbG9hdCA9IDAuMDQpOgogICAgIiIiQ3JvcCB0byBhbHBoYSBiYm94IHBsdXMgcGFkZGluZy4gUmV0dXJucyAoaW1hZ2UsIGJib3gpLiIiIgogICAgYSA9IG5wLmFzYXJyYXkoaW1nLmdldGNoYW5uZWwoIkEiKSkKICAgIHlzLCB4cyA9IG5wLndoZXJlKGEgPiA0KQogICAgaWYgbGVuKHhzKSA9PSAwOgogICAgICAgIHJldHVybiBpbWcsICgwLCAwLCBpbWcud2lkdGgsIGltZy5oZWlnaHQpCiAgICB4MCwgeDEsIHkwLCB5MSA9IHhzLm1pbigpLCB4cy5tYXgoKSwgeXMubWluKCksIHlzLm1heCgpCiAgICBweCwgcHkgPSBpbnQoaW1nLndpZHRoICogcGFkX2ZyYWMpLCBpbnQoaW1nLmhlaWdodCAqIHBhZF9mcmFjKQogICAgYm94ID0gKG1heCgwLCB4MCAtIHB4KSwgbWF4KDAsIHkwIC0gcHkpLAogICAgICAgICAgIG1pbihpbWcud2lkdGgsIHgxICsgcHgpLCBtaW4oaW1nLmhlaWdodCwgeTEgKyBweSkpCiAgICByZXR1cm4gaW1nLmNyb3AoYm94KSwgdHVwbGUoaW50KHYpIGZvciB2IGluIGJveCkKCgpkZWYgc2F2ZV93ZWJwKGltZzogSW1hZ2UuSW1hZ2UsIHBhdGg6IFBhdGgsIHdpZHRoOiBpbnQsIHE6IGludCA9IDgyKToKICAgIGlmIGltZy53aWR0aCA+IHdpZHRoOgogICAgICAgIGggPSByb3VuZChpbWcuaGVpZ2h0ICogd2lkdGggLyBpbWcud2lkdGgpCiAgICAgICAgaW1nID0gaW1nLnJlc2l6ZSgod2lkdGgsIGgpLCBJbWFnZS5MQU5DWk9TKQogICAgaW1nLnNhdmUocGF0aCwgIldFQlAiLCBxdWFsaXR5PXEsIG1ldGhvZD02KQogICAgcmV0dXJuIHsiZmlsZSI6IHBhdGgubmFtZSwgInciOiBpbWcud2lkdGgsICJoIjogaW1nLmhlaWdodCwKICAgICAgICAgICAgImtiIjogcm91bmQocGF0aC5zdGF0KCkuc3Rfc2l6ZSAvIDEwMjQpfQoKCm1hbmlmZXN0ID0geyJsYXllcnMiOiBbXSwgImNhcmRzIjogW119CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gYmFja2dyb3VuZApiZyA9IGdyYWRlKGxvYWQoImJnLTAwLmpwZyIpLCB3YXJtPTEuMDIsIGNvbnRyYXN0PTEuMDIsIGxpZnQ9MikKZm9yIHcsIHRhZyBpbiBbKDE2MDAsICIxeCIpLCAoMjc1MiwgIjJ4IildOgogICAgZSA9IHNhdmVfd2VicChiZywgT1VUIC8gZiJiZy0wMC17dGFnfS53ZWJwIiwgdywgcT04MCkKICAgIG1hbmlmZXN0WyJsYXllcnMiXS5hcHBlbmQoZGljdChpZD0iMDAtYmFja2dyb3VuZCIsICoqZSwgcm9sZT0ib3BhcXVlIHNreSBwbGF0ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5jaG9yPSJjZW50ZXIiLCBkZXB0aD0wKSkKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBtaWRncm91bmQKbWlkID0gbG9hZCgibWlkLTIwLmpwZyIpCmFscGhhLCByZWYgPSBncmV5X2tleV9tYXNrKG1pZCwgdG9sPTMwKQptaWRfcmdiYSA9IGRlc3BpbGwobWlkLCBhbHBoYSwgcmVmKS5jb252ZXJ0KCJSR0JBIikKbWlkX3JnYmEucHV0YWxwaGEoSW1hZ2UuZnJvbWFycmF5KGFscGhhKSkKbWlkX3JnYmEsIG1pZF9ib3ggPSBjcm9wX3RvX2FscGhhKG1pZF9yZ2JhLCBwYWRfZnJhYz0wLjAyKQptaWRfcmdiYSA9IGdyYWRlKG1pZF9yZ2JhLmNvbnZlcnQoIlJHQiIpLCB3YXJtPTEuMDUsIGNvbnRyYXN0PTEuMDQpLmNvbnZlcnQoIlJHQkEiKQptaWRfcmdiYS5wdXRhbHBoYShtaWRfcmdiYS5nZXRjaGFubmVsKCJBIikpICAjIGtlZXAgYWxwaGEgYWZ0ZXIgZ3JhZGUKIyByZWFwcGx5IGFscGhhIGxvc3QgaW4gZ3JhZGUgcm91bmQtdHJpcAphbHBoYTIgPSBucC5hc2FycmF5KEltYWdlLm9wZW4oT1VUIC8gInVudXNlZC5wbmciKSkgaWYgRmFsc2UgZWxzZSBOb25lCiMgKGdyYWRlKCkgZHJvcHMgYWxwaGE7IHJlc3RvcmUgZnJvbSBlYXJsaWVyKQptaWRfZmluYWwgPSBJbWFnZS5vcGVuKFNSQyAvICJtaWQtMjAuanBnIikuY29udmVydCgiUkdCIikKYWxwaGEsIHJlZiA9IGdyZXlfa2V5X21hc2sobWlkX2ZpbmFsLCB0b2w9MzApCm1pZF9yZ2IgPSBkZXNwaWxsKG1pZF9maW5hbCwgYWxwaGEsIHJlZikKbWlkX3JnYiA9IGdyYWRlKG1pZF9yZ2IsIHdhcm09MS4wNSwgY29udHJhc3Q9MS4wNCkKbWlkX3JnYmEgPSBtaWRfcmdiLmNvbnZlcnQoIlJHQkEiKQptaWRfcmdiYS5wdXRhbHBoYShJbWFnZS5mcm9tYXJyYXkoYWxwaGEpKQptaWRfcmdiYSwgbWlkX2JveCA9IGNyb3BfdG9fYWxwaGEobWlkX3JnYmEsIHBhZF9mcmFjPTAuMDIpCmZvciB3LCB0YWcgaW4gWygxNDAwLCAiMXgiKSwgKDI0MDAsICIyeCIpXToKICAgIGUgPSBzYXZlX3dlYnAobWlkX3JnYmEsIE9VVCAvIGYibWlkLTIwLXt0YWd9LndlYnAiLCB3LCBxPTg0KQogICAgbWFuaWZlc3RbImxheWVycyJdLmFwcGVuZChkaWN0KGlkPSIyMC1taWRncm91bmQiLCAqKmUsIHJvbGU9InRhYmxlICsgb2JqZWN0cyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5jaG9yPSJib3R0b20tY2VudGVyIiwgZGVwdGg9MiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcmNDcm9wPW1pZF9ib3gpKQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIGhlcm8KZGVmIGNvbXBvbmVudHMobWFzazogbnAubmRhcnJheSk6CiAgICAiIiJMYWJlbCA0LWNvbm5lY3RlZCBjb21wb25lbnRzIG9mIGEgYm9vbGVhbiBtYXNrLiBSZXR1cm5zIChsYWJlbHMsIG4pLiIiIgogICAgaCwgdyA9IG1hc2suc2hhcGUKICAgIGxhYiA9IG5wLnplcm9zKChoLCB3KSwgZHR5cGU9bnAuaW50MzIpCiAgICBuID0gMAogICAgZm9yIHkwIGluIHJhbmdlKGgpOgogICAgICAgIGZvciB4MCBpbiByYW5nZSh3KToKICAgICAgICAgICAgaWYgbWFza1t5MCwgeDBdIGFuZCBsYWJbeTAsIHgwXSA9PSAwOgogICAgICAgICAgICAgICAgbiArPSAxCiAgICAgICAgICAgICAgICBzdGFjayA9IFsoeTAsIHgwKV0KICAgICAgICAgICAgICAgIGxhYlt5MCwgeDBdID0gbgogICAgICAgICAgICAgICAgd2hpbGUgc3RhY2s6CiAgICAgICAgICAgICAgICAgICAgeSwgeCA9IHN0YWNrLnBvcCgpCiAgICAgICAgICAgICAgICAgICAgZm9yIG55LCBueCBpbiAoKHktMSx4KSwoeSsxLHgpLCh5LHgtMSksKHkseCsxKSk6CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIDAgPD0gbnkgPCBoIGFuZCAwIDw9IG54IDwgdyBhbmQgXAogICAgICAgICAgICAgICAgICAgICAgICAgICBtYXNrW255LCBueF0gYW5kIGxhYltueSwgbnhdID09IDA6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJbbnksIG54XSA9IG4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YWNrLmFwcGVuZCgobnksIG54KSkKICAgIHJldHVybiBsYWIsIG4KCgpoZXJvID0gbG9hZCgiaGVyby0zMC5qcGciKQpoYXJyID0gbnAuYXNhcnJheShoZXJvKS5hc3R5cGUobnAuZmxvYXQzMikKaGgsIGh3LCBfID0gaGFyci5zaGFwZQojIEJhY2tncm91bmQgaXMgYSBzbW9vdGggZ3JleSBncmFkaWVudDsgdGhlIGNhc3Qgc2hhZG93IGlzIHRoZSBzYW1lIGdyZXkgaHVlLAojIGp1c3QgZGFya2VyLiBUaGUgY2FzZSBpcyB3YXJtOiBpdHMgcmVkIGNoYW5uZWwgc2l0cyB3ZWxsIGFib3ZlIGJsdWUuCiMgU286IHN1YmplY3Qgc2NvcmUgPSAoUiAtIEIpIHdhcm10aCArIHNhdHVyYXRpb24uIFNoYWRvdyBzdGF5cyBuZWFyIDAuCnIsIGcsIGIgPSBoYXJyWy4uLiwgMF0sIGhhcnJbLi4uLCAxXSwgaGFyclsuLi4sIDJdCndhcm10aCA9IHIgLSBiCm14ID0gaGFyci5tYXgoYXhpcz0yKTsgbW4gPSBoYXJyLm1pbihheGlzPTIpCnNhdCA9IG14IC0gbW4Kc2NvcmUgPSBucC5jbGlwKHdhcm10aCwgMCwgTm9uZSkgKyBzYXQgKiAwLjYKYWxwaGFfZiA9IG5wLmNsaXAoKHNjb3JlIC0gMTQpICogMTAsIDAsIDI1NSkgICAgICMgc29mdCB0aHJlc2hvbGQKIyBBbHNvIGtlZXAgZGFya2VyIHdhcm0gcGl4ZWxzIChzdGl0Y2hpbmcsIHNwaW5lIGdyb292ZSkKZGFya193YXJtID0gKCh3YXJtdGggPiAxMCkgJiAobXggPCAxMjApKS5hc3R5cGUobnAuZmxvYXQzMikgKiAyNTUKYWxwaGFfZiA9IG5wLm1heGltdW0oYWxwaGFfZiwgZGFya193YXJtKQphbHBoYSA9IGFscGhhX2YuYXN0eXBlKG5wLnVpbnQ4KQphbHBoYSA9IG5wLmFzYXJyYXkoSW1hZ2UuZnJvbWFycmF5KGFscGhhKS5maWx0ZXIoSW1hZ2VGaWx0ZXIuR2F1c3NpYW5CbHVyKDIuMCkpKQojIGxhcmdlc3QtY29tcG9uZW50IGNsZWFudXAgdG8gZHJvcCBzdHJheSB3YXJtIHNwZWNrcyBpbiB0aGUgYmFja2dyb3VuZApzbWFsbCA9IG5wLmFzYXJyYXkoSW1hZ2UuZnJvbWFycmF5KGFscGhhKS5yZXNpemUoCiAgICAoaHcgLy8gNCwgaGggLy8gNCksIEltYWdlLkJJTElORUFSKSkgPiA5NgpsYWIsIG4gPSBjb21wb25lbnRzKHNtYWxsKQppZiBuID4gMToKICAgIHNpemVzID0gc29ydGVkKCgoKGxhYiA9PSBpKS5zdW0oKSwgaSkgZm9yIGkgaW4gcmFuZ2UoMSwgbiArIDEpKSwKICAgICAgICAgICAgICAgICAgIHJldmVyc2U9VHJ1ZSkKICAgIG1haW4gPSBsYWIgPT0gc2l6ZXNbMF1bMV0KICAgIGtlZXBfc21hbGwgPSAobWFpbiAqIDI1NSkuYXN0eXBlKG5wLnVpbnQ4KQogICAga2VlcF9mdWxsID0gbnAuYXNhcnJheShJbWFnZS5mcm9tYXJyYXkoa2VlcF9zbWFsbCkucmVzaXplKAogICAgICAgIChodywgaGgpLCBJbWFnZS5CSUxJTkVBUikpID4gNjQKICAgIGFscGhhID0gbnAud2hlcmUoa2VlcF9mdWxsLCBhbHBoYSwgMCkuYXN0eXBlKG5wLnVpbnQ4KQogICAgYWxwaGEgPSBucC5hc2FycmF5KEltYWdlLmZyb21hcnJheShhbHBoYSkuZmlsdGVyKAogICAgICAgIEltYWdlRmlsdGVyLkdhdXNzaWFuQmx1cihGRUFUSEVSKSkpCiMgRmluYWwgY2xlYW51cDogcmVtb3ZlIGFueSByZW1haW5pbmcgZ3JleS9uZXV0cmFsIHBpeGVscyAobG93IHdhcm10aCBBTkQKIyBsb3cgc2F0dXJhdGlvbikgdGhhdCBzdXJ2aXZlZCB0aGUgd2FybXRoIHBhc3Mg4oCUIHRoZXNlIGFyZSBzaGFkb3cgcmVtbmFudHMuCiMgVGhlIGNhc3Qgc2hhZG93IGhhcyBhIHNsaWdodCB3YXJtIHRpbnQgZnJvbSByZWZsZWN0ZWQgbGlnaHQsIHNvIHdlIHRhcmdldAojIGxvdyBzYXR1cmF0aW9uIChncmV5LWlzaCkgcmF0aGVyIHRoYW4ganVzdCBsb3cgd2FybXRoLgpuZXV0cmFsX21hc2sgPSAoc2F0IDwgMjIpICYgKG14IDwgMTQ1KQphbHBoYSA9IG5wLndoZXJlKG5ldXRyYWxfbWFzaywgMCwgYWxwaGEpLmFzdHlwZShucC51aW50OCkKYWxwaGEgPSBucC5hc2FycmF5KEltYWdlLmZyb21hcnJheShhbHBoYSkuZmlsdGVyKAogICAgSW1hZ2VGaWx0ZXIuR2F1c3NpYW5CbHVyKEZFQVRIRVIpKSkKaGVyb19yZ2IgPSBkZXNwaWxsKGhlcm8sIGFscGhhLCBucC5hcnJheShbMTI4LCAxMjgsIDEyOF0pKQpoZXJvX3JnYiA9IGdyYWRlKGhlcm9fcmdiLCB3YXJtPTEuMDQsIGNvbnRyYXN0PTEuMDUpCmhlcm9fcmdiYSA9IGhlcm9fcmdiLmNvbnZlcnQoIlJHQkEiKQpoZXJvX3JnYmEucHV0YWxwaGEoSW1hZ2UuZnJvbWFycmF5KGFscGhhKSkKaGVyb19yZ2JhLCBoZXJvX2JveCA9IGNyb3BfdG9fYWxwaGEoaGVyb19yZ2JhLCBwYWRfZnJhYz0wLjAzKQpmb3IgdywgdGFnIGluIFsoOTAwLCAiMXgiKSwgKDE2MDAsICIyeCIpXToKICAgIGUgPSBzYXZlX3dlYnAoaGVyb19yZ2JhLCBPVVQgLyBmImhlcm8tMzAte3RhZ30ud2VicCIsIHcsIHE9ODYpCiAgICBtYW5pZmVzdFsibGF5ZXJzIl0uYXBwZW5kKGRpY3QoaWQ9IjMwLWhlcm8iLCAqKmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9sZT0ibGVhdGhlciBwb3J0Zm9saW8gY2FzZSB3aXRoIHNvZnQgc2hhZG93IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmNob3I9ImJvdHRvbS1jZW50ZXIiLCBkZXB0aD0zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNyY0Nyb3A9aGVyb19ib3gpKQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIGRvb3JzCiMgVGhlIHBsYXRlIHNob3dzOiBzaWRlbGlnaHQgcGFuZWwgKHh+MTAwLTM0MCksIG91dGVyIGZyYW1lLCB0aGVuIHR3byBsZWF2ZXMKIyBtZWV0aW5nIGF0IGEgY2VudGVyIHNlYW0gd2l0aCBoYW5kbGVzICh4fjEzMjAtMTQyMCkuIFdlIGN1dCBib3RoIGxlYXZlcyBhdAojIHRoZSBzZWFtOyBlYWNoIGJlY29tZXMgYSBmdWxsLWhlaWdodCBmb3JlZ3JvdW5kIG9jY2x1ZGVyLiBUaGUgcmlnaHQgbGVhZiBpcwojIGZsaXBwZWQgaG9yaXpvbnRhbGx5IHNvIGl0cyBicmFzcyBoYW5kbGUgc2l0cyBhdCB0aGUgb3V0ZXIgZWRnZSwgbWF0Y2hpbmcKIyB0aGUgbGVmdCBsZWFmJ3MgbWlycm9yZWQgaGFuZGxlIHBvc2l0aW9uLCBhbmQgaXRzIHdvb2QgZ3JhaW4gcmVhZHMgYXMgdGhlCiMgb3Bwb3NpdGUgZG9vciBvZiB0aGUgc2FtZSBwYWlyLgpkb29ycyA9IGxvYWQoImRvb3JzLTQwLmpwZyIpCmFscGhhLCByZWYgPSBncmV5X2tleV9tYXNrKGRvb3JzLCB0b2w9MzApCmRvb3JzX3JnYiA9IGRlc3BpbGwoZG9vcnMsIGFscGhhLCByZWYpCmRvb3JzX3JnYiA9IGdyYWRlKGRvb3JzX3JnYiwgd2FybT0xLjAzLCBjb250cmFzdD0xLjAzKQpkb29yc19yZ2JhID0gZG9vcnNfcmdiLmNvbnZlcnQoIlJHQkEiKQpkb29yc19yZ2JhLnB1dGFscGhhKEltYWdlLmZyb21hcnJheShhbHBoYSkpCgpTRUFNX0wsIFNFQU1fUiA9IDEzNDAsIDE0MDAgICAgICMgY2VudGVyIHBvc3QgYmV0d2VlbiB0aGUgdHdvIGxlYXZlcwpGUkFNRV9MLCBGUkFNRV9SID0gNzAwLCAyMDAwICAgICMgb3V0ZXIgZnJhbWUgcG9zdHMgb2YgdGhlIGRvb3IgcGFpcgpIID0gZG9vcnMuaGVpZ2h0Cgpkb29yX2wgPSBkb29yc19yZ2JhLmNyb3AoKEZSQU1FX0wsIDAsIFNFQU1fTCwgSCkpICAgICAgICAgICMgbGVmdCBsZWFmICsgZnJhbWUKZG9vcl9yID0gZG9vcnNfcmdiYS5jcm9wKChTRUFNX1IsIDAsIEZSQU1FX1IsIEgpKSAgICAgICAgICAjIHJpZ2h0IGxlYWYgKyBmcmFtZQpkb29yX3IgPSBkb29yX3IudHJhbnNwb3NlKEltYWdlLkZMSVBfTEVGVF9SSUdIVCkgICAgICAgICAgICMgaGFuZGxlIHRvIG91dHNpZGUKCmRvb3JfbCwgZGxfYm94ID0gY3JvcF90b19hbHBoYShkb29yX2wsIHBhZF9mcmFjPTAuMDIpCmRvb3JfciwgZHJfYm94ID0gY3JvcF90b19hbHBoYShkb29yX3IsIHBhZF9mcmFjPTAuMDIpCmZvciBuYW1lLCBpbSwgYm94LCBzaWRlIGluIFsoIjQwLWRvb3ItbGVmdCIsIGRvb3JfbCwgZGxfYm94LCAibGVmdCIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKCI0MS1kb29yLXJpZ2h0IiwgZG9vcl9yLCBkcl9ib3gsICJyaWdodCIpXToKICAgIGZvciB3LCB0YWcgaW4gWygxMDAwLCAiMXgiKSwgKDE4MDAsICIyeCIpXToKICAgICAgICBlID0gc2F2ZV93ZWJwKGltLCBPVVQgLyBmIntuYW1lfS17dGFnfS53ZWJwIiwgdywgcT04NCkKICAgICAgICBtYW5pZmVzdFsibGF5ZXJzIl0uYXBwZW5kKGRpY3QoaWQ9bmFtZSwgKiplLCByb2xlPWYiZm9yZWdyb3VuZCB7c2lkZX0gZG9vciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuY2hvcj1mImJvdHRvbS17c2lkZX0iLCBkZXB0aD00LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcmNDcm9wPVtpbnQodikgZm9yIHYgaW4gYm94XSkpCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gY2FyZHMKY2FyZF9uYW1lcyA9IHsKICAgIDE6ICJicmFuZC1zdHJhdGVneSIsIDI6ICJpZGVudGl0eS1kZXNpZ24iLCAzOiAiY29udGVudC1lZGl0b3JpYWwiLAogICAgNDogInNvY2lhbC1jYW1wYWlnbnMiLCA1OiAid2ViLWRpZ2l0YWwiLCA2OiAicmVzZWFyY2gtaW5zaWdodCIsCn0KZm9yIGksIHNsdWcgaW4gY2FyZF9uYW1lcy5pdGVtcygpOgogICAgaW0gPSBncmFkZShsb2FkKGYiY2FyZC17aX0uanBnIiksIHdhcm09MS4wMiwgY29udHJhc3Q9MS4wMiwgbGlmdD0yKQogICAgZSA9IHNhdmVfd2VicChpbSwgQ0FSRFMgLyBmIntzbHVnfS53ZWJwIiwgOTAwLCBxPTgwKQogICAgbWFuaWZlc3RbImNhcmRzIl0uYXBwZW5kKGRpY3QoaWQ9c2x1ZywgKiplKSkKCndpdGggb3BlbihST09UIC8gImFzc2V0cyIgLyAibWFuaWZlc3QuanNvbiIsICJ3IikgYXMgZjoKICAgIGpzb24uZHVtcChtYW5pZmVzdCwgZiwgaW5kZW50PTIpCgpwcmludChqc29uLmR1bXBzKG1hbmlmZXN0LCBpbmRlbnQ9MilbOjEyMDBdKQpwcmludCgiT0siKQo=
+#!/usr/bin/env python3
+"""
+Social's Way asset pipeline.
+
+Turns the generated source plates into production layers:
+  - keys out the flat grey background (flood fill from edges + distance falloff)
+  - despills grey from edge pixels
+  - crops to alpha bbox with bleed padding
+  - splits the door plate into left/right panels
+  - unifies the grade toward the warm cream palette
+  - exports responsive WebP sets with a JSON manifest
+
+Run:  python3 tools/process_layers.py
+"""
+import json
+from pathlib import Path
+
+import numpy as np
+from PIL import Image, ImageFilter
+
+ROOT = Path(__file__).resolve().parent.parent
+SRC = ROOT / "assets" / "src"
+OUT = ROOT / "assets" / "layers"
+CARDS = ROOT / "assets" / "cards"
+OUT.mkdir(parents=True, exist_ok=True)
+CARDS.mkdir(parents=True, exist_ok=True)
+
+GREY_TOL = 34          # distance in RGB space considered "background grey"
+FEATHER = 1.6          # px gaussian feather on alpha edges
+DESAT_MIX = 0.55       # how strongly edge pixels get despilled
+
+
+def load(name):
+    return Image.open(SRC / name).convert("RGB")
+
+
+def grey_key_mask(img: Image.Image, tol: float = GREY_TOL) -> np.ndarray:
+    """
+    Alpha mask where 255 = subject, 0 = flat grey background.
+    Seeds a flood fill from the image border so only background-connected
+    grey is removed (grey-ish parts of the subject survive).
+    """
+    arr = np.asarray(img).astype(np.int16)
+    h, w, _ = arr.shape
+
+    # reference grey = median of border pixels
+    border = np.concatenate([
+        arr[0, :, :], arr[-1, :, :], arr[:, 0, :], arr[:, -1, :]
+    ])
+    ref = np.median(border, axis=0)
+
+    dist = np.sqrt(((arr - ref) ** 2).sum(axis=2))
+    candidate = dist < tol                      # possibly background
+
+    # flood fill from all border candidate pixels, 4-connected
+    visited = np.zeros((h, w), dtype=bool)
+    stack = []
+    for x in range(w):
+        if candidate[0, x]:
+            stack.append((0, x))
+        if candidate[h - 1, x]:
+            stack.append((h - 1, x))
+    for y in range(h):
+        if candidate[y, 0]:
+            stack.append((y, 0))
+        if candidate[y, w - 1]:
+            stack.append((y, w - 1))
+    while stack:
+        y, x = stack.pop()
+        if visited[y, x] or not candidate[y, x]:
+            continue
+        visited[y, x] = True
+        if y > 0:
+            stack.append((y - 1, x))
+        if y < h - 1:
+            stack.append((y + 1, x))
+        if x > 0:
+            stack.append((y, x - 1))
+        if x < w - 1:
+            stack.append((y, x + 1))
+
+    alpha = np.where(visited, 0, 255).astype(np.uint8)
+
+    # Second pass: remove any remaining grey pixels that the flood fill
+    # couldn't reach (trapped between fine details like flower stems).
+    # These pixels match the grey reference color but aren't border-connected.
+    # Use a tighter tolerance since we're now targeting interior grey directly.
+    interior_grey = dist < tol * 0.7
+    alpha = np.where(interior_grey, 0, alpha).astype(np.uint8)
+
+    # soften the keyed edge: blur then slightly erode toward subject
+    a_img = Image.fromarray(alpha, "L").filter(ImageFilter.GaussianBlur(FEATHER))
+    alpha = np.asarray(a_img)
+    return alpha, ref
+
+
+def despill(img: Image.Image, alpha: np.ndarray, ref) -> Image.Image:
+    """Pull grey fringe out of semi-transparent edge pixels."""
+    arr = np.asarray(img).astype(np.float32)
+    edge = (alpha > 8) & (alpha < 247)
+    if edge.any():
+        lum = arr.mean(axis=2, keepdims=True)
+        # blend edge pixels toward their own luminance to kill grey cast,
+        # then push slightly warm so the edge melts into the scene grade
+        arr[edge] = (arr[edge] * (1 - DESAT_MIX)
+                     + lum[edge] * DESAT_MIX)
+        arr[edge, 0] *= 1.04   # warm the red channel a touch
+        arr[edge, 2] *= 0.96
+    out = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGB")
+    return out
+
+
+def grade(img: Image.Image, warm=1.03, contrast=1.03, lift=4) -> Image.Image:
+    """Subtle shared grade: warm, gentle contrast, tiny black lift."""
+    arr = np.asarray(img).astype(np.float32)
+    arr[..., 0] *= warm
+    arr[..., 2] /= warm ** 0.6
+    arr = (arr - 128) * contrast + 128 + lift
+    return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
+
+
+def crop_to_alpha(img: Image.Image, pad_frac: float = 0.04):
+    """Crop to alpha bbox plus padding. Returns (image, bbox)."""
+    a = np.asarray(img.getchannel("A"))
+    ys, xs = np.where(a > 4)
+    if len(xs) == 0:
+        return img, (0, 0, img.width, img.height)
+    x0, x1, y0, y1 = xs.min(), xs.max(), ys.min(), ys.max()
+    px, py = int(img.width * pad_frac), int(img.height * pad_frac)
+    box = (max(0, x0 - px), max(0, y0 - py),
+           min(img.width, x1 + px), min(img.height, y1 + py))
+    return img.crop(box), tuple(int(v) for v in box)
+
+
+def save_webp(img: Image.Image, path: Path, width: int, q: int = 82):
+    if img.width > width:
+        h = round(img.height * width / img.width)
+        img = img.resize((width, h), Image.LANCZOS)
+    img.save(path, "WEBP", quality=q, method=6)
+    return {"file": path.name, "w": img.width, "h": img.height,
+            "kb": round(path.stat().st_size / 1024)}
+
+
+manifest = {"layers": [], "cards": []}
+
+# ---------------------------------------------------------------- background
+bg = grade(load("bg-00.jpg"), warm=1.02, contrast=1.02, lift=2)
+for w, tag in [(1600, "1x"), (2752, "2x")]:
+    e = save_webp(bg, OUT / f"bg-00-{tag}.webp", w, q=80)
+    manifest["layers"].append(dict(id="00-background", **e, role="opaque sky plate",
+                                   anchor="center", depth=0))
+
+# ---------------------------------------------------------------- midground
+mid = load("mid-20.jpg")
+alpha, ref = grey_key_mask(mid, tol=30)
+mid_rgba = despill(mid, alpha, ref).convert("RGBA")
+mid_rgba.putalpha(Image.fromarray(alpha))
+mid_rgba, mid_box = crop_to_alpha(mid_rgba, pad_frac=0.02)
+mid_rgba = grade(mid_rgba.convert("RGB"), warm=1.05, contrast=1.04).convert("RGBA")
+mid_rgba.putalpha(mid_rgba.getchannel("A"))  # keep alpha after grade
+# reapply alpha lost in grade round-trip
+alpha2 = np.asarray(Image.open(OUT / "unused.png")) if False else None
+# (grade() drops alpha; restore from earlier)
+mid_final = Image.open(SRC / "mid-20.jpg").convert("RGB")
+alpha, ref = grey_key_mask(mid_final, tol=30)
+mid_rgb = despill(mid_final, alpha, ref)
+mid_rgb = grade(mid_rgb, warm=1.05, contrast=1.04)
+mid_rgba = mid_rgb.convert("RGBA")
+mid_rgba.putalpha(Image.fromarray(alpha))
+mid_rgba, mid_box = crop_to_alpha(mid_rgba, pad_frac=0.02)
+for w, tag in [(1400, "1x"), (2400, "2x")]:
+    e = save_webp(mid_rgba, OUT / f"mid-20-{tag}.webp", w, q=84)
+    manifest["layers"].append(dict(id="20-midground", **e, role="table + objects",
+                                   anchor="bottom-center", depth=2,
+                                   srcCrop=mid_box))
+
+# ---------------------------------------------------------------- hero
+def components(mask: np.ndarray):
+    """Label 4-connected components of a boolean mask. Returns (labels, n)."""
+    h, w = mask.shape
+    lab = np.zeros((h, w), dtype=np.int32)
+    n = 0
+    for y0 in range(h):
+        for x0 in range(w):
+            if mask[y0, x0] and lab[y0, x0] == 0:
+                n += 1
+                stack = [(y0, x0)]
+                lab[y0, x0] = n
+                while stack:
+                    y, x = stack.pop()
+                    for ny, nx in ((y-1,x),(y+1,x),(y,x-1),(y,x+1)):
+                        if 0 <= ny < h and 0 <= nx < w and \
+                           mask[ny, nx] and lab[ny, nx] == 0:
+                            lab[ny, nx] = n
+                            stack.append((ny, nx))
+    return lab, n
+
+
+hero = load("hero-30.jpg")
+harr = np.asarray(hero).astype(np.float32)
+hh, hw, _ = harr.shape
+# Background is a smooth grey gradient; the cast shadow is the same grey hue,
+# just darker. The case is warm: its red channel sits well above blue.
+# So: subject score = (R - B) warmth + saturation. Shadow stays near 0.
+r, g, b = harr[..., 0], harr[..., 1], harr[..., 2]
+warmth = r - b
+mx = harr.max(axis=2); mn = harr.min(axis=2)
+sat = mx - mn
+score = np.clip(warmth, 0, None) + sat * 0.6
+alpha_f = np.clip((score - 14) * 10, 0, 255)     # soft threshold
+# Also keep darker warm pixels (stitching, spine groove)
+dark_warm = ((warmth > 10) & (mx < 120)).astype(np.float32) * 255
+alpha_f = np.maximum(alpha_f, dark_warm)
+alpha = alpha_f.astype(np.uint8)
+alpha = np.asarray(Image.fromarray(alpha).filter(ImageFilter.GaussianBlur(2.0)))
+# largest-component cleanup to drop stray warm specks in the background
+small = np.asarray(Image.fromarray(alpha).resize(
+    (hw // 4, hh // 4), Image.BILINEAR)) > 96
+lab, n = components(small)
+if n > 1:
+    sizes = sorted((((lab == i).sum(), i) for i in range(1, n + 1)),
+                   reverse=True)
+    main = lab == sizes[0][1]
+    keep_small = (main * 255).astype(np.uint8)
+    keep_full = np.asarray(Image.fromarray(keep_small).resize(
+        (hw, hh), Image.BILINEAR)) > 64
+    alpha = np.where(keep_full, alpha, 0).astype(np.uint8)
+    alpha = np.asarray(Image.fromarray(alpha).filter(
+        ImageFilter.GaussianBlur(FEATHER)))
+# Final cleanup: remove any remaining grey/neutral pixels (low warmth AND
+# low saturation) that survived the warmth pass — these are shadow remnants.
+# The cast shadow has a slight warm tint from reflected light, so we target
+# low saturation (grey-ish) rather than just low warmth.
+neutral_mask = (sat < 22) & (mx < 145)
+alpha = np.where(neutral_mask, 0, alpha).astype(np.uint8)
+alpha = np.asarray(Image.fromarray(alpha).filter(
+    ImageFilter.GaussianBlur(FEATHER)))
+hero_rgb = despill(hero, alpha, np.array([128, 128, 128]))
+hero_rgb = grade(hero_rgb, warm=1.04, contrast=1.05)
+hero_rgba = hero_rgb.convert("RGBA")
+hero_rgba.putalpha(Image.fromarray(alpha))
+hero_rgba, hero_box = crop_to_alpha(hero_rgba, pad_frac=0.03)
+for w, tag in [(900, "1x"), (1600, "2x")]:
+    e = save_webp(hero_rgba, OUT / f"hero-30-{tag}.webp", w, q=86)
+    manifest["layers"].append(dict(id="30-hero", **e,
+                                   role="leather portfolio case with soft shadow",
+                                   anchor="bottom-center", depth=3,
+                                   srcCrop=hero_box))
+
+# ---------------------------------------------------------------- doors
+# The plate shows: sidelight panel (x~100-340), outer frame, then two leaves
+# meeting at a center seam with handles (x~1320-1420). We cut both leaves at
+# the seam; each becomes a full-height foreground occluder. The right leaf is
+# flipped horizontally so its brass handle sits at the outer edge, matching
+# the left leaf's mirrored handle position, and its wood grain reads as the
+# opposite door of the same pair.
+doors = load("doors-40.jpg")
+alpha, ref = grey_key_mask(doors, tol=30)
+doors_rgb = despill(doors, alpha, ref)
+doors_rgb = grade(doors_rgb, warm=1.03, contrast=1.03)
+doors_rgba = doors_rgb.convert("RGBA")
+doors_rgba.putalpha(Image.fromarray(alpha))
+
+SEAM_L, SEAM_R = 1340, 1400     # center post between the two leaves
+FRAME_L, FRAME_R = 700, 2000    # outer frame posts of the door pair
+H = doors.height
+
+door_l = doors_rgba.crop((FRAME_L, 0, SEAM_L, H))          # left leaf + frame
+door_r = doors_rgba.crop((SEAM_R, 0, FRAME_R, H))          # right leaf + frame
+door_r = door_r.transpose(Image.FLIP_LEFT_RIGHT)           # handle to outside
+
+door_l, dl_box = crop_to_alpha(door_l, pad_frac=0.02)
+door_r, dr_box = crop_to_alpha(door_r, pad_frac=0.02)
+for name, im, box, side in [("40-door-left", door_l, dl_box, "left"),
+                            ("41-door-right", door_r, dr_box, "right")]:
+    for w, tag in [(1000, "1x"), (1800, "2x")]:
+        e = save_webp(im, OUT / f"{name}-{tag}.webp", w, q=84)
+        manifest["layers"].append(dict(id=name, **e, role=f"foreground {side} door",
+                                       anchor=f"bottom-{side}", depth=4,
+                                       srcCrop=[int(v) for v in box]))
+
+# ---------------------------------------------------------------- cards
+card_names = {
+    1: "brand-strategy", 2: "identity-design", 3: "content-editorial",
+    4: "social-campaigns", 5: "web-digital", 6: "research-insight",
+}
+for i, slug in card_names.items():
+    im = grade(load(f"card-{i}.jpg"), warm=1.02, contrast=1.02, lift=2)
+    e = save_webp(im, CARDS / f"{slug}.webp", 900, q=80)
+    manifest["cards"].append(dict(id=slug, **e))
+
+with open(ROOT / "assets" / "manifest.json", "w") as f:
+    json.dump(manifest, f, indent=2)
+
+print(json.dumps(manifest, indent=2)[:1200])
+print("OK")

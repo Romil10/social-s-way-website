@@ -1,1 +1,51 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJCdWlsZCBhIHB1Ymxpc2gtcmVhZHkgaW5kZXguaHRtbCB3aXRoIGFic29sdXRlIGFzc2V0IFVSTHMuIiIiCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKUk9PVCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnQucGFyZW50CgpNQVAgPSB7CiAgICAiY3NzL3N0eWxlcy5jc3MiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUjFINTBFX0paMlY2MlBZU0hFM0QxMEovc3R5bGVzLmNzcz92PTE0IiwKICAgICJqcy9hcHAuanMiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUjFINTBCXzE1V01LMFlIWEE1QjBTUDgvYXBwLmpzP3Y9OCIsCiAgICAic3RhcnQuaHRtbCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9wL3RrSHVYSWpDRjRiWFlMVmdoUjJDeXV1NWE2OFd1SzAzY3hGNVd2VXNieUEiLAogICAgImFzc2V0cy9sYXllcnMvYmctMDAtMXgud2VicCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSMUZGOEhfTkhDTURORlhLQzBFSkczUC9iZy0wMC0xeC53ZWJwP3Y9MyIsCiAgICAiYXNzZXRzL2xheWVycy9iZy0wMC0yeC53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlIxS0I0Ul9BNENGVlg4QThUUUU2ODFCL2JnLTAwLTJ4LndlYnA/dj0zIiwKICAgICJhc3NldHMvbGF5ZXJzL21pZC0yMC0xeC53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlIxS0IyTV81RTdYWVRYOUdGWlBHSFFKL21pZC0yMC0xeC53ZWJwP3Y9NCIsCiAgICAiYXNzZXRzL2xheWVycy9taWQtMjAtMngud2VicCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSMUtCMFRfQkdOMzlXS1JRR0QyMEJYNC9taWQtMjAtMngud2VicD92PTQiLAogICAgImFzc2V0cy9sYXllcnMvaGVyby0zMC0xeC53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlIxS0IzOV83WVBKMEhXMFEwMzRFVjVKL2hlcm8tMzAtMXgud2VicD92PTQiLAogICAgImFzc2V0cy9sYXllcnMvaGVyby0zMC0yeC53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlIxS0IyWV9aUlNBUk45S1pTV0VRNjkxL2hlcm8tMzAtMngud2VicD92PTQiLAogICAgImFzc2V0cy9sYXllcnMvNDAtZG9vci1sZWZ0LTF4LndlYnAiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUjFLQjI5X1JBUDRESDAzU01HQkJHUFgvNDAtZG9vci1sZWZ0LTF4LndlYnAiLAogICAgImFzc2V0cy9sYXllcnMvNDAtZG9vci1sZWZ0LTJ4LndlYnAiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUjFLQjI2X0haUFFUQldIVDZEQTRYQUsvNDAtZG9vci1sZWZ0LTJ4LndlYnAiLAogICAgImFzc2V0cy9sYXllcnMvNDEtZG9vci1yaWdodC0xeC53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlIxS0IyM181RzNSWkNDQ0tCQzM1SldFLzQxLWRvb3ItcmlnaHQtMXgud2VicCIsCiAgICAiYXNzZXRzL2xheWVycy80MS1kb29yLXJpZ2h0LTJ4LndlYnAiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUjFLQjJTX0VBNlZCRlpEMTk5UUMwQ1AvNDEtZG9vci1yaWdodC0yeC53ZWJwIiwKICAgICJhc3NldHMvY2FyZHMvYnJhbmQtc3RyYXRlZ3kud2VicCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSMUtCNFNfMUNERURRWVRQWlpRWTA5OS9icmFuZC1zdHJhdGVneS53ZWJwIiwKICAgICJhc3NldHMvY2FyZHMvaWRlbnRpdHktZGVzaWduLndlYnAiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUjFLQjZEXzlXMFlKUzRXSEVDRVIxNTQvaWRlbnRpdHktZGVzaWduLndlYnAiLAogICAgImFzc2V0cy9jYXJkcy9jb250ZW50LWVkaXRvcmlhbC53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlIxS0I0OF81RFFFMkhFTks0UURTVDYwL2NvbnRlbnQtZWRpdG9yaWFsLndlYnAiLAogICAgImFzc2V0cy9jYXJkcy9zb2NpYWwtY2FtcGFpZ25zLndlYnAiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUjFLQjU2X1QxNFQySFhRTk1LNVRSMTYvc29jaWFsLWNhbXBhaWducy53ZWJwIiwKICAgICJhc3NldHMvY2FyZHMvd2ViLWRpZ2l0YWwud2VicCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSMUtCMjJfSFhER1dXMlEzM0NKTVgwWi93ZWItZGlnaXRhbC53ZWJwIiwKICAgICJhc3NldHMvY2FyZHMvcmVzZWFyY2gtaW5zaWdodC53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlIxS0IyWF9NOVJQSEY5RTlBME5KV1k0L3Jlc2VhcmNoLWluc2lnaHQud2VicCIsCiAgICAiYXNzZXRzL3dvcmsvZ29hLm1wNCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSVjg5SzJfVFdTSDdFRlk4NFlTMDRORi9nb2EubXA0IiwKICAgICJhc3NldHMvd29yay9pbmZpbml0aS5tcDQiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUlY4OUs5X1dLTjI3REJYNURaREZXNTMvaW5maW5pdGkubXA0IiwKICAgICJhc3NldHMvd29yay9waWFuby5tcDQiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUlY4OUszXzFNNUU4REZYRDA4QlA0MTgvcGlhbm8ubXA0IiwKICAgICJhc3NldHMvd29yay9tdXNpYy5tcDQiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUlY4OUtBX0pKOUhBMUNBRlgzS0haR00vbXVzaWMubXA0IiwKICAgICJhc3NldHMvd29yay9nb2Eud2VicCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSVjg5S0JfMFRaRFExMjlIQjRHQzhWQS9nb2Eud2VicCIsCiAgICAiYXNzZXRzL3dvcmsvaW5maW5pdGkud2VicCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSVjg5SzRfQ1NYMkNZTkFWUURKMVI4Vi9pbmZpbml0aS53ZWJwIiwKICAgICJhc3NldHMvd29yay9waWFuby53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlJWODlLVl9BUUhBTkYwNzczUkNWQVg5L3BpYW5vLndlYnAiLAogICAgImFzc2V0cy93b3JrL211c2ljLndlYnAiOiAiaHR0cHM6Ly9wdWIuaHlwZXJhZ2VudC5jb20vYXBpL3B1Ymxpc2hlZC9wYmYwMUtaUlY4OUsyX1JXMkYyM1A1WFkxOFhCWUIvbXVzaWMud2VicCIsCiAgICAiYXNzZXRzL3dvcmsvcHJvY3V0YS53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlJWODlLMl9BMjkySFkxOU1BNENEQkM4L3Byb2N1dGEud2VicCIsCiAgICAiYXNzZXRzL3dvcmsvc3VyZ3VqYS53ZWJwIjogImh0dHBzOi8vcHViLmh5cGVyYWdlbnQuY29tL2FwaS9wdWJsaXNoZWQvcGJmMDFLWlJWODlLOV83VDg1M0dGUDc1V0ZWSzJEL3N1cmd1amEud2VicCIsCiAgICAiYXNzZXRzL3dvcmsvYmlvc2tpbnN5Lm1wNCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSWk5UUzlfVjlaRkZBQUFERE1WUlhRSi9iaW9za2luc3kubXA0IiwKICAgICJhc3NldHMvd29yay9iaW9za2luc3kud2VicCI6ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9hcGkvcHVibGlzaGVkL3BiZjAxS1pSWk5UU01fU0RaMjRDRlYyMzMzN05ONi9iaW9za2luc3kud2VicCIsCn0KCmh0bWwgPSAoUk9PVCAvICJpbmRleC5odG1sIikucmVhZF90ZXh0KCkKZm9yIHJlbCwgdXJsIGluIE1BUC5pdGVtcygpOgogICAgbiA9IGh0bWwuY291bnQocmVsKQogICAgaHRtbCA9IGh0bWwucmVwbGFjZShyZWwsIHVybCkKICAgIHByaW50KGYie246MmR9eCAge3JlbH0iKQoKb3V0ID0gUk9PVCAvICJpbmRleC5wdWJsaWMuaHRtbCIKb3V0LndyaXRlX3RleHQoaHRtbCkKbGVmdG92ZXIgPSBbayBmb3IgayBpbiBNQVAgaWYgayBpbiBodG1sXQpwcmludCgibGVmdG92ZXIgcmVsYXRpdmUgcmVmczoiLCBsZWZ0b3ZlciBpZiBsZWZ0b3ZlciBlbHNlICJub25lIikKcHJpbnQoIndyb3RlIiwgb3V0KQo=
+#!/usr/bin/env python3
+"""Build a publish-ready index.html with absolute asset URLs."""
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+MAP = {
+    "css/styles.css": "https://pub.hyperagent.com/api/published/pbf01KZR1H50E_JZ2V62PYSHE3D10J/styles.css?v=14",
+    "js/app.js": "https://pub.hyperagent.com/api/published/pbf01KZR1H50B_15WMK0YHXA5B0SP8/app.js?v=8",
+    "start.html": "https://pub.hyperagent.com/p/tkHuXIjCF4bXYLVghR2Cyuu5a68WuK03cxF5WvUsbyA",
+    "assets/layers/bg-00-1x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1FF8H_NHCMDNFXKC0EJG3P/bg-00-1x.webp?v=3",
+    "assets/layers/bg-00-2x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB4R_A4CFVX8A8TQE681B/bg-00-2x.webp?v=3",
+    "assets/layers/mid-20-1x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB2M_5E7XYTX9GFZPGHQJ/mid-20-1x.webp?v=4",
+    "assets/layers/mid-20-2x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB0T_BGN39WKRQGD20BX4/mid-20-2x.webp?v=4",
+    "assets/layers/hero-30-1x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB39_7YPJ0HW0Q034EV5J/hero-30-1x.webp?v=4",
+    "assets/layers/hero-30-2x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB2Y_ZRSARN9KZSWEQ691/hero-30-2x.webp?v=4",
+    "assets/layers/40-door-left-1x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB29_RAP4DH03SMGBBGPX/40-door-left-1x.webp",
+    "assets/layers/40-door-left-2x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB26_HZPQTBWHT6DA4XAK/40-door-left-2x.webp",
+    "assets/layers/41-door-right-1x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB23_5G3RZCCCKBC35JWE/41-door-right-1x.webp",
+    "assets/layers/41-door-right-2x.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB2S_EA6VBFZD199QC0CP/41-door-right-2x.webp",
+    "assets/cards/brand-strategy.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB4S_1CDEDQYTPZZQY099/brand-strategy.webp",
+    "assets/cards/identity-design.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB6D_9W0YJS4WHECER154/identity-design.webp",
+    "assets/cards/content-editorial.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB48_5DQE2HENK4QDST60/content-editorial.webp",
+    "assets/cards/social-campaigns.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB56_T14T2HXQNMK5TR16/social-campaigns.webp",
+    "assets/cards/web-digital.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB22_HXDGWW2Q33CJMX0Z/web-digital.webp",
+    "assets/cards/research-insight.webp": "https://pub.hyperagent.com/api/published/pbf01KZR1KB2X_M9RPHF9E9A0NJWY4/research-insight.webp",
+    "assets/work/goa.mp4": "https://pub.hyperagent.com/api/published/pbf01KZRV89K2_TWSH7EFY84YS04NF/goa.mp4",
+    "assets/work/infiniti.mp4": "https://pub.hyperagent.com/api/published/pbf01KZRV89K9_WKN27DBX5DZDFW53/infiniti.mp4",
+    "assets/work/piano.mp4": "https://pub.hyperagent.com/api/published/pbf01KZRV89K3_1M5E8DFXD08BP418/piano.mp4",
+    "assets/work/music.mp4": "https://pub.hyperagent.com/api/published/pbf01KZRV89KA_JJ9HA1CAFX3KHZGM/music.mp4",
+    "assets/work/goa.webp": "https://pub.hyperagent.com/api/published/pbf01KZRV89KB_0TZDQ129HB4GC8VA/goa.webp",
+    "assets/work/infiniti.webp": "https://pub.hyperagent.com/api/published/pbf01KZRV89K4_CSX2CYNAVQDJ1R8V/infiniti.webp",
+    "assets/work/piano.webp": "https://pub.hyperagent.com/api/published/pbf01KZRV89KV_AQHANF0773RCVAX9/piano.webp",
+    "assets/work/music.webp": "https://pub.hyperagent.com/api/published/pbf01KZRV89K2_RW2F23P5XY18XBYB/music.webp",
+    "assets/work/procuta.webp": "https://pub.hyperagent.com/api/published/pbf01KZRV89K2_A292HY19MA4CDBC8/procuta.webp",
+    "assets/work/surguja.webp": "https://pub.hyperagent.com/api/published/pbf01KZRV89K9_7T853GFP75WFVK2D/surguja.webp",
+    "assets/work/bioskinsy.mp4": "https://pub.hyperagent.com/api/published/pbf01KZRZNTS9_V9ZFFAAADDMVRXQJ/bioskinsy.mp4",
+    "assets/work/bioskinsy.webp": "https://pub.hyperagent.com/api/published/pbf01KZRZNTSM_SDZ24CFV23337NN6/bioskinsy.webp",
+}
+
+html = (ROOT / "index.html").read_text()
+for rel, url in MAP.items():
+    n = html.count(rel)
+    html = html.replace(rel, url)
+    print(f"{n:2d}x  {rel}")
+
+out = ROOT / "index.public.html"
+out.write_text(html)
+leftover = [k for k in MAP if k in html]
+print("leftover relative refs:", leftover if leftover else "none")
+print("wrote", out)

@@ -1,1 +1,55 @@
-IyBBc3NldCBNYW5pZmVzdCDigJQgU29jaWFsJ3MgV2F5CgpBbGwgbGF5ZXJzIHNoYXJlOiBnb2xkZW4taG91ciBrZXkgbGlnaHQgZnJvbSBmcmFtZSBsZWZ0LCBjcmVhbS93YWxudXQvY2FyYW1lbApwYWxldHRlLCBzdHJhaWdodC1vbiBleWUtbGV2ZWwgY2FtZXJhLCBubyBiYWtlZC1pbiB0ZXh0LiBNYXN0ZXJzIGxpdmUgaW4KYGFzc2V0cy9zcmMvYDsgcHJvZHVjdGlvbiBmaWxlcyBpbiBgYXNzZXRzL2xheWVycy9gIGFuZCBgYXNzZXRzL2NhcmRzL2AuCk1hY2hpbmUtcmVhZGFibGUgdmVyc2lvbjogYGFzc2V0cy9tYW5pZmVzdC5qc29uYC4KCiMjIFNjZW5lIGxheWVycwoKfCBJRCB8IEZpbGUocykgfCBSb2xlIHwgRGltcyAoMngpIHwgQW5jaG9yIHwgRGVwdGggfAp8LS0tLXwtLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS0tfC0tLS0tLS18CnwgMDAtYmFja2dyb3VuZCB8IGBiZy0wMC0xeC53ZWJwYCwgYGJnLTAwLTJ4LndlYnBgIHwgT3BhcXVlIHJvb20gcGxhdGUgKHBsYXN0ZXIgd2FsbCwgd2luZG93IGxpZ2h0KSB8IDI3NTLDlzE1MzYgfCBjZW50ZXIgKG9iamVjdC1wb3NpdGlvbiA1MCUgNjIlKSB8IDAg4oCUIHNtYWxsZXN0IG1vdGlvbiB8CnwgMjAtbWlkZ3JvdW5kIHwgYG1pZC0yMC0xeC53ZWJwYCwgYG1pZC0yMC0yeC53ZWJwYCB8IFdhbG51dCB3b3JrdGFibGUgKyBsYW1wLCBwYXBlcnMsIHZlc3NlbHMuIFRyYW5zcGFyZW50IGFscGhhIGFib3ZlL2Fyb3VuZCB0YWJsZS4gfCAyNDAww5cxMDI4IHwgYm90dG9tLWNlbnRlciB8IDIgfAp8IDMwLWhlcm8gfCBgaGVyby0zMC0xeC53ZWJwYCwgYGhlcm8tMzAtMngud2VicGAgfCBMZWF0aGVyIHBvcnRmb2xpbyBjYXNlLCBsaW5lbiBzcGluZS4gVHJhbnNwYXJlbnQgYWxwaGEsIHNoYWRvdyByZW1vdmVkIChDU1Mgc2hhZG93IHVzZWQgaW5zdGVhZCkuIHwgOTE1w5cxMzAyIHwgYm90dG9tLWNlbnRlciB8IDMgfAp8IDQwLWRvb3ItbGVmdCB8IGA0MC1kb29yLWxlZnQtMXgud2VicGAsIGA0MC1kb29yLWxlZnQtMngud2VicGAgfCBMZWZ0IGZvcmVncm91bmQgZG9vciBsZWFmIChmcmFtZSArIGZyb3N0ZWQgZ2xhc3MsIGhhbmRsZSBhdCBzZWFtKS4gVHJhbnNwYXJlbnQgYWxwaGEuIHwgNjQww5cxNDk3IHwgYm90dG9tLWxlZnQgfCA0IOKAlCBsYXJnZXN0IG1vdGlvbiB8CnwgNDEtZG9vci1yaWdodCB8IGA0MS1kb29yLXJpZ2h0LTF4LndlYnBgLCBgNDEtZG9vci1yaWdodC0yeC53ZWJwYCB8IFJpZ2h0IGZvcmVncm91bmQgZG9vciBsZWFmIChtaXJyb3JlZCBzaWJsaW5nIG9mIDQwLCBoYW5kbGUgb3V0c2lkZSkuIFRyYW5zcGFyZW50IGFscGhhLiB8IDYwMMOXMTQ5NyB8IGJvdHRvbS1yaWdodCB8IDQgfAp8IOKAlCB8IENTUy1vbmx5IHwgVGludC9zaGFkZSBvdmVybGF5IChgLS10aW50YCkgKyBTVkcgZ3JhaW4gb3ZlcmxheSB8IOKAlCB8IGZ1bGwgY2FudmFzIHwgb3ZlcmxheSBiYW5kIDEwLTExIHwKCiMjIEFscGhhIGhhbmRsaW5nIG5vdGVzCgotIFRoZSBtaWRncm91bmQgYW5kIGRvb3IgcGxhdGVzIHdlcmUgZ2VuZXJhdGVkIG9uIGZsYXQgZ3JleSBhbmQga2V5ZWQgb3V0IHdpdGgKICBhIGJvcmRlci1zZWVkZWQgZmxvb2QgZmlsbCAoc2VlIGB0b29scy9wcm9jZXNzX2xheWVycy5weWApLCB0aGVuIGRlc3BpbGxlZAogIGFuZCBmZWF0aGVyZWQgKH4xLjZweCkuIEVkZ2VzIGFyZSBjbGVhbiBzdHJhaWdodCBhbHBoYSwgbm8gaGFsby4KLSBUaGUgaGVybyBjYXNlIHdhcyBrZXllZCBvbiB3YXJtdGgvc2F0dXJhdGlvbiByYXRoZXIgdGhhbiBncmV5IGRpc3RhbmNlLAogIGJlY2F1c2UgaXRzIGNhc3Qgc2hhZG93IHNoYXJlZCB0aGUgYmFja2dyb3VuZCdzIGh1ZS4gVGhlIHNoYWRvdyB3YXMgZHJvcHBlZAogIGRlbGliZXJhdGVseTsgYSBzb2Z0IENTUyByYWRpYWwgc2hhZG93IHNpdHMgdW5kZXIgdGhlIGNhc2Ugc28gdGhlIGNvbXBvc2l0ZWQKICBzY2VuZSBrZWVwcyBjb250YWN0IHdpdGggdGhlIHRhYmxlLgotIFRoZSByaWdodCBkb29yIGxlYWYgaXMgdGhlIGxlZnQgbGVhZidzIHNpYmxpbmcgZnJvbSB0aGUgc2FtZSBwbGF0ZSwgZmxpcHBlZAogIGhvcml6b250YWxseSBzbyBpdHMgaGFuZGxlIG1pcnJvcnMgY29ycmVjdGx5LiBHcmFpbiBjb250aW51aXR5IGlzIHByZXNlcnZlZAogIGJlY2F1c2UgYm90aCBsZWF2ZXMgY2FtZSBmcm9tIHRoZSBzYW1lIGV4cG9zdXJlLgoKIyMgQ2F0YWxvZyBjYXJkcwoKfCBDYXJkIHwgRmlsZSB8IERpbXMgfAp8LS0tLS0tfC0tLS0tLXwtLS0tLS18CnwgQnJhbmQgU3RyYXRlZ3kgfCBgY2FyZHMvYnJhbmQtc3RyYXRlZ3kud2VicGAgfCA5MDDDlzY3MiB8CnwgSWRlbnRpdHkgJiBEZXNpZ24gfCBgY2FyZHMvaWRlbnRpdHktZGVzaWduLndlYnBgIHwgOTAww5c2NzIgfAp8IENvbnRlbnQgJiBFZGl0b3JpYWwgfCBgY2FyZHMvY29udGVudC1lZGl0b3JpYWwud2VicGAgfCA5MDDDlzY3MiB8CnwgU29jaWFsICYgQ2FtcGFpZ25zIHwgYGNhcmRzL3NvY2lhbC1jYW1wYWlnbnMud2VicGAgfCA5MDDDlzY3MiB8CnwgV2ViICYgRGlnaXRhbCB8IGBjYXJkcy93ZWItZGlnaXRhbC53ZWJwYCB8IDkwMMOXNjcyIHwKfCBSZXNlYXJjaCAmIEluc2lnaHQgfCBgY2FyZHMvcmVzZWFyY2gtaW5zaWdodC53ZWJwYCB8IDkwMMOXNjcyIHwKCiMjIFJlZ2VuZXJhdGluZwoKYGBgYmFzaApweXRob24zIHRvb2xzL3Byb2Nlc3NfbGF5ZXJzLnB5CmBgYAoKcmVidWlsZHMgZXZlcnkgbGF5ZXIgZnJvbSBgYXNzZXRzL3NyYy9gIGFuZCByZXdyaXRlcyBgYXNzZXRzL21hbmlmZXN0Lmpzb25gLgoKIyMgUGxhY2Vob2xkZXJzIC8gcHJvZHVjdGlvbiBnYXBzCgpTZWUgYEhBTkRPRkYubWRgLiBJbiBzaG9ydDogYWxsIGltYWdlcnkgaXMgQUktZ2VuZXJhdGVkIHBsYWNlaG9sZGVyIGFydDsKcmVwbGFjZSB3aXRoIGNvbW1pc3Npb25lZCBwaG90b2dyYXBoeSB3aGVuIGF2YWlsYWJsZS4gQ29udGFjdCBkZXRhaWxzIGluIHRoZQpmaW5hbCBjYXJkIGFyZSBwbGFjZWhvbGRlcnMuCg==
+# Asset Manifest — Social's Way
+
+All layers share: golden-hour key light from frame left, cream/walnut/caramel
+palette, straight-on eye-level camera, no baked-in text. Masters live in
+`assets/src/`; production files in `assets/layers/` and `assets/cards/`.
+Machine-readable version: `assets/manifest.json`.
+
+## Scene layers
+
+| ID | File(s) | Role | Dims (2x) | Anchor | Depth |
+|----|---------|------|-----------|--------|-------|
+| 00-background | `bg-00-1x.webp`, `bg-00-2x.webp` | Opaque room plate (plaster wall, window light) | 2752×1536 | center (object-position 50% 62%) | 0 — smallest motion |
+| 20-midground | `mid-20-1x.webp`, `mid-20-2x.webp` | Walnut worktable + lamp, papers, vessels. Transparent alpha above/around table. | 2400×1028 | bottom-center | 2 |
+| 30-hero | `hero-30-1x.webp`, `hero-30-2x.webp` | Leather portfolio case, linen spine. Transparent alpha, shadow removed (CSS shadow used instead). | 915×1302 | bottom-center | 3 |
+| 40-door-left | `40-door-left-1x.webp`, `40-door-left-2x.webp` | Left foreground door leaf (frame + frosted glass, handle at seam). Transparent alpha. | 640×1497 | bottom-left | 4 — largest motion |
+| 41-door-right | `41-door-right-1x.webp`, `41-door-right-2x.webp` | Right foreground door leaf (mirrored sibling of 40, handle outside). Transparent alpha. | 600×1497 | bottom-right | 4 |
+| — | CSS-only | Tint/shade overlay (`--tint`) + SVG grain overlay | — | full canvas | overlay band 10-11 |
+
+## Alpha handling notes
+
+- The midground and door plates were generated on flat grey and keyed out with
+  a border-seeded flood fill (see `tools/process_layers.py`), then despilled
+  and feathered (~1.6px). Edges are clean straight alpha, no halo.
+- The hero case was keyed on warmth/saturation rather than grey distance,
+  because its cast shadow shared the background's hue. The shadow was dropped
+  deliberately; a soft CSS radial shadow sits under the case so the composited
+  scene keeps contact with the table.
+- The right door leaf is the left leaf's sibling from the same plate, flipped
+  horizontally so its handle mirrors correctly. Grain continuity is preserved
+  because both leaves came from the same exposure.
+
+## Catalog cards
+
+| Card | File | Dims |
+|------|------|------|
+| Brand Strategy | `cards/brand-strategy.webp` | 900×672 |
+| Identity & Design | `cards/identity-design.webp` | 900×672 |
+| Content & Editorial | `cards/content-editorial.webp` | 900×672 |
+| Social & Campaigns | `cards/social-campaigns.webp` | 900×672 |
+| Web & Digital | `cards/web-digital.webp` | 900×672 |
+| Research & Insight | `cards/research-insight.webp` | 900×672 |
+
+## Regenerating
+
+```bash
+python3 tools/process_layers.py
+```
+
+rebuilds every layer from `assets/src/` and rewrites `assets/manifest.json`.
+
+## Placeholders / production gaps
+
+See `HANDOFF.md`. In short: all imagery is AI-generated placeholder art;
+replace with commissioned photography when available. Contact details in the
+final card are placeholders.

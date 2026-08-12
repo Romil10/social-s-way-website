@@ -1,1 +1,18 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJCdWlsZCBhIHB1Ymxpc2gtcmVhZHkgc3RhcnQuaHRtbCB3aXRoIHRoZSBtYWluIHNpdGUncyBhYnNvbHV0ZSBVUkwuIiIiCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKUk9PVCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnQucGFyZW50Ck1BSU5fU0lURSA9ICJodHRwczovL3B1Yi5oeXBlcmFnZW50LmNvbS9wL3lCc2FXRHpBMkRzaXd5a1I0OGRibDdkd1JjcjJabnR3UUExY0laUmNKd0kiCgpodG1sID0gKFJPT1QgLyAic3RhcnQuaHRtbCIpLnJlYWRfdGV4dCgpCiMgUmVwbGFjZSByZWxhdGl2ZSBpbmRleC5odG1sIGxpbmtzIHdpdGggdGhlIGFic29sdXRlIHB1YmxpYyBtYWluLXNpdGUgVVJMCm4gPSBodG1sLmNvdW50KCdocmVmPSJpbmRleC5odG1sIicpCmh0bWwgPSBodG1sLnJlcGxhY2UoJ2hyZWY9ImluZGV4Lmh0bWwiJywgZidocmVmPSJ7TUFJTl9TSVRFfSInKQojIHN0YXJ0Lmh0bWwgc2VsZi1saW5rIHN0YXlzIHJlbGF0aXZlIC0+IG1ha2UgaXQgYWJzb2x1dGUgdG9vIChzZWxmKQojIEFjdHVhbGx5IHN0YXJ0Lmh0bWwgb24gdGhlIHB1Ymxpc2hlZCBob3N0IGlzIHRoZSBwdWIgVVJMOyBrZWVwIHRoZSBDb250YWN0CiMgbGluayBwb2ludGluZyB0byB0aGUgc2FtZSBwYWdlIChpdCdzIGEgbm8tb3Agc2VsZi1saW5rLCB3aGljaCBpcyBmaW5lKS4Kb3V0ID0gUk9PVCAvICJzdGFydC5wdWJsaWMuaHRtbCIKb3V0LndyaXRlX3RleHQoaHRtbCkKcHJpbnQoZiJyZXBsYWNlZCB7bn0gaW5kZXguaHRtbCBsaW5rcyAtPiB7TUFJTl9TSVRFfSIpCnByaW50KGYid3JvdGUge291dH0iKQo=
+#!/usr/bin/env python3
+"""Build a publish-ready start.html with the main site's absolute URL."""
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+MAIN_SITE = "https://pub.hyperagent.com/p/yBsaWDzA2DsiwykR48dbl7dwRcr2ZntwQA1cIZRcJwI"
+
+html = (ROOT / "start.html").read_text()
+# Replace relative index.html links with the absolute public main-site URL
+n = html.count('href="index.html"')
+html = html.replace('href="index.html"', f'href="{MAIN_SITE}"')
+# start.html self-link stays relative -> make it absolute too (self)
+# Actually start.html on the published host is the pub URL; keep the Contact
+# link pointing to the same page (it's a no-op self-link, which is fine).
+out = ROOT / "start.public.html"
+out.write_text(html)
+print(f"replaced {n} index.html links -> {MAIN_SITE}")
+print(f"wrote {out}")

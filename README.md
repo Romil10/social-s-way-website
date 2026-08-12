@@ -1,1 +1,45 @@
-IyBTb2NpYWwncyBXYXkg4oCUIE1hcmtldGluZyBBdGVsaWVyCgpBIHNjcm9sbC1kcml2ZW4gY2luZW1hdGljIG1pY3Jvc2l0ZS4gT25lIGNvbnRpbnVvdXMgMi41RCBhdGVsaWVyIHNjZW5lLApjb250cm9sbGVkIGJ5IHZlcnRpY2FsIHNjcm9sbGluZywgYnVpbHQgd2l0aCB2YW5pbGxhIEhUTUwvQ1NTL0pTLiBObwpmcmFtZXdvcmtzLCBubyBhbmltYXRpb24gbGlicmFyaWVzLCBubyBidWlsZCBzdGVwLgoKIyMgUnVuIGxvY2FsbHkKCkFueSBzdGF0aWMgZmlsZSBzZXJ2ZXIgd29ya3MuIEZyb20gdGhpcyBkaXJlY3Rvcnk6CgpgYGBiYXNoCnB5dGhvbjMgLW0gaHR0cC5zZXJ2ZXIgODkzMQojIHRoZW4gb3BlbiBodHRwOi8vbG9jYWxob3N0Ojg5MzEvCmBgYAoKb3IKCmBgYGJhc2gKbnB4IHNlcnZlIC4KYGBgCgojIyBQcm9qZWN0IGxheW91dAoKYGBgCmluZGV4Lmh0bWwgICAgICAgICAgc3RydWN0dXJlOiBzdGlja3kgc3RhZ2UsIHdvcmxkIGxheWVycywgY29weSwgY2F0YWxvZwpjc3Mvc3R5bGVzLmNzcyAgICAgIGRlc2lnbiB0b2tlbnMsIHotaW5kZXggYmFuZHMsIGFsbCBtb3Rpb24gKENTUyBvd25zIHRyYW5zZm9ybXMpCmpzL2FwcC5qcyAgICAgICAgICAgc2Nyb2xsIGVuZ2luZSwgcG9pbnRlciBwYXJhbGxheCwgY2F0YWxvZyByYWlsLCBsb2FkZXIsIG5hdgphc3NldHMvbGF5ZXJzLyAgICAgIHByb2Nlc3NlZCBzY2VuZSBsYXllcnMgKFdlYlAsIHJlc3BvbnNpdmUgMXgvMngpCmFzc2V0cy9jYXJkcy8gICAgICAgY2F0YWxvZyBjYXJkIHBob3RvZ3JhcGh5IChXZWJQKQphc3NldHMvc3JjLyAgICAgICAgIHVudG91Y2hlZCBnZW5lcmF0ZWQgbWFzdGVycyAoa2VlcCBmb3IgcmVjb21wb3NpdGluZykKYXNzZXRzL21hbmlmZXN0Lmpzb24gIG1hY2hpbmUtcmVhZGFibGUgbGF5ZXIgbWFuaWZlc3QKdG9vbHMvICAgICAgICAgICAgICBhc3NldCBwaXBlbGluZSAocHJvY2Vzc19sYXllcnMucHkpICsgUUEgaGFybmVzcyAocWFfc2hvdHMuanMpClNDRU5FLU1BUC5tZCAgICAgICAgY29weSBkZWNrICsgbmFycmF0aXZlIGJlYXRzCkFTU0VUUy5tZCAgICAgICAgICAgYXNzZXQgbWFuaWZlc3QgZm9yIGh1bWFucwpUSU1FTElORS5tZCAgICAgICAgIHRpbWVsaW5lIG1hcCAod2hhdCBoYXBwZW5zIGF0IHdoaWNoIHApCkhBTkRPRkYubWQgICAgICAgICAgcGxhY2Vob2xkZXJzLCBrbm93biBsaW1pdGF0aW9ucywgdmVyaWZpY2F0aW9uIHJlc3VsdHMKYGBgCgojIyBFZGl0aW5nIGNvbnRlbnQKCkFsbCBjb3B5IGxpdmVzIGluIGBpbmRleC5odG1sYC4gQ2FyZCBpbWFnZXMgYXJlIHJlZmVyZW5jZWQgZGlyZWN0bHkgaW4gdGhlCnJhaWwgbWFya3VwLiBBbmltYXRpb24gdGltaW5nIGxpdmVzIGluIG9uZSBjb25maWcgb2JqZWN0IGF0IHRoZSB0b3Agb2YKYGpzL2FwcC5qc2AgKGBDT05GSUcudGltZWxpbmVgKTsgYXJ0IGxpdmVzIGluIGBhc3NldHMvbGF5ZXJzL2AgYW5kIGNhbiBiZQpyZXBsYWNlZCBmaWxlLWZvci1maWxlIGFzIGxvbmcgYXMgYW5jaG9ycyBhbmQgYXNwZWN0IHJhdGlvcyBzdGF5IHRoZSBzYW1lCihzZWUgYEFTU0VUUy5tZGApLgo=
+# Social's Way — Marketing Atelier
+
+A scroll-driven cinematic microsite. One continuous 2.5D atelier scene,
+controlled by vertical scrolling, built with vanilla HTML/CSS/JS. No
+frameworks, no animation libraries, no build step.
+
+## Run locally
+
+Any static file server works. From this directory:
+
+```bash
+python3 -m http.server 8931
+# then open http://localhost:8931/
+```
+
+or
+
+```bash
+npx serve .
+```
+
+## Project layout
+
+```
+index.html          structure: sticky stage, world layers, copy, catalog
+css/styles.css      design tokens, z-index bands, all motion (CSS owns transforms)
+js/app.js           scroll engine, pointer parallax, catalog rail, loader, nav
+assets/layers/      processed scene layers (WebP, responsive 1x/2x)
+assets/cards/       catalog card photography (WebP)
+assets/src/         untouched generated masters (keep for recompositing)
+assets/manifest.json  machine-readable layer manifest
+tools/              asset pipeline (process_layers.py) + QA harness (qa_shots.js)
+SCENE-MAP.md        copy deck + narrative beats
+ASSETS.md           asset manifest for humans
+TIMELINE.md         timeline map (what happens at which p)
+HANDOFF.md          placeholders, known limitations, verification results
+```
+
+## Editing content
+
+All copy lives in `index.html`. Card images are referenced directly in the
+rail markup. Animation timing lives in one config object at the top of
+`js/app.js` (`CONFIG.timeline`); art lives in `assets/layers/` and can be
+replaced file-for-file as long as anchors and aspect ratios stay the same
+(see `ASSETS.md`).

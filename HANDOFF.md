@@ -1,1 +1,79 @@
-IyBIYW5kb2ZmIOKAlCBTb2NpYWwncyBXYXkgY2luZW1hdGljIG1pY3Jvc2l0ZQoKU3RhdHVzOiBjb21wbGV0ZSBhbmQgdmVyaWZpZWQuIFZhbmlsbGEgSFRNTC9DU1MvSlMsIG5vIGZyYW1ld29ya3MsIG5vIGJ1aWxkCnN0ZXAsIG5vIGV4dGVybmFsIEpTIGRlcGVuZGVuY2llcy4gRm9udHM6IEZyYXVuY2VzIChkaXNwbGF5KSArIEludGVyIChVSSkgdmlhCkdvb2dsZSBGb250cyB3aXRoIHN5c3RlbSBmYWxsYmFja3MuCgojIyBSdW4KCmBgYGJhc2gKY2Qgc29jaWFscy13YXkKcHl0aG9uMyAtbSBodHRwLnNlcnZlciA4OTMxICAgICMgaHR0cDovL2xvY2FsaG9zdDo4OTMxLwpgYGAKCiMjIFZlcmlmaWNhdGlvbiByZXN1bHRzIChoZWFkbGVzcyBDaHJvbWl1bSwgdGhpcyBtYWNoaW5lKQoKUUEgaGFybmVzczogYG5vZGUgdG9vbHMvcWFfY2RwLm1qc2AgKHNjcmVlbnNob3RzICsgYXNzZXJ0aW9ucykgYW5kCmBub2RlIHRvb2xzL3FhX2ExMXkubWpzYCAocmVkdWNlZCBtb3Rpb24pLiBTY3JlZW5zaG90cyBsYW5kIGluIGBxYS9gLgoKfCBDaGVjayB8IFJlc3VsdCB8CnwtLS0tLS0tfC0tLS0tLS0tfAp8IENvbnNvbGUgZXJyb3JzICg1IHZpZXdwb3J0cyDDlyA4IGNoZWNrcG9pbnRzKSB8IG5vbmUgfAp8IEhvcml6b250YWwgZG9jdW1lbnQgb3ZlcmZsb3cgfCBub25lIHwKfCBUaW1lbGluZSByZXZlcnNhbCBkZXRlcm1pbmlzbSB8IGV4YWN0IChgLS1wLW9wZW5gIDAuODk2IGRvd24gLyAwLjg5NiB1cCBhdCBwPTAuMjcpIHwKfCBSYWlsIHN0cnVjdHVyZSB8IDcgcmVhbCBjYXJkcyArIDE0IGNsb25lczsgY2xvbmVzIGBhcmlhLWhpZGRlbmAgYW5kIGB0YWJpbmRleD0tMWAgfAp8IFJlYWwgY2FyZCBhbHQgdGV4dCB8IGFsbCBtZWFuaW5nZnVsICjiiaUxMCBjaGFycykgfAp8IFJhaWwga2V5Ym9hcmQgKEFycm93UmlnaHQpIHwgbW92ZXMgfAp8IEluZmluaXRlLWxvb3Agc2VhbSBub3JtYWxpemF0aW9uIHwgd29ya3MgKHNjcm9sbExlZnQgMjY5OSBhZnRlciB3cmFwKSB8CnwgQ2F0YWxvZyBiZWNvbWVzIGludGVyYWN0aXZlIChgaXMtbGl2ZWApIGF0IHAg4omlIDAuODIgfCB5ZXMgfAp8IFJlZHVjZWQgbW90aW9uIHwgc3RhZ2UgdW5waW5zLCBzdGF0aWMgaGVybyArIG5vcm1hbC1mbG93IGNvbnRlbnQsIGxvYWRlciByZW1vdmVkLCByYWlsIHNuYXAtc2Nyb2xscyB8CnwgQWJvdmUtdGhlLWZvbGQgaW1hZ2UgcGF5bG9hZCB8IH41MDggS0IgKGJnK21pZCtoZXJvK2Rvb3JzIGF0IDF4KSB8CnwgVG90YWwgc2l0ZSBwYXlsb2FkIChleGNsLiBtYXN0ZXJzL1FBKSB8IH4xLjggTUIgfAoKIyMjIFZpZXdwb3J0cyBjYXB0dXJlZCBhdCBwID0gMCwgLjE4LCAuMjcsIC40NCwgLjU4LCAuNzQsIC45LCAxCmBkZXNrdG9wLTE0NDDDlzkwMGAsIGBsYXB0b3AtMTI4MMOXNzIwYCwgYHRhYmxldC1sYW5kLTEwMjTDlzc2OGAsCmB0YWJsZXQtcG9ydC03NjjDlzEwMjRgLCBgbW9iaWxlLTM5MMOXODQ0YC4KCiMjIFBsYWNlaG9sZGVycyByZXF1aXJpbmcgcHJvZHVjdGlvbiB3b3JrCgoxLiAqKkFsbCBwaG90b2dyYXBoeSBpcyBBSS1nZW5lcmF0ZWQgcGxhY2Vob2xkZXIgYXJ0KiogKGluIGBhc3NldHMvc3JjL2AsCiAgIHByb2Nlc3NlZCBieSBgdG9vbHMvcHJvY2Vzc19sYXllcnMucHlgKS4gUmVwbGFjZSB3aXRoIGNvbW1pc3Npb25lZCBzdGlsbHM6CiAgIC0gb25lIGVtcHR5IGF0ZWxpZXIgd2FsbCBwbGF0ZSwKICAgLSBvbmUgd29ya3RhYmxlIHBsYXRlIHNob3QgYWdhaW5zdCBhIGZsYXQgbmV1dHJhbCBmb3Iga2V5aW5nIChvciBzdXBwbGllZAogICAgIHByZS1jdXQgd2l0aCBhbHBoYSksCiAgIC0gdGhlIGhlcm8gcG9ydGZvbGlvIGNhc2UsCiAgIC0gb25lIGRvb3IgcGxhdGUgKHBhaXIgb2YgbGVhdmVzOyB0aGUgcGlwZWxpbmUgc3BsaXRzIHRoZW0gYXQgdGhlIHNlYW0pLgogICBSZS1ydW4gYHB5dGhvbjMgdG9vbHMvcHJvY2Vzc19sYXllcnMucHlgIGFmdGVyIGRyb3BwaW5nIG5ldyBtYXN0ZXJzIGluCiAgIGBhc3NldHMvc3JjL2Agd2l0aCB0aGUgc2FtZSBmaWxlbmFtZXMuCjIuICoqQ29udGFjdCBkZXRhaWxzKiogaW4gdGhlIGZpbmFsIGNhcmQ6IGBoZWxsb0Bzb2NpYWxzd2F5LnN0dWRpb2AgaXMgYQogICBwbGFjZWhvbGRlciBtYWlsdG8uIFJlcGxhY2Ugd2l0aCB0aGUgcmVhbCBhZGRyZXNzIChhbmQgYWRkIGEgcGhvbmUgaWYKICAgd2FudGVkKSBpbiBgaW5kZXguaHRtbGAuCjMuICoqRmF2aWNvbiAvIE9HIGltYWdlKio6IG5vdCBpbmNsdWRlZC4gQWRkIGA8bGluayByZWw9Imljb24iPmAgYW5kIHNvY2lhbAogICBtZXRhIHdoZW4gYnJhbmQgYXNzZXRzIGV4aXN0Lgo0LiAqKkZvbnRzKio6IEZyYXVuY2VzICsgSW50ZXIgYXJlIEdvb2dsZSBGb250cyBzdGFuZC1pbnMuIElmIHRoZSBzdHVkaW8gaGFzIGEKICAgbGljZW5zZWQgYnJhbmQgdHlwZWZhY2UsIHN3YXAgdGhlIHR3byBgQGZvbnQtZmFjZWAvbGluayByZWZlcmVuY2VzIGFuZCB0aGUKICAgYC0tZm9udC1kaXNwbGF5YCAvIGAtLWZvbnQtdWlgIHRva2Vucy4KCiMjIEtub3duLCBhY2NlcHRlZCB0cmFkZS1vZmZzCgotIFRoZSBkb29yIGxlYXZlcyBzaGFyZSBvbmUgZXhwb3N1cmUgKHJpZ2h0IGxlYWYgaXMgdGhlIG1pcnJvcmVkIHNpYmxpbmcgb2YKICB0aGUgbGVmdCksIHNvIHdvb2QgZ3JhaW4gbWlycm9ycyBhY3Jvc3MgdGhlIHNlYW0uIEludmlzaWJsZSBpbiBtb3Rpb24uCi0gVGhlIGhlcm8gY2FzZSdzIHBob3RvZ3JhcGhpYyBjYXN0IHNoYWRvdyB3YXMgZHJvcHBlZCBkdXJpbmcga2V5aW5nIChpdAogIHNoYXJlZCB0aGUgYmFja2dyb3VuZCBodWUpOyBhIHNvZnQgQ1NTIHJhZGlhbCBzaGFkb3cgcmVwbGFjZXMgaXQuIElmIGEgcmVhbAogIHNoYWRvdyBpcyBwcmVmZXJyZWQsIHJlLXNob290IHRoZSBjYXNlIG9uIGEgZGFya2VyIHNlYW1sZXNzIGFuZCBrZXkgb24KICBsdW1pbmFuY2UgaW5zdGVhZC4KLSBCbHVyIGlzIGNhcHBlZCBhdCA1cHggYW5kIHBhaXJlZCB3aXRoIGEgdGludDsgb24gYHVwZGF0ZTogc2xvd2AgYW5kIHNtYWxsCiAgc2NyZWVucyB0aGUgYmx1ciBpcyBkcm9wcGVkIGluIGZhdm9yIG9mIHRpbnQgb25seSAoc2VlIHRoZSBtZWRpYSBxdWVyeSBhdAogIHRoZSBib3R0b20gb2YgYHN0eWxlcy5jc3NgKS4KCiMjIEZvciB0aGUgbmV4dCBkZXZlbG9wZXIKCi0gVGltaW5nOiBvbmUgb2JqZWN0LCBgQ09ORklHLnRpbWVsaW5lYCwgdG9wIG9mIGBqcy9hcHAuanNgLiBFYWNoIGVudHJ5IG1hcHMKICB0byBhIG5hbWVkIENTUyB2YXJpYWJsZTsgc2VlIGBUSU1FTElORS5tZGAgZm9yIHRoZSBiZWF0IG1hcC4KLSBNb3Rpb246IENTUyBvd25zIGV2ZXJ5IHRyYW5zZm9ybS4gSlMgb25seSB3cml0ZXMgY3VzdG9tIHByb3BlcnRpZXMgb24KICBgI3N0YWdlYC4gVG8gcmV0aW1lIGEgYmVhdCwgY2hhbmdlIHRoZSByYW5nZTsgdG8gcmVzdHlsZSBhIG1vdmUsIGNoYW5nZSB0aGUKICBDU1MgdGhhdCBjb25zdW1lcyBpdHMgdmFyaWFibGUuCi0gQXJ0OiByZXBsYWNlIGZpbGVzIGluIGBhc3NldHMvbGF5ZXJzL2AgKHNhbWUgbmFtZXMsIHNhbWUgYW5jaG9ycykgYW5kIHRoZQogIHNjZW5lIHJlY29tcG9zZXMuIEFuY2hvcnMgYW5kIGRlcHRoIG9yZGVyIGFyZSBkb2N1bWVudGVkIGluIGBBU1NFVFMubWRgLgotIERvIG5vdCByZW1vdmUgdGhlIGAuaXMtbGl2ZWAgZ2F0ZSBvbiBgLmNhdGFsb2dgOiBpdCBrZWVwcyB0aGUgcmFpbCdzCiAgYnV0dG9ucyBhbmQgbGlua3Mgb3V0IG9mIHRoZSB0YWIgb3JkZXIgdW50aWwgdGhlIGZpbmFsIHNjZW5lIGFycml2ZXMuCg==
+# Handoff — Social's Way cinematic microsite
+
+Status: complete and verified. Vanilla HTML/CSS/JS, no frameworks, no build
+step, no external JS dependencies. Fonts: Fraunces (display) + Inter (UI) via
+Google Fonts with system fallbacks.
+
+## Run
+
+```bash
+cd socials-way
+python3 -m http.server 8931    # http://localhost:8931/
+```
+
+## Verification results (headless Chromium, this machine)
+
+QA harness: `node tools/qa_cdp.mjs` (screenshots + assertions) and
+`node tools/qa_a11y.mjs` (reduced motion). Screenshots land in `qa/`.
+
+| Check | Result |
+|-------|--------|
+| Console errors (5 viewports × 8 checkpoints) | none |
+| Horizontal document overflow | none |
+| Timeline reversal determinism | exact (`--p-open` 0.896 down / 0.896 up at p=0.27) |
+| Rail structure | 7 real cards + 14 clones; clones `aria-hidden` and `tabindex=-1` |
+| Real card alt text | all meaningful (≥10 chars) |
+| Rail keyboard (ArrowRight) | moves |
+| Infinite-loop seam normalization | works (scrollLeft 2699 after wrap) |
+| Catalog becomes interactive (`is-live`) at p ≥ 0.82 | yes |
+| Reduced motion | stage unpins, static hero + normal-flow content, loader removed, rail snap-scrolls |
+| Above-the-fold image payload | ~508 KB (bg+mid+hero+doors at 1x) |
+| Total site payload (excl. masters/QA) | ~1.8 MB |
+
+### Viewports captured at p = 0, .18, .27, .44, .58, .74, .9, 1
+`desktop-1440×900`, `laptop-1280×720`, `tablet-land-1024×768`,
+`tablet-port-768×1024`, `mobile-390×844`.
+
+## Placeholders requiring production work
+
+1. **All photography is AI-generated placeholder art** (in `assets/src/`,
+   processed by `tools/process_layers.py`). Replace with commissioned stills:
+   - one empty atelier wall plate,
+   - one worktable plate shot against a flat neutral for keying (or supplied
+     pre-cut with alpha),
+   - the hero portfolio case,
+   - one door plate (pair of leaves; the pipeline splits them at the seam).
+   Re-run `python3 tools/process_layers.py` after dropping new masters in
+   `assets/src/` with the same filenames.
+2. **Contact details** in the final card: `hello@socialsway.studio` is a
+   placeholder mailto. Replace with the real address (and add a phone if
+   wanted) in `index.html`.
+3. **Favicon / OG image**: not included. Add `<link rel="icon">` and social
+   meta when brand assets exist.
+4. **Fonts**: Fraunces + Inter are Google Fonts stand-ins. If the studio has a
+   licensed brand typeface, swap the two `@font-face`/link references and the
+   `--font-display` / `--font-ui` tokens.
+
+## Known, accepted trade-offs
+
+- The door leaves share one exposure (right leaf is the mirrored sibling of
+  the left), so wood grain mirrors across the seam. Invisible in motion.
+- The hero case's photographic cast shadow was dropped during keying (it
+  shared the background hue); a soft CSS radial shadow replaces it. If a real
+  shadow is preferred, re-shoot the case on a darker seamless and key on
+  luminance instead.
+- Blur is capped at 5px and paired with a tint; on `update: slow` and small
+  screens the blur is dropped in favor of tint only (see the media query at
+  the bottom of `styles.css`).
+
+## For the next developer
+
+- Timing: one object, `CONFIG.timeline`, top of `js/app.js`. Each entry maps
+  to a named CSS variable; see `TIMELINE.md` for the beat map.
+- Motion: CSS owns every transform. JS only writes custom properties on
+  `#stage`. To retime a beat, change the range; to restyle a move, change the
+  CSS that consumes its variable.
+- Art: replace files in `assets/layers/` (same names, same anchors) and the
+  scene recomposes. Anchors and depth order are documented in `ASSETS.md`.
+- Do not remove the `.is-live` gate on `.catalog`: it keeps the rail's
+  buttons and links out of the tab order until the final scene arrives.

@@ -1,1 +1,196 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKiBNaW5pbWFsIENEUCBzY3JlZW5zaG90IGhhcm5lc3MsIHplcm8gZGVwZW5kZW5jaWVzLgogICBEcml2ZXMgdGhlIHB1cHBldGVlci1jYWNoZWQgQ2hyb21lIHZpYSB0aGUgRGV2VG9vbHMgcHJvdG9jb2wuCiAgIFVzYWdlOiBub2RlIHRvb2xzL3FhX2NkcC5tanMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKi8KaW1wb3J0IHsgc3Bhd24gfSBmcm9tICJub2RlOmNoaWxkX3Byb2Nlc3MiOwppbXBvcnQgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCBwYXRoIGZyb20gIm5vZGU6cGF0aCI7CmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICJub2RlOnVybCI7Cgpjb25zdCBST09UID0gcGF0aC5qb2luKHBhdGguZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpLCAiLi4iKTsKY29uc3QgT1VUID0gcGF0aC5qb2luKFJPT1QsICJxYSIpOwpjb25zdCBDSFJPTUUgPSAiL2hvbWUvdmVyY2VsLXNhbmRib3gvLmNhY2hlL3B1cHBldGVlci9jaHJvbWUvbGludXgtMTUxLjAuNzkyMi43Ny9jaHJvbWUtbGludXg2NC9jaHJvbWUiOwoKY29uc3QgQ0hFQ0tQT0lOVFMgPSBbMC4wLCAwLjE2LCAwLjI3LCAwLjQ0LCAwLjUwLCAwLjYxLCAwLjYzNSwgMC43MiwgMC44NiwgMS4wXTsKY29uc3QgVklFV1BPUlRTID0gWwogIHsgbmFtZTogImRlc2t0b3AtMTQ0MCIsIHdpZHRoOiAxNDQwLCBoZWlnaHQ6IDkwMCB9LAogIHsgbmFtZTogImxhcHRvcC0xMjgwIiwgd2lkdGg6IDEyODAsIGhlaWdodDogNzIwIH0sCiAgeyBuYW1lOiAidGFibGV0LWxhbmQtMTAyNCIsIHdpZHRoOiAxMDI0LCBoZWlnaHQ6IDc2OCB9LAogIHsgbmFtZTogInRhYmxldC1wb3J0LTc2OCIsIHdpZHRoOiA3NjgsIGhlaWdodDogMTAyNCB9LAogIHsgbmFtZTogIm1vYmlsZS0zOTAiLCB3aWR0aDogMzkwLCBoZWlnaHQ6IDg0NCB9LApdOwoKY29uc3Qgc2xlZXAgPSAobXMpID0+IG5ldyBQcm9taXNlKChyKSA9PiBzZXRUaW1lb3V0KHIsIG1zKSk7Cgphc3luYyBmdW5jdGlvbiBsYXVuY2goKSB7CiAgY29uc3QgcG9ydCA9IDkyMjIgKyBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiA1MDApOwogIGNvbnN0IHByb2MgPSBzcGF3bihDSFJPTUUsIFsKICAgICItLWhlYWRsZXNzPW5ldyIsICItLW5vLXNhbmRib3giLCAiLS1kaXNhYmxlLWdwdSIsCiAgICAiLS1oaWRlLXNjcm9sbGJhcnMiLCAiLS1kaXNhYmxlLWRldi1zaG0tdXNhZ2UiLAogICAgYC0tcmVtb3RlLWRlYnVnZ2luZy1wb3J0PSR7cG9ydH1gLCAiYWJvdXQ6YmxhbmsiLAogIF0sIHsgc3RkaW86ICJpZ25vcmUiIH0pOwogIC8vIHdhaXQgZm9yIHRoZSBkZXZ0b29scyBlbmRwb2ludAogIGxldCB3c1VybCA9IG51bGw7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCA1MDsgaSsrKSB7CiAgICBhd2FpdCBzbGVlcCgyMDApOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYGh0dHA6Ly8xMjcuMC4wLjE6JHtwb3J0fS9qc29uL3ZlcnNpb25gKTsKICAgICAgY29uc3QgaiA9IGF3YWl0IHJlcy5qc29uKCk7CiAgICAgIHdzVXJsID0gai53ZWJTb2NrZXREZWJ1Z2dlclVybDsKICAgICAgYnJlYWs7CiAgICB9IGNhdGNoIHt9CiAgfQogIGlmICghd3NVcmwpIHRocm93IG5ldyBFcnJvcigiY2hyb21lIGRpZCBub3Qgc3RhcnQiKTsKICByZXR1cm4geyBwcm9jLCBwb3J0IH07Cn0KCmNsYXNzIENEUCB7CiAgY29uc3RydWN0b3Iod3MpIHsKICAgIHRoaXMud3MgPSB3czsKICAgIHRoaXMuaWQgPSAwOwogICAgdGhpcy5wZW5kaW5nID0gbmV3IE1hcCgpOwogICAgdGhpcy5jb25zb2xlRXJyb3JzID0gW107CiAgICB3cy5vbm1lc3NhZ2UgPSAoZXYpID0+IHsKICAgICAgY29uc3QgbXNnID0gSlNPTi5wYXJzZShldi5kYXRhKTsKICAgICAgaWYgKG1zZy5pZCAmJiB0aGlzLnBlbmRpbmcuaGFzKG1zZy5pZCkpIHsKICAgICAgICBjb25zdCB7IHJlc29sdmUsIHJlamVjdCB9ID0gdGhpcy5wZW5kaW5nLmdldChtc2cuaWQpOwogICAgICAgIHRoaXMucGVuZGluZy5kZWxldGUobXNnLmlkKTsKICAgICAgICBtc2cuZXJyb3IgPyByZWplY3QobmV3IEVycm9yKG1zZy5lcnJvci5tZXNzYWdlKSkgOiByZXNvbHZlKG1zZy5yZXN1bHQpOwogICAgICB9IGVsc2UgaWYgKG1zZy5tZXRob2QgPT09ICJSdW50aW1lLmV4Y2VwdGlvblRocm93biIpIHsKICAgICAgICB0aGlzLmNvbnNvbGVFcnJvcnMucHVzaCgKICAgICAgICAgIG1zZy5wYXJhbXMuZXhjZXB0aW9uRGV0YWlscz8uZXhjZXB0aW9uPy5kZXNjcmlwdGlvbiB8fCAicGFnZWVycm9yIik7CiAgICAgIH0gZWxzZSBpZiAobXNnLm1ldGhvZCA9PT0gIlJ1bnRpbWUuY29uc29sZUFQSUNhbGxlZCIgJiYKICAgICAgICAgICAgICAgICBtc2cucGFyYW1zLnR5cGUgPT09ICJlcnJvciIpIHsKICAgICAgICB0aGlzLmNvbnNvbGVFcnJvcnMucHVzaCgKICAgICAgICAgIG1zZy5wYXJhbXMuYXJncz8ubWFwKChhKSA9PiBhLnZhbHVlID8/IGEuZGVzY3JpcHRpb24pLmpvaW4oIiAiKSk7CiAgICAgIH0KICAgIH07CiAgfQogIHN0YXRpYyBhc3luYyBjb25uZWN0KHBvcnQpIHsKICAgIC8vIG5ldyB0YWIKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKAogICAgICBgaHR0cDovLzEyNy4wLjAuMToke3BvcnR9L2pzb24vbmV3P2Fib3V0OmJsYW5rYCwgeyBtZXRob2Q6ICJQVVQiIH0pOwogICAgY29uc3QgdGFyZ2V0ID0gYXdhaXQgcmVzLmpzb24oKTsKICAgIGNvbnN0IHdzID0gbmV3IFdlYlNvY2tldCh0YXJnZXQud2ViU29ja2V0RGVidWdnZXJVcmwpOwogICAgYXdhaXQgbmV3IFByb21pc2UoKG9rLCBlcnIpID0+IHsgd3Mub25vcGVuID0gb2s7IHdzLm9uZXJyb3IgPSBlcnI7IH0pOwogICAgcmV0dXJuIG5ldyBDRFAod3MpOwogIH0KICBzZW5kKG1ldGhvZCwgcGFyYW1zID0ge30pIHsKICAgIGNvbnN0IGlkID0gKyt0aGlzLmlkOwogICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgdGhpcy5wZW5kaW5nLnNldChpZCwgeyByZXNvbHZlLCByZWplY3QgfSk7CiAgICAgIHRoaXMud3Muc2VuZChKU09OLnN0cmluZ2lmeSh7IGlkLCBtZXRob2QsIHBhcmFtcyB9KSk7CiAgICB9KTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHJ1bigpIHsKICBjb25zdCB7IHByb2MsIHBvcnQgfSA9IGF3YWl0IGxhdW5jaCgpOwogIGNvbnN0IGlzc3VlcyA9IFtdOwogIHRyeSB7CiAgICBmb3IgKGNvbnN0IHZwIG9mIFZJRVdQT1JUUykgewogICAgICBjb25zdCBjZHAgPSBhd2FpdCBDRFAuY29ubmVjdChwb3J0KTsKICAgICAgYXdhaXQgY2RwLnNlbmQoIlJ1bnRpbWUuZW5hYmxlIik7CiAgICAgIGF3YWl0IGNkcC5zZW5kKCJQYWdlLmVuYWJsZSIpOwogICAgICBhd2FpdCBjZHAuc2VuZCgiRW11bGF0aW9uLnNldERldmljZU1ldHJpY3NPdmVycmlkZSIsIHsKICAgICAgICB3aWR0aDogdnAud2lkdGgsIGhlaWdodDogdnAuaGVpZ2h0LCBkZXZpY2VTY2FsZUZhY3RvcjogMSwgbW9iaWxlOiB2cC53aWR0aCA8IDUwMCwKICAgICAgfSk7CiAgICAgIGF3YWl0IGNkcC5zZW5kKCJQYWdlLm5hdmlnYXRlIiwgeyB1cmw6ICJodHRwOi8vbG9jYWxob3N0Ojg5MzIvaW5kZXguaHRtbCIgfSk7CiAgICAgIGF3YWl0IHNsZWVwKDIyMDApOyAvLyBsb2FkZXIgKyBmb250cyArIGRlY29kZQoKICAgICAgLy8gcmFpbCArIGExMXkgYXNzZXJ0aW9ucyBydW4gcmlnaHQgYWZ0ZXIgbG9hZCAoYmVmb3JlIHNjcm9sbGluZykKICAgICAgaWYgKHZwLm5hbWUgPT09ICJkZXNrdG9wLTE0NDAiKSB7CiAgICAgICAgY29uc3QgcmFpbCA9IGF3YWl0IGNkcC5zZW5kKCJSdW50aW1lLmV2YWx1YXRlIiwgeyByZXR1cm5CeVZhbHVlOiB0cnVlLAogICAgICAgICAgZXhwcmVzc2lvbjogYEpTT04uc3RyaW5naWZ5KCgoKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IHdyYXBzID0gWy4uLmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoIi5yYWlsLXdyYXAiKV07CiAgICAgICAgICAgIGNvbnN0IG91dCA9IHsgcmFpbENvdW50OiB3cmFwcy5sZW5ndGgsIHJhaWxzOiBbXSB9OwogICAgICAgICAgICBmb3IgKGNvbnN0IHdyYXAgb2Ygd3JhcHMpIHsKICAgICAgICAgICAgICBjb25zdCB0cmFjayA9IHdyYXAucXVlcnlTZWxlY3RvcigiLnJhaWwtdHJhY2siKTsKICAgICAgICAgICAgICBjb25zdCBjYXJkcyA9IFsuLi50cmFjay5jaGlsZHJlbl07CiAgICAgICAgICAgICAgY29uc3QgY2xvbmVzID0gY2FyZHMuZmlsdGVyKGMgPT4gYy5oYXNBdHRyaWJ1dGUoImFyaWEtaGlkZGVuIikpOwogICAgICAgICAgICAgIG91dC5yYWlscy5wdXNoKHsgdG90YWw6IGNhcmRzLmxlbmd0aCwgY2xvbmVzOiBjbG9uZXMubGVuZ3RoLAogICAgICAgICAgICAgICAgY2xvbmVzVW50YWJiYWJsZTogY2xvbmVzLmV2ZXJ5KGMgPT4gWy4uLmMucXVlcnlTZWxlY3RvckFsbCgiYSxidXR0b24iKV0uZXZlcnkoZWwgPT4gZWwudGFiSW5kZXggPT09IC0xKSkgfSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgb3V0LnZpZGVvQ291bnQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCIud29yay1jYXJkOm5vdChbYXJpYS1oaWRkZW5dKSB2aWRlbyIpLmxlbmd0aDsKICAgICAgICAgICAgcmV0dXJuIG91dDsKICAgICAgICAgIH0pKCkpYCB9KTsKICAgICAgICBjb25zdCByID0gcmFpbC5yZXN1bHQ/LnZhbHVlID8gSlNPTi5wYXJzZShyYWlsLnJlc3VsdC52YWx1ZSkgOiBudWxsOwogICAgICAgIGNvbnNvbGUubG9nKCJyYWlsczoiLCBKU09OLnN0cmluZ2lmeShyKSk7CiAgICAgICAgaWYgKCFyIHx8IHIucmFpbENvdW50ICE9PSAyKSBpc3N1ZXMucHVzaChgZXhwZWN0ZWQgMiByYWlscywgZ290ICR7cj8ucmFpbENvdW50fWApOwogICAgICAgIGVsc2UgewogICAgICAgICAgY29uc3Qgc2VydmljZXMgPSByLnJhaWxzLmZpbmQocnIgPT4gcnIudG90YWwgPT09IDIxKTsKICAgICAgICAgIGNvbnN0IHdvcmsgPSByLnJhaWxzLmZpbmQocnIgPT4gcnIudG90YWwgPT09IDE4KTsKICAgICAgICAgIGlmICh3b3JrICYmIHdvcmsudG90YWwgIT09IDE4KSBpc3N1ZXMucHVzaChgd29yayByYWlsOiBleHBlY3RlZCAxOCwgZ290ICR7d29yay50b3RhbH1gKTsKICAgICAgICAgIGlmIChzZXJ2aWNlcyAmJiBzZXJ2aWNlcy50b3RhbCAhPT0gMjEpIGlzc3Vlcy5wdXNoKGBzZXJ2aWNlcyByYWlsOiBleHBlY3RlZCAyMSwgZ290ICR7c2VydmljZXMudG90YWx9YCk7CiAgICAgICAgICBpZiAoc2VydmljZXMgJiYgIXNlcnZpY2VzLmNsb25lc1VudGFiYmFibGUpIGlzc3Vlcy5wdXNoKCJzZXJ2aWNlcyByYWlsIGNsb25lcyB0YWJiYWJsZSIpOwogICAgICAgICAgaWYgKHdvcmsgJiYgIXdvcmsuY2xvbmVzVW50YWJiYWJsZSkgaXNzdWVzLnB1c2goIndvcmsgcmFpbCBjbG9uZXMgdGFiYmFibGUiKTsKICAgICAgICAgIGlmIChyLnZpZGVvQ291bnQgIT09IDQpIGlzc3Vlcy5wdXNoKGBleHBlY3RlZCA0IHdvcmsgdmlkZW9zLCBnb3QgJHtyLnZpZGVvQ291bnR9YCk7CiAgICAgICAgfQogICAgICAgIGNvbnNvbGUubG9nKCJyYWlsczoiLCBKU09OLnN0cmluZ2lmeShyKSk7CiAgICAgICAgaWYgKCFyIHx8IHIucmFpbENvdW50ICE9PSAyKSBpc3N1ZXMucHVzaChgZXhwZWN0ZWQgMiByYWlscywgZ290ICR7cj8ucmFpbENvdW50fWApOwogICAgICAgIGVsc2UgewogICAgICAgICAgY29uc3Qgc2VydmljZXMgPSByLnJhaWxzLmZpbmQocnIgPT4gcnIudG90YWwgPT09IDIxKTsKICAgICAgICAgIGNvbnN0IHdvcmsgPSByLnJhaWxzLmZpbmQocnIgPT4gcnIudG90YWwgPT09IDE4KTsKICAgICAgICAgIGlmICh3b3JrICYmIHdvcmsudG90YWwgIT09IDE4KSBpc3N1ZXMucHVzaChgd29yayByYWlsOiBleHBlY3RlZCAxOCwgZ290ICR7d29yay50b3RhbH1gKTsKICAgICAgICAgIGlmIChzZXJ2aWNlcyAmJiBzZXJ2aWNlcy50b3RhbCAhPT0gMjEpIGlzc3Vlcy5wdXNoKGBzZXJ2aWNlcyByYWlsOiBleHBlY3RlZCAyMSwgZ290ICR7c2VydmljZXMudG90YWx9YCk7CiAgICAgICAgICBpZiAoc2VydmljZXMgJiYgIXNlcnZpY2VzLmNsb25lc1VudGFiYmFibGUpIGlzc3Vlcy5wdXNoKCJzZXJ2aWNlcyByYWlsIGNsb25lcyB0YWJiYWJsZSIpOwogICAgICAgICAgaWYgKHdvcmsgJiYgIXdvcmsuY2xvbmVzVW50YWJiYWJsZSkgaXNzdWVzLnB1c2goIndvcmsgcmFpbCBjbG9uZXMgdGFiYmFibGUiKTsKICAgICAgICAgIGlmIChyLnZpZGVvQ291bnQgIT09IDQpIGlzc3Vlcy5wdXNoKGBleHBlY3RlZCA0IHdvcmsgdmlkZW9zLCBnb3QgJHtyLnZpZGVvQ291bnR9YCk7CiAgICAgICAgfQogICAgICB9CgogICAgICBmb3IgKGNvbnN0IHAgb2YgQ0hFQ0tQT0lOVFMpIHsKICAgICAgICBhd2FpdCBjZHAuc2VuZCgiUnVudGltZS5ldmFsdWF0ZSIsIHsgZXhwcmVzc2lvbjogYAogICAgICAgICAgKCgpID0+IHsKICAgICAgICAgICAgY29uc3QgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJjaW5lbWF0aWMiKTsKICAgICAgICAgICAgY29uc3QgbWF4ID0gcy5vZmZzZXRIZWlnaHQgLSB3aW5kb3cuaW5uZXJIZWlnaHQ7CiAgICAgICAgICAgIHdpbmRvdy5zY3JvbGxUbygwLCBzLm9mZnNldFRvcCArICR7cH0gKiBtYXgpOwogICAgICAgICAgfSkoKWAgfSk7CiAgICAgICAgYXdhaXQgc2xlZXAoMTYwMCk7IC8vIGxldCBzbW9vdGhlZCBwbGF5aGVhZCBjb252ZXJnZQogICAgICAgIGNvbnN0IHNob3QgPSBhd2FpdCBjZHAuc2VuZCgiUGFnZS5jYXB0dXJlU2NyZWVuc2hvdCIsIHsgZm9ybWF0OiAicG5nIiB9KTsKICAgICAgICBmcy53cml0ZUZpbGVTeW5jKAogICAgICAgICAgcGF0aC5qb2luKE9VVCwgYCR7dnAubmFtZX0tcCR7U3RyaW5nKHApLnJlcGxhY2UoIi4iLCAiIil9LnBuZ2ApLAogICAgICAgICAgQnVmZmVyLmZyb20oc2hvdC5kYXRhLCAiYmFzZTY0IikpOwogICAgICB9CgogICAgICBjb25zdCBvdmVyZmxvdyA9IGF3YWl0IGNkcC5zZW5kKCJSdW50aW1lLmV2YWx1YXRlIiwgewogICAgICAgIGV4cHJlc3Npb246IGBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc2Nyb2xsV2lkdGggLSBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xpZW50V2lkdGhgLAogICAgICAgIHJldHVybkJ5VmFsdWU6IHRydWUgfSk7CiAgICAgIGlmIChvdmVyZmxvdy5yZXN1bHQudmFsdWUgPiAxKQogICAgICAgIGlzc3Vlcy5wdXNoKGAke3ZwLm5hbWV9OiBob3Jpem9udGFsIG92ZXJmbG93ICR7b3ZlcmZsb3cucmVzdWx0LnZhbHVlfXB4YCk7CiAgICAgIGlmIChjZHAuY29uc29sZUVycm9ycy5sZW5ndGgpCiAgICAgICAgaXNzdWVzLnB1c2goYCR7dnAubmFtZX06IGNvbnNvbGU6ICR7Y2RwLmNvbnNvbGVFcnJvcnMuam9pbigiIHwgIil9YCk7CgogICAgICAvLyByZXZlcnNhbCBkZXRlcm1pbmlzbSAoZGVza3RvcCBvbmx5KQogICAgICBpZiAodnAubmFtZSA9PT0gImRlc2t0b3AtMTQ0MCIpIHsKICAgICAgICBjb25zdCBzbmFwID0gYXN5bmMgKHApID0+IHsKICAgICAgICAgIGF3YWl0IGNkcC5zZW5kKCJSdW50aW1lLmV2YWx1YXRlIiwgeyBleHByZXNzaW9uOiBgKCgpID0+IHsKICAgICAgICAgICAgY29uc3QgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJjaW5lbWF0aWMiKTsKICAgICAgICAgICAgY29uc3QgbWF4ID0gcy5vZmZzZXRIZWlnaHQgLSBpbm5lckhlaWdodDsKICAgICAgICAgICAgd2luZG93LnNjcm9sbFRvKDAsIHMub2Zmc2V0VG9wICsgJHtwfSAqIG1heCk7CiAgICAgICAgICB9KSgpYCB9KTsKICAgICAgICAgIGF3YWl0IHNsZWVwKDE1MDApOwogICAgICAgICAgY29uc3QgdiA9IGF3YWl0IGNkcC5zZW5kKCJSdW50aW1lLmV2YWx1YXRlIiwgeyByZXR1cm5CeVZhbHVlOiB0cnVlLAogICAgICAgICAgICBleHByZXNzaW9uOiBgcGFyc2VGbG9hdChnZXRDb21wdXRlZFN0eWxlKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJzdGFnZSIpKS5nZXRQcm9wZXJ0eVZhbHVlKCItLXAtb3BlbiIpKWAgfSk7CiAgICAgICAgICByZXR1cm4gdi5yZXN1bHQudmFsdWU7CiAgICAgICAgfTsKICAgICAgICBjb25zdCBkb3duID0gYXdhaXQgc25hcCgwLjI3KTsKICAgICAgICBhd2FpdCBzbmFwKDAuOTUpOwogICAgICAgIGNvbnN0IHVwID0gYXdhaXQgc25hcCgwLjI3KTsKICAgICAgICBjb25zb2xlLmxvZyhgcmV2ZXJzYWw6IGRvd249JHtkb3dufSB1cD0ke3VwfWApOwogICAgICAgIGlmIChNYXRoLmFicyhkb3duIC0gdXApID4gMC4wMykgaXNzdWVzLnB1c2goYHJldmVyc2FsIG1pc21hdGNoOiAke2Rvd259IHZzICR7dXB9YCk7CiAgICAgIH0KCiAgICAgIGF3YWl0IGNkcC5zZW5kKCJSdW50aW1lLmV2YWx1YXRlIiwgeyBleHByZXNzaW9uOiBgd2luZG93LnNjcm9sbFRvKDAsMClgIH0pOwogICAgICBjb25zb2xlLmxvZyhgZG9uZSAke3ZwLm5hbWV9YCk7CiAgICAgIGNkcC53cy5jbG9zZSgpOwogICAgfQogIH0gZmluYWxseSB7CiAgICBwcm9jLmtpbGwoKTsKICB9CiAgZnMud3JpdGVGaWxlU3luYyhwYXRoLmpvaW4oT1VULCAicWEtcmVwb3J0LnR4dCIpLAogICAgaXNzdWVzLmxlbmd0aCA/IGlzc3Vlcy5qb2luKCJcbiIpIDogIk5vIGNvbnNvbGUgZXJyb3JzLCBubyBob3Jpem9udGFsIG92ZXJmbG93LiIpOwogIGNvbnNvbGUubG9nKGlzc3Vlcy5sZW5ndGggPyAiSVNTVUVTOlxuIiArIGlzc3Vlcy5qb2luKCJcbiIpIDogIkNMRUFOIik7Cn0KCnJ1bigpLmNhdGNoKChlKSA9PiB7IGNvbnNvbGUuZXJyb3IoZSk7IHByb2Nlc3MuZXhpdCgxKTsgfSk7Cg==
+#!/usr/bin/env node
+/* Minimal CDP screenshot harness, zero dependencies.
+   Drives the puppeteer-cached Chrome via the DevTools protocol.
+   Usage: node tools/qa_cdp.mjs                                     */
+import { spawn } from "node:child_process";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const OUT = path.join(ROOT, "qa");
+const CHROME = "/home/vercel-sandbox/.cache/puppeteer/chrome/linux-151.0.7922.77/chrome-linux64/chrome";
+
+const CHECKPOINTS = [0.0, 0.16, 0.27, 0.44, 0.50, 0.61, 0.635, 0.72, 0.86, 1.0];
+const VIEWPORTS = [
+  { name: "desktop-1440", width: 1440, height: 900 },
+  { name: "laptop-1280", width: 1280, height: 720 },
+  { name: "tablet-land-1024", width: 1024, height: 768 },
+  { name: "tablet-port-768", width: 768, height: 1024 },
+  { name: "mobile-390", width: 390, height: 844 },
+];
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function launch() {
+  const port = 9222 + Math.floor(Math.random() * 500);
+  const proc = spawn(CHROME, [
+    "--headless=new", "--no-sandbox", "--disable-gpu",
+    "--hide-scrollbars", "--disable-dev-shm-usage",
+    `--remote-debugging-port=${port}`, "about:blank",
+  ], { stdio: "ignore" });
+  // wait for the devtools endpoint
+  let wsUrl = null;
+  for (let i = 0; i < 50; i++) {
+    await sleep(200);
+    try {
+      const res = await fetch(`http://127.0.0.1:${port}/json/version`);
+      const j = await res.json();
+      wsUrl = j.webSocketDebuggerUrl;
+      break;
+    } catch {}
+  }
+  if (!wsUrl) throw new Error("chrome did not start");
+  return { proc, port };
+}
+
+class CDP {
+  constructor(ws) {
+    this.ws = ws;
+    this.id = 0;
+    this.pending = new Map();
+    this.consoleErrors = [];
+    ws.onmessage = (ev) => {
+      const msg = JSON.parse(ev.data);
+      if (msg.id && this.pending.has(msg.id)) {
+        const { resolve, reject } = this.pending.get(msg.id);
+        this.pending.delete(msg.id);
+        msg.error ? reject(new Error(msg.error.message)) : resolve(msg.result);
+      } else if (msg.method === "Runtime.exceptionThrown") {
+        this.consoleErrors.push(
+          msg.params.exceptionDetails?.exception?.description || "pageerror");
+      } else if (msg.method === "Runtime.consoleAPICalled" &&
+                 msg.params.type === "error") {
+        this.consoleErrors.push(
+          msg.params.args?.map((a) => a.value ?? a.description).join(" "));
+      }
+    };
+  }
+  static async connect(port) {
+    // new tab
+    const res = await fetch(
+      `http://127.0.0.1:${port}/json/new?about:blank`, { method: "PUT" });
+    const target = await res.json();
+    const ws = new WebSocket(target.webSocketDebuggerUrl);
+    await new Promise((ok, err) => { ws.onopen = ok; ws.onerror = err; });
+    return new CDP(ws);
+  }
+  send(method, params = {}) {
+    const id = ++this.id;
+    return new Promise((resolve, reject) => {
+      this.pending.set(id, { resolve, reject });
+      this.ws.send(JSON.stringify({ id, method, params }));
+    });
+  }
+}
+
+async function run() {
+  const { proc, port } = await launch();
+  const issues = [];
+  try {
+    for (const vp of VIEWPORTS) {
+      const cdp = await CDP.connect(port);
+      await cdp.send("Runtime.enable");
+      await cdp.send("Page.enable");
+      await cdp.send("Emulation.setDeviceMetricsOverride", {
+        width: vp.width, height: vp.height, deviceScaleFactor: 1, mobile: vp.width < 500,
+      });
+      await cdp.send("Page.navigate", { url: "http://localhost:8932/index.html" });
+      await sleep(2200); // loader + fonts + decode
+
+      // rail + a11y assertions run right after load (before scrolling)
+      if (vp.name === "desktop-1440") {
+        const rail = await cdp.send("Runtime.evaluate", { returnByValue: true,
+          expression: `JSON.stringify((() => {
+            const wraps = [...document.querySelectorAll(".rail-wrap")];
+            const out = { railCount: wraps.length, rails: [] };
+            for (const wrap of wraps) {
+              const track = wrap.querySelector(".rail-track");
+              const cards = [...track.children];
+              const clones = cards.filter(c => c.hasAttribute("aria-hidden"));
+              out.rails.push({ total: cards.length, clones: clones.length,
+                clonesUntabbable: clones.every(c => [...c.querySelectorAll("a,button")].every(el => el.tabIndex === -1)) });
+            }
+            out.videoCount = document.querySelectorAll(".work-card:not([aria-hidden]) video").length;
+            return out;
+          })())` });
+        const r = rail.result?.value ? JSON.parse(rail.result.value) : null;
+        console.log("rails:", JSON.stringify(r));
+        if (!r || r.railCount !== 2) issues.push(`expected 2 rails, got ${r?.railCount}`);
+        else {
+          const services = r.rails.find(rr => rr.total === 21);
+          const work = r.rails.find(rr => rr.total === 18);
+          if (work && work.total !== 18) issues.push(`work rail: expected 18, got ${work.total}`);
+          if (services && services.total !== 21) issues.push(`services rail: expected 21, got ${services.total}`);
+          if (services && !services.clonesUntabbable) issues.push("services rail clones tabbable");
+          if (work && !work.clonesUntabbable) issues.push("work rail clones tabbable");
+          if (r.videoCount !== 4) issues.push(`expected 4 work videos, got ${r.videoCount}`);
+        }
+        console.log("rails:", JSON.stringify(r));
+        if (!r || r.railCount !== 2) issues.push(`expected 2 rails, got ${r?.railCount}`);
+        else {
+          const services = r.rails.find(rr => rr.total === 21);
+          const work = r.rails.find(rr => rr.total === 18);
+          if (work && work.total !== 18) issues.push(`work rail: expected 18, got ${work.total}`);
+          if (services && services.total !== 21) issues.push(`services rail: expected 21, got ${services.total}`);
+          if (services && !services.clonesUntabbable) issues.push("services rail clones tabbable");
+          if (work && !work.clonesUntabbable) issues.push("work rail clones tabbable");
+          if (r.videoCount !== 4) issues.push(`expected 4 work videos, got ${r.videoCount}`);
+        }
+      }
+
+      for (const p of CHECKPOINTS) {
+        await cdp.send("Runtime.evaluate", { expression: `
+          (() => {
+            const s = document.getElementById("cinematic");
+            const max = s.offsetHeight - window.innerHeight;
+            window.scrollTo(0, s.offsetTop + ${p} * max);
+          })()` });
+        await sleep(1600); // let smoothed playhead converge
+        const shot = await cdp.send("Page.captureScreenshot", { format: "png" });
+        fs.writeFileSync(
+          path.join(OUT, `${vp.name}-p${String(p).replace(".", "")}.png`),
+          Buffer.from(shot.data, "base64"));
+      }
+
+      const overflow = await cdp.send("Runtime.evaluate", {
+        expression: `document.documentElement.scrollWidth - document.documentElement.clientWidth`,
+        returnByValue: true });
+      if (overflow.result.value > 1)
+        issues.push(`${vp.name}: horizontal overflow ${overflow.result.value}px`);
+      if (cdp.consoleErrors.length)
+        issues.push(`${vp.name}: console: ${cdp.consoleErrors.join(" | ")}`);
+
+      // reversal determinism (desktop only)
+      if (vp.name === "desktop-1440") {
+        const snap = async (p) => {
+          await cdp.send("Runtime.evaluate", { expression: `(() => {
+            const s = document.getElementById("cinematic");
+            const max = s.offsetHeight - innerHeight;
+            window.scrollTo(0, s.offsetTop + ${p} * max);
+          })()` });
+          await sleep(1500);
+          const v = await cdp.send("Runtime.evaluate", { returnByValue: true,
+            expression: `parseFloat(getComputedStyle(document.getElementById("stage")).getPropertyValue("--p-open"))` });
+          return v.result.value;
+        };
+        const down = await snap(0.27);
+        await snap(0.95);
+        const up = await snap(0.27);
+        console.log(`reversal: down=${down} up=${up}`);
+        if (Math.abs(down - up) > 0.03) issues.push(`reversal mismatch: ${down} vs ${up}`);
+      }
+
+      await cdp.send("Runtime.evaluate", { expression: `window.scrollTo(0,0)` });
+      console.log(`done ${vp.name}`);
+      cdp.ws.close();
+    }
+  } finally {
+    proc.kill();
+  }
+  fs.writeFileSync(path.join(OUT, "qa-report.txt"),
+    issues.length ? issues.join("\n") : "No console errors, no horizontal overflow.");
+  console.log(issues.length ? "ISSUES:\n" + issues.join("\n") : "CLEAN");
+}
+
+run().catch((e) => { console.error(e); process.exit(1); });
