@@ -506,7 +506,7 @@ body.is-loaded .loader { opacity: 0; visibility: hidden; }
 }
 .card-contact .btn:hover { background: var(--caramel); border-color: var(--caramel); color: var(--paper); }
 .card-contact .card-body { gap: 0.6rem; }
-.card-contact .btn { width: fit-content; }
+.card-contact .btn { width: fit-content; margin-top: 1rem; }
 .btn-ghost {
   background: transparent; color: var(--paper);
   border: 1px solid rgba(244, 237, 227, 0.5);
