@@ -22,7 +22,7 @@
       panelD:    [0.615, 0.66],  // D title card ("selected work" intro)
       dHold:     [0.625, 0.645],
       tintOn:    [0.41, 0.45],   // focus tint + blur across B, C, D
-      tintOff:   [0.655, 0.70],
+      tintOff:   [0.84, 0.90],    // keep the room softened behind the work rail
       workRail:  [0.68, 0.83],   // selected-work rail entrance
       workSettle:[0.80, 0.85],
       rail:      [0.84, 0.955],  // services catalog entrance (finale)
@@ -373,6 +373,40 @@
     });
   }
 
+  /* deep links from other pages: index.html#work etc. */
+  const HASH_TARGETS = { "#studio": 0.28, "#philosophy": 0.565, "#work": 0.84, "#services": 0.985 };
+  function initHashJump() {
+    const p = HASH_TARGETS[location.hash];
+    if (p === undefined) return;
+    if (reduceMotion.matches) {
+      const node = p >= 0.9 ? catalog : p >= 0.7 ? workShowcase : panelA;
+      node.scrollIntoView({ block: "start" });
+      return;
+    }
+    // wait one frame so measure() has run, then jump without animation
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: section.offsetTop + p * state.maxScroll, behavior: "auto" });
+    });
+  }
+
+  /* small-screen menu */
+  function initMenu() {
+    const btn = document.querySelector(".menu-btn");
+    const menu = document.getElementById("mobile-menu");
+    if (!btn || !menu) return;
+    const close = () => { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); btn.textContent = "Menu"; };
+    btn.addEventListener("click", () => {
+      const open = menu.hidden;
+      menu.hidden = !open;
+      btn.setAttribute("aria-expanded", String(open));
+      btn.textContent = open ? "Close" : "Menu";
+      if (open) menu.querySelector("a")?.focus();
+    });
+    menu.addEventListener("click", (e) => { if (e.target.closest("a")) close(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !menu.hidden) { close(); btn.focus(); } });
+    window.addEventListener("scroll", () => { if (!menu.hidden) close(); }, { passive: true });
+  }
+
   /* ---------------- loading gate ---------------- */
   function initLoader() {
     const critical = [
@@ -438,12 +472,16 @@
       workShowcase.setAttribute("aria-hidden", "false");
       [panelA, panelB, panelC, panelD].forEach((el) => el.setAttribute("aria-hidden", "false"));
       initNav();
+      initMenu();
+      initHashJump();
       return;
     }
     measure();
     render(0);
     initLoader();
     initNav();
+    initMenu();
+    initHashJump();
     initVisibility();
     initMotionPrefs();
     window.addEventListener("scroll", readScroll, { passive: true });

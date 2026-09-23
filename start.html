@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Start a project — Social's Way</title>
+<title>Start a project · Social's Way</title>
+<link rel="canonical" href="https://socialsway.regnor.systems/start.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta name="description" content="Tell Social's Way where you are headed. A short brief, and we reply within two working days.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,6 +115,13 @@ legend{ font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:
 .brief-success h2{ font-size:1.8rem; margin-bottom:.6rem; }
 .brief-success p{ color:var(--ink-soft); }
 
+.success-actions [hidden]{ display:none; }
+.hp{ position:absolute; left:-9999px; width:1px; height:1px; opacity:0; }
+.success-actions{ margin-top:1.6rem; display:flex; gap:.7rem; justify-content:center; flex-wrap:wrap; }
+.btn-quiet{ background:transparent; color:var(--ink); }
+.btn-quiet:hover{ background:var(--paper); color:var(--ink); }
+.btn[disabled]{ opacity:.6; cursor:progress; transform:none; }
+.contacts a.wa-link{ color:var(--walnut); margin-top:.2rem; }
 /* sidebar */
 .brief-aside{ padding-top:.4rem; }
 .brief-aside h2{ font-size:1.3rem; margin-bottom:1rem; }
@@ -145,10 +154,11 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
 <header class="site-header">
   <a class="wordmark" href="index.html">Social's <em>Way</em></a>
   <nav class="site-nav" aria-label="Primary">
-    <a href="index.html">The Studio</a>
-    <a href="index.html">Philosophy</a>
-    <a href="index.html">Work</a>
-    <a href="start.html">Contact</a>
+    <a href="index.html#studio">The Studio</a>
+    <a href="index.html#philosophy">Philosophy</a>
+    <a href="index.html#work">Work</a>
+    <a href="index.html#services">Services</a>
+    <a href="studies/">Studies</a>
   </nav>
   <a class="btn" href="#brief-form">Write a brief</a>
 </header>
@@ -169,6 +179,7 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
       <p class="form-intro">A few questions. None are compulsory except the ones marked.</p>
 
       <form id="brief-form" novalidate>
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <fieldset>
           <legend>About you</legend>
           <div class="field-row">
@@ -226,15 +237,29 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
 
         <div class="submit-row">
           <button class="btn" type="submit">Send the brief</button>
-          <span class="form-note">Opens your email app, addressed to Romil and Alisha.</span>
+          <span class="form-note" id="form-note">Your brief comes straight to the founders. We reply within two working days.</span>
         </div>
       </form>
 
-      <div class="brief-success" id="brief-success" role="status" aria-live="polite">
-        <h2>Your brief is ready to send.</h2>
-        <p>If your email app did not open, copy the message and send it to
-        <a href="mailto:romil@regnor.systems" style="color:var(--walnut)">romil@regnor.systems</a>.</p>
-        <p style="margin-top:1.2rem"><a class="btn" href="index.html">Back to the studio</a></p>
+      <div class="brief-success" id="brief-success" role="status" aria-live="polite" tabindex="-1">
+        <div data-state="sent" hidden>
+          <h2>Thank you, your brief is with us.</h2>
+          <p>It has gone straight to the founders. We will read it properly and reply within two working days.</p>
+        </div>
+        <div data-state="mailapp" hidden>
+          <h2>Your brief is ready in your email app.</h2>
+          <p>It is not sent until you press send there. If no email app opened, message us on WhatsApp instead, or write to
+          <a href="mailto:romil@regnor.systems" style="color:var(--walnut)">romil@regnor.systems</a>.</p>
+        </div>
+        <div data-state="failed" hidden>
+          <h2>That did not go through.</h2>
+          <p>Nothing was sent, and your brief is still saved in the form. Please try again in a moment, or reach us on WhatsApp or by email.</p>
+        </div>
+        <p class="success-actions">
+          <a class="btn wa-btn" id="wa-brief" href="https://wa.me/918109367848" target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a>
+          <a class="btn btn-quiet" href="index.html" id="back-btn">Back to the studio</a>
+          <button class="btn btn-quiet" type="button" id="retry-btn" hidden>Edit and try again</button>
+        </p>
       </div>
     </div>
 
@@ -248,6 +273,7 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
           <p class="c-role">Head of Product and Research</p>
           <a href="tel:+918109367848">+91 81093 67848</a>
           <a href="mailto:romil@regnor.systems">romil@regnor.systems</a>
+          <a class="wa-link" href="https://wa.me/918109367848?text=Hello%20Social%27s%20Way%2C%20I%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
         </article>
         <article>
           <p class="c-name">Alisha</p>
@@ -261,60 +287,93 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
 
 </main>
 
-<footer>&copy; Social's Way, Marketing Atelier. <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></footer>
+<footer>&copy; Social's Way, Marketing Atelier. <a href="studies/">Studies</a> · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></footer>
 
 <script>
 (function(){
-  var form = document.getElementById("brief-form");
-  var success = document.getElementById("brief-success");
-  form.addEventListener("submit", function(e){
-    e.preventDefault();
-    // basic validation
-    var ok = true;
-    form.querySelectorAll("[required]").forEach(function(el){
-      if(!el.value.trim()){ el.style.borderColor = "#b04f4f"; ok = false; }
-      else { el.style.borderColor = ""; }
-    });
-    if(!ok) return;
+  /* Web3Forms delivers each brief by email. Paste the access key from
+     web3forms.com here. While it is empty, the form falls back to the
+     visitor's email app and says so honestly. */
+  var WEB3FORMS_KEY = "";
+  var WHATSAPP = "918109367848";
 
-    var name = form.name.value.trim();
-    var company = form.company.value.trim();
-    var email = form.email.value.trim();
-    var phone = form.phone.value.trim();
+  var form = document.getElementById("brief-form");
+  var panel = document.getElementById("brief-success");
+  var submitBtn = form.querySelector('button[type="submit"]');
+  var retry = document.getElementById("retry-btn");
+  var back = document.getElementById("back-btn");
+  var wa = document.getElementById("wa-brief");
+
+  function collect(){
     var services = Array.prototype.map.call(
       form.querySelectorAll('input[name="services"]:checked'), function(c){ return c.value; }
     ).join(", ") || "Not specified";
-    var budget = (form.querySelector('input[name="budget"]:checked') || {}).value || "Not specified";
-    var message = form.message.value.trim();
-
-    var subject = "New project brief from " + name + (company ? " (" + company + ")" : "");
-    var body = [
-      "Name: " + name,
-      "Company: " + (company || "-"),
-      "Email: " + email,
-      "Phone: " + (phone || "-"),
-      "Services: " + services,
-      "Budget: " + budget,
-      "",
-      "Brief:",
-      message
-    ].join("\n");
-
-    var mailto = "mailto:romil@regnor.systems?cc=alisha@regnor.systems"
-      + "&subject=" + encodeURIComponent(subject)
-      + "&body=" + encodeURIComponent(body);
-
-    // open the user's mail client
-    window.location.href = mailto;
-
-    // show a fallback in case mailto is blocked
-    setTimeout(function(){
-      form.style.display = "none";
-      success.classList.add("show");
-    }, 600);
+    return {
+      name: form.name.value.trim(),
+      company: form.company.value.trim(),
+      email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      services: services,
+      budget: (form.querySelector('input[name="budget"]:checked') || {}).value || "Not specified",
+      message: form.message.value.trim()
+    };
+  }
+  function bodyText(d){
+    return ["Name: " + d.name, "Company: " + (d.company || "-"), "Email: " + d.email,
+      "Phone: " + (d.phone || "-"), "Services: " + d.services, "Budget: " + d.budget, "", "Brief:", d.message].join("\n");
+  }
+  function show(state, d){
+    ["sent","mailapp","failed"].forEach(function(s){
+      panel.querySelector('[data-state="'+s+'"]').hidden = (s !== state);
+    });
+    var waText = "Hello Social's Way, I am " + d.name + (d.company ? " from " + d.company : "") + ". " + d.message;
+    wa.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(waText.slice(0, 900));
+    wa.hidden = (state === "sent");
+    retry.hidden = (state !== "failed");
+    back.hidden = (state === "failed");
+    form.style.display = "none";
+    panel.classList.add("show");
+    panel.focus();
+  }
+  retry.addEventListener("click", function(){
+    panel.classList.remove("show");
+    form.style.display = "";
+    submitBtn.disabled = false; submitBtn.textContent = "Send the brief";
   });
 
-  // clear error styling on input
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var ok = true;
+    form.querySelectorAll("[required]").forEach(function(el){
+      var bad = !el.value.trim() || (el.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value.trim()));
+      el.style.borderColor = bad ? "#b04f4f" : "";
+      if (bad && ok) { el.focus(); }
+      if (bad) ok = false;
+    });
+    if (!ok) return;
+    if (form.botcheck.checked) return;
+    var d = collect();
+    var subject = "New project brief from " + d.name + (d.company ? " (" + d.company + ")" : "");
+
+    if (!WEB3FORMS_KEY) {
+      window.location.href = "mailto:romil@regnor.systems?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(bodyText(d));
+      setTimeout(function(){ show("mailapp", d); }, 400);
+      return;
+    }
+    submitBtn.disabled = true; submitBtn.textContent = "Sending…";
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({
+        access_key: WEB3FORMS_KEY, subject: subject, from_name: "Social's Way website",
+        replyto: d.email, name: d.name, company: d.company || "-", email: d.email,
+        phone: d.phone || "-", services: d.services, budget: d.budget, message: d.message
+      })
+    }).then(function(r){ return r.json().then(function(j){ return r.ok && j.success; }); })
+      .then(function(sent){ show(sent ? "sent" : "failed", d); })
+      .catch(function(){ show("failed", d); });
+  });
+
   form.querySelectorAll("input,textarea").forEach(function(el){
     el.addEventListener("input", function(){ el.style.borderColor = ""; });
   });
