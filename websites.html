@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Website pricing · Social's Way</title>
+<link rel="canonical" href="https://socialsway.regnor.systems/websites">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="description" content="Custom websites from Social's Way at three levels: Essential from ₹50,000, Signature ₹80,000 and Flagship ₹1,10,000, one-time and ex-GST. Built by hand, mobile first, handed over in full.">
+<meta property="og:title" content="Website pricing · Social's Way">
+<meta property="og:description" content="Custom websites at three levels, from ₹50,000 one-time. Built by hand, mobile first, handed over in full.">
+<meta property="og:image" content="https://socialsway.regnor.systems/og-image.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1e1a16; --ink-soft:#4a4239; --paper:#f4ede3; --paper-deep:#ece2d3; --bone:#faf6ef;
+  --walnut:#5c4633; --caramel:#b07d4f; --brass:#a67c2e;
+  --rule:rgba(30,26,22,.14); --rule-soft:rgba(30,26,22,.08);
+  --font-display:"Fraunces","Iowan Old Style",Georgia,serif;
+  --font-ui:"Inter",system-ui,-apple-system,sans-serif;
+  --edge:clamp(1.25rem,4vw,4rem);
+  --shadow:0 18px 50px -22px rgba(30,26,22,.45);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--font-ui); line-height:1.6; -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(120% 80% at 0% 0%, rgba(166,124,46,.07), transparent 60%),
+    radial-gradient(100% 70% at 100% 100%, rgba(92,70,51,.06), transparent 55%);
+}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .28 0 0 0 0 .2 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:4px}
+h1,h2,h3{margin:0;font-family:var(--font-display);font-weight:400}
+p{margin:0}
+.wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 var(--edge)}
+.skip{position:absolute;left:-9999px}.skip:focus{left:1rem;top:1rem;z-index:50;background:var(--ink);color:var(--paper);padding:.6rem 1rem;border-radius:6px}
+
+/* header */
+.site-header{position:relative;z-index:5;display:flex;align-items:center;gap:1.6rem;max-width:1180px;margin:0 auto;
+  padding:calc(env(safe-area-inset-top,0px) + 1.4rem) var(--edge) 1.2rem}
+.wordmark{font-family:var(--font-display);font-size:1.3rem;text-decoration:none;letter-spacing:.01em;white-space:nowrap}
+.wordmark em{font-style:italic;color:var(--walnut)}
+.site-nav{margin-left:auto;display:flex;gap:1.5rem}
+.site-nav a{font-size:.86rem;text-decoration:none;color:var(--ink-soft);letter-spacing:.04em;padding:.2rem 0;border-bottom:1px solid transparent}
+.site-nav a:hover{color:var(--ink);border-color:var(--ink)}
+.site-nav a[aria-current]{color:var(--ink);border-color:var(--caramel)}
+.btn{display:inline-flex;align-items:center;gap:.55rem;font-size:.88rem;font-weight:500;letter-spacing:.04em;text-decoration:none;white-space:nowrap;
+  padding:.8rem 1.45rem;border-radius:999px;background:var(--ink);color:var(--paper);border:1px solid var(--ink);cursor:pointer;
+  transition:background .25s,transform .25s,color .25s,border-color .25s}
+.btn:hover{background:var(--walnut);border-color:var(--walnut);transform:translateY(-1px)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn .arr{transition:transform .25s}.btn:hover .arr{transform:translateX(3px)}
+
+.kicker{font-size:.76rem;letter-spacing:.3em;text-transform:uppercase;color:var(--walnut);font-weight:600}
+.kicker .n{font-family:var(--font-display);font-weight:400;letter-spacing:.08em;color:var(--brass);margin-right:.7rem}
+.sec{padding:clamp(4rem,9vw,7rem) 0;border-top:1px solid var(--rule)}
+.sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,30rem);gap:1.5rem 3rem;align-items:end;margin-bottom:clamp(2.2rem,5vw,3.6rem)}
+.sec-head h2{font-size:clamp(2rem,1.2rem + 3vw,3.4rem);line-height:1.04;letter-spacing:-.02em;margin-top:.9rem}
+.sec-head h2 em,.hero h1 em{font-style:italic;color:var(--caramel)}
+.sec-head p{color:var(--ink-soft)}
+
+.mnav{display:none;position:relative;margin-left:auto}
+.mnav summary{list-style:none;cursor:pointer;font-size:.8rem;font-weight:500;letter-spacing:.05em;padding:.62rem 1rem;border:1px solid rgba(30,26,22,.25);border-radius:999px;background:rgba(250,246,239,.9)}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav[open] summary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.mnav nav{position:absolute;right:0;top:calc(100% + .5rem);z-index:20;min-width:13rem;display:grid;gap:.1rem;background:var(--bone);border:1px solid var(--rule);border-radius:12px;box-shadow:var(--shadow);padding:.5rem}
+.mnav nav a{font-family:var(--font-display);font-size:1.15rem;text-decoration:none;padding:.6rem .8rem;border-radius:6px}
+.mnav nav a:hover,.mnav nav a[aria-current]{background:var(--paper-deep)}
+/* hero */
+.hero{padding:clamp(2.2rem,6vw,5rem) 0 clamp(3rem,7vw,5.5rem);display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.9fr);gap:clamp(2rem,5vw,4.5rem);align-items:end}
+.hero h1{font-size:clamp(2.8rem,1.4rem + 6vw,6rem);line-height:.96;letter-spacing:-.03em;margin-top:1.1rem;font-weight:300}
+.hero .lede{margin-top:1.6rem;font-size:clamp(1.02rem,.96rem + .3vw,1.16rem);color:var(--ink-soft);max-width:48ch}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2rem}
+.ledger{background:var(--bone);border:1px solid var(--rule);border-radius:12px;box-shadow:var(--shadow);padding:1.5rem 1.6rem 1.3rem}
+.ledger-h{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-bottom:.9rem;border-bottom:1px solid var(--rule)}
+.ledger-h span{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--walnut);font-weight:600}
+.ledger dl{margin:0}
+.ledger .row{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:.8rem 0;border-bottom:1px dashed var(--rule)}
+.ledger .row:last-child{border-bottom:0;padding-bottom:.2rem}
+.ledger dt{font-family:var(--font-display);font-size:1.12rem}
+.ledger dt small{display:block;font-family:var(--font-ui);font-size:.76rem;color:var(--ink-soft);letter-spacing:.02em}
+.ledger dd{margin:0;flex:none;font-family:var(--font-display);font-size:1.3rem;white-space:nowrap;font-variant-numeric:lining-nums tabular-nums}
+.ledger-note{font-size:.78rem;color:var(--ink-soft);margin-top:.9rem}
+
+/* GST switch */
+.gst{display:inline-flex;align-items:center;gap:.6rem;font-size:.8rem;color:var(--ink-soft);cursor:pointer;user-select:none}
+.gst input{position:absolute;opacity:0;width:1px;height:1px}
+.gst .track{width:2.4rem;height:1.35rem;border-radius:999px;background:rgba(30,26,22,.18);position:relative;transition:background .25s;flex:none}
+.gst .track::after{content:"";position:absolute;top:.17rem;left:.18rem;width:1rem;height:1rem;border-radius:50%;background:var(--bone);box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .25s}
+.gst input:checked + .track{background:var(--walnut)}
+.gst input:checked + .track::after{transform:translateX(1.05rem)}
+.gst input:focus-visible + .track{outline:2px solid var(--brass);outline-offset:3px}
+
+/* tiers */
+.tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1rem,2vw,1.6rem);align-items:stretch}
+.tier{position:relative;display:flex;flex-direction:column;background:var(--bone);border:1px solid var(--rule);border-radius:14px;overflow:hidden;
+  transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,border-color .35s}
+.tier:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.tier.is-picked{border-color:var(--caramel);box-shadow:0 0 0 1px var(--caramel),var(--shadow)}
+.tier-plate{position:relative;aspect-ratio:16/10;background:var(--paper-deep);border-bottom:1px solid var(--rule)}
+.tier-plate svg{position:absolute;inset:0;width:100%;height:100%}
+.tier-flag{margin:0;background:var(--caramel);color:var(--bone);font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;font-weight:600;text-align:center;padding:.5rem 1rem}
+.tier:not([data-tier=essential]) .tier-plate{border-top:calc(.68rem * 1.6 + 1rem) solid var(--paper-deep)}
+.tier-body{display:flex;flex-direction:column;flex:1;padding:1.5rem 1.5rem 1.6rem}
+.tier-top{display:flex;align-items:baseline;justify-content:space-between;gap:1rem}
+.tier-num{font-family:var(--font-display);font-style:italic;color:var(--brass);font-size:1rem;white-space:nowrap}
+.tier-kind{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--walnut);font-weight:600;text-align:right}
+.tier h3{font-size:2.1rem;letter-spacing:-.015em;margin-top:.35rem}
+.price{display:flex;align-items:baseline;gap:.5rem;margin:1rem 0 .15rem;flex-wrap:wrap}
+.price b{font-family:var(--font-display);font-weight:400;font-size:clamp(2.1rem,1.6rem + 1.2vw,2.7rem);letter-spacing:-.02em;font-variant-numeric:lining-nums;line-height:1}
+.price .from{font-size:.8rem;color:var(--ink-soft)}
+.price-note{font-size:.78rem;color:var(--ink-soft);letter-spacing:.02em}
+.tier-pitch{margin-top:1rem;color:var(--ink-soft);font-size:.97rem;padding-bottom:1.1rem;border-bottom:1px solid var(--rule)}
+.tier ul{list-style:none;margin:1.1rem 0 0;padding:0;display:grid;gap:.62rem;font-size:.93rem}
+.tier li{display:grid;grid-template-columns:1.1rem 1fr;gap:.6rem;align-items:start}
+.tier li svg{width:1rem;height:1rem;margin-top:.28rem;color:var(--caramel)}
+.tier li.inherit{font-weight:500}
+.tier-foot{margin-top:auto;padding-top:1.5rem;display:flex;flex-direction:column;gap:.9rem}
+.weeks{display:flex;align-items:center;gap:.6rem;font-size:.82rem;color:var(--ink-soft)}
+.weeks i{flex:1;height:1px;background:var(--rule);position:relative}
+.weeks i::after{content:"";position:absolute;left:0;top:-2px;height:5px;border-radius:3px;background:var(--caramel);width:var(--w,33%)}
+.tier-actions{display:flex;gap:.5rem;flex-wrap:wrap}
+.tier-actions .btn{flex:1;justify-content:center}
+.pick{font:inherit;font-size:.84rem;background:none;border:0;padding:.3rem 0;color:var(--walnut);text-decoration:underline;text-underline-offset:3px;cursor:pointer;align-self:flex-start}
+.tier.is-picked .pick{color:var(--ink);text-decoration:none;font-weight:600}
+.tiers-note{margin-top:1.4rem;font-size:.86rem;color:var(--ink-soft);text-align:center}
+.tiers-note a{color:var(--walnut)}
+
+/* compare */
+.compare{background:var(--bone);border:1px solid var(--rule);border-radius:14px;overflow:hidden}
+.c-row{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));align-items:center;border-top:1px solid var(--rule-soft)}
+.c-row:first-child{border-top:0}
+.c-row > *{padding:1rem 1.2rem}
+.c-head{background:var(--ink);color:var(--paper)}
+.c-head .c-t{font-family:var(--font-display);font-size:1.2rem;text-align:center}
+.c-head .c-t small{display:block;font-family:var(--font-ui);font-size:.74rem;color:rgba(244,237,227,.7);letter-spacing:.04em}
+.c-head .c-l{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(244,237,227,.75);font-weight:600}
+.c-group{grid-template-columns:1fr;background:var(--paper-deep)}
+.c-group > *{padding:.7rem 1.2rem;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--walnut);font-weight:600}
+.c-l{font-size:.95rem}
+.c-v{text-align:center;font-size:.9rem;color:var(--ink-soft)}
+.c-v svg{width:1.15rem;height:1.15rem;color:var(--caramel);vertical-align:middle}
+.c-v .no{display:inline-block;width:.9rem;height:1px;background:rgba(30,26,22,.28);vertical-align:middle}
+.c-row.is-hl .c-v{background:rgba(176,125,79,.06)}
+.c-price .c-v{font-family:var(--font-display);font-size:1.25rem;color:var(--ink)}
+
+/* includes */
+.includes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border:1px solid var(--rule);border-radius:14px;overflow:hidden;background:var(--bone)}
+.inc{padding:1.6rem 1.4rem 1.7rem;border-left:1px solid var(--rule)}
+.inc:first-child{border-left:0}
+.inc svg{width:2.4rem;height:2.4rem;color:var(--walnut);margin-bottom:1rem}
+.inc h3{font-size:1.22rem;line-height:1.2;margin-bottom:.5rem}
+.inc p{font-size:.92rem;color:var(--ink-soft)}
+
+/* pairing band */
+.band{position:relative;z-index:1;background:var(--ink);color:var(--paper);padding:clamp(4rem,9vw,6.5rem) 0;overflow:hidden}
+.band::before{content:"";position:absolute;left:-10rem;bottom:-12rem;width:28rem;height:28rem;border-radius:50%;border:1px solid rgba(244,237,227,.08);box-shadow:0 0 0 3rem rgba(244,237,227,.025),0 0 0 6rem rgba(244,237,227,.02)}
+.band .kicker{color:#d7a878}.band .kicker .n{color:#cdb79c}
+.band-grid{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.band h2{font-size:clamp(2rem,1.2rem + 3vw,3.3rem);line-height:1.04;letter-spacing:-.02em;margin-top:.9rem}
+.band h2 em{font-style:italic;color:#d7a878}
+.band p.lead{color:rgba(244,237,227,.78);margin-top:1.2rem;max-width:44ch}
+.band ul{list-style:none;padding:0;margin:1.5rem 0 0;display:grid;gap:.55rem;color:rgba(244,237,227,.85);font-size:.95rem}
+.band li::before{content:"";display:inline-block;width:.45rem;height:.45rem;border-radius:50%;background:#d7a878;margin-right:.75rem;vertical-align:.12em}
+.calc{background:rgba(244,237,227,.05);border:1px solid rgba(244,237,227,.16);border-radius:14px;padding:1.6rem}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:.3rem;background:rgba(244,237,227,.08);border-radius:999px;padding:.3rem}
+.seg button{font:inherit;font-size:.86rem;color:rgba(244,237,227,.8);background:transparent;border:0;border-radius:999px;padding:.6rem .4rem;cursor:pointer;transition:background .25s,color .25s}
+.seg button[aria-pressed="true"]{background:var(--paper);color:var(--ink);font-weight:500}
+.calc-lines{margin:1.4rem 0 0;display:grid;gap:.1rem}
+.calc-line{display:flex;justify-content:space-between;gap:1rem;padding:.7rem 0;border-bottom:1px dashed rgba(244,237,227,.16);font-size:.95rem;color:rgba(244,237,227,.82)}
+.calc-line b{font-weight:500;color:var(--paper);font-variant-numeric:tabular-nums;white-space:nowrap}
+.calc-line.minus b{color:#d7a878}
+.calc-total{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding-top:1.1rem}
+.calc-total > span{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(244,237,227,.7)}
+.calc-total b{font-family:var(--font-display);font-weight:400;font-size:clamp(2rem,1.5rem + 1.5vw,2.8rem);white-space:nowrap}
+.calc-total s{font-size:1rem;color:rgba(244,237,227,.5);margin-right:.6rem;font-family:var(--font-ui)}
+.calc .btn{margin-top:1.4rem;background:var(--paper);color:var(--ink);border-color:var(--paper);width:100%;justify-content:center}
+.calc .btn:hover{background:#d7a878;border-color:#d7a878}
+.calc-fine{font-size:.76rem;color:rgba(244,237,227,.6);margin-top:.9rem;text-align:center}
+
+/* process */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;counter-reset:s;position:relative}
+.steps::before{content:"";position:absolute;left:0;right:0;top:1.35rem;height:1px;background:var(--rule)}
+.step{position:relative;padding-right:1.4rem}
+.step .dot{position:relative;display:grid;place-items:center;width:2.7rem;height:2.7rem;border-radius:50%;background:var(--paper);border:1px solid var(--caramel);
+  font-family:var(--font-display);font-style:italic;color:var(--walnut);margin-bottom:1.1rem}
+.step h3{font-size:1.3rem;margin-bottom:.4rem}
+.step p{font-size:.92rem;color:var(--ink-soft)}
+.timing{margin-top:2.6rem;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.timing div{border-top:2px solid var(--ink);padding-top:.9rem}
+.timing b{display:block;font-family:var(--font-display);font-weight:400;font-size:1.15rem;margin-bottom:.3rem}
+.timing span{font-size:.9rem;color:var(--ink-soft)}
+
+/* payment */
+.pay{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(2rem,5vw,4rem);align-items:start}
+.bar{display:flex;height:3.4rem;border-radius:10px;overflow:hidden;border:1px solid var(--rule)}
+.bar div{display:flex;align-items:center;padding:0 1rem;font-size:.82rem;font-weight:500;letter-spacing:.04em;white-space:nowrap}
+.bar .b1{flex:50;background:var(--ink);color:var(--paper)}
+.bar .b2{flex:30;background:var(--walnut);color:var(--paper)}
+.bar .b3{flex:20;background:var(--paper-deep);color:var(--ink)}
+.milestones{margin-top:1.4rem;display:grid;gap:0}
+.ms{display:grid;grid-template-columns:3.2rem 1fr auto;gap:1rem;align-items:baseline;padding:1rem 0;border-bottom:1px solid var(--rule)}
+.ms .pc{font-family:var(--font-display);font-size:1.5rem;color:var(--brass)}
+.ms b{font-weight:500}
+.ms p{font-size:.88rem;color:var(--ink-soft)}
+.ms .amt{font-family:var(--font-display);font-size:1.25rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+.pay-for{font-size:.84rem;color:var(--ink-soft);margin-bottom:.9rem}
+.pay-for b{color:var(--ink);font-weight:600}
+.notes{background:var(--bone);border:1px solid var(--rule);border-radius:14px;padding:1.6rem 1.6rem .6rem}
+.notes h3{font-size:1.35rem;margin-bottom:.6rem}
+.notes dl{margin:0}
+.notes dt{font-weight:600;font-size:.92rem;margin-top:1rem}
+.notes dd{margin:.25rem 0 0;font-size:.92rem;color:var(--ink-soft);padding-bottom:1rem;border-bottom:1px solid var(--rule-soft)}
+.notes dd:last-child{border-bottom:0}
+
+/* closing */
+.close{padding:clamp(4.5rem,10vw,7.5rem) 0;text-align:center;border-top:1px solid var(--rule)}
+.close h2{font-size:clamp(2.2rem,1.3rem + 4vw,4.4rem);line-height:1;letter-spacing:-.025em;font-weight:300;max-width:16ch;margin:1rem auto 0}
+.close h2 em{font-style:italic;color:var(--caramel)}
+.close p{color:var(--ink-soft);max-width:46ch;margin:1.3rem auto 0}
+.close .hero-cta{justify-content:center}
+.people{display:flex;justify-content:center;flex-wrap:wrap;gap:1rem 3rem;margin-top:2.6rem;font-size:.9rem;color:var(--ink-soft)}
+.people b{display:block;font-family:var(--font-display);font-weight:400;font-size:1.15rem;color:var(--ink)}
+.people a{text-decoration:none}.people a:hover{text-decoration:underline}
+
+footer.site-foot{position:relative;z-index:1;border-top:1px solid var(--rule);padding:2rem var(--edge);max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;gap:.6rem 1.8rem;justify-content:space-between;font-size:.8rem;color:var(--ink-soft)}
+footer.site-foot nav{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem}
+footer.site-foot a{text-decoration:none}footer.site-foot a:hover{text-decoration:underline}
+
+/* reveal */
+.rv{transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .rv:not(.is-in){opacity:0;transform:translateY(18px)}
+
+/* responsive */
+@media (max-width:1020px){
+  .tiers{grid-template-columns:1fr;max-width:640px;margin:0 auto}
+  .tier-plate{aspect-ratio:21/9}
+  .includes{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .inc:nth-child(3){border-left:0}.inc:nth-child(n+3){border-top:1px solid var(--rule)}
+  .steps{grid-template-columns:1fr;gap:1.6rem}
+  .steps::before{left:1.35rem;right:auto;top:0;bottom:0;width:1px;height:auto}
+  .step{display:grid;grid-template-columns:2.7rem 1fr;gap:0 1.1rem;padding:0}
+  .step .dot{margin:0;grid-row:span 2}
+  .step h3{margin:.45rem 0 .2rem}
+}
+@media (max-width:900px){
+  .site-nav{display:none}
+  .mnav{display:block}
+  .hero,.sec-head,.band-grid,.pay{grid-template-columns:1fr}
+  .timing{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .site-header{gap:.8rem}
+  .btn-head{padding:.62rem 1rem;font-size:.8rem}
+  .c-row{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .c-row > .c-l{grid-column:1 / -1;padding:.9rem 1rem .1rem;font-size:.9rem}
+  .c-row > .c-v{padding:.35rem .5rem .9rem}
+  .c-head .c-l{display:none}
+  .c-head .c-t{padding:1rem .4rem;font-size:1.02rem}
+  .includes{grid-template-columns:1fr}.inc{border-left:0}.inc + .inc{border-top:1px solid var(--rule)}
+  .ms{grid-template-columns:2.6rem 1fr}.ms .amt{grid-column:2}
+  .bar div{padding:0 .6rem;font-size:.74rem}
+  .c-row.c-group{grid-template-columns:1fr}
+  .ledger dt{min-width:0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important}
+  .js .rv:not(.is-in){opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#tiers">Skip to the three levels</a>
+
+<header class="site-header">
+  <a class="wordmark" href="/">Social's <em>Way</em></a>
+  <nav class="site-nav" aria-label="Main">
+    <a href="/#studio">The Studio</a>
+    <a href="/#work">Work</a>
+    <a href="/#services">Services</a>
+    <a href="/studies/">Studies</a>
+    <a href="/websites" aria-current="page">Websites</a>
+  </nav>
+  <details class="mnav">
+    <summary>Menu</summary>
+    <nav aria-label="Main">
+      <a href="/#studio">The Studio</a><a href="/#work">Work</a><a href="/#services">Services</a><a href="/studies/">Studies</a><a href="/websites" aria-current="page">Websites</a>
+    </nav>
+  </details>
+  <a class="btn btn-head" href="/start?service=web">Start a project</a>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+  <!-- I. hero -->
+  <section class="hero" aria-labelledby="h1">
+    <div class="rv">
+      <p class="kicker">Web design · Pricing</p>
+      <h1 id="h1">A website built by hand, at <em>three levels.</em></h1>
+      <p class="lede">Every level is a complete, launch-ready website, custom designed with no templates and handed over in full. The difference between them is how much of the story your site tells, and how much of the enquiry it gathers, before anyone picks up the phone.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#tiers">Compare the three levels <span class="arr" aria-hidden="true">&#8595;</span></a>
+        <a class="btn btn-line" href="/studies/">See the craft in ten studies</a>
+      </div>
+    </div>
+    <aside class="ledger rv" aria-label="Price summary">
+      <div class="ledger-h">
+        <span>At a glance</span>
+        <label class="gst"><input type="checkbox" id="gst-hero" data-gst-toggle><span class="track" aria-hidden="true"></span>Show with GST</label>
+      </div>
+      <dl>
+        <div class="row"><dt>Essential<small>Complete and launch-ready · 2 to 3 weeks</small></dt><dd data-price="essential">₹50,000</dd></div>
+        <div class="row"><dt>Signature<small>For a richer telling · 3 to 5 weeks</small></dt><dd data-price="signature">₹80,000</dd></div>
+        <div class="row"><dt>Flagship<small>The full expression · 5 to 6 weeks</small></dt><dd data-price="flagship">₹1,10,000</dd></div>
+      </dl>
+      <p class="ledger-note" data-tax-note>One-time fees, quoted ex-GST. 18% GST applies separately.</p>
+    </aside>
+  </section>
+
+  <!-- II. the three levels -->
+  <section class="sec" id="tiers" aria-labelledby="h-tiers">
+    <div class="sec-head">
+      <div class="rv">
+        <p class="kicker"><span class="n">I</span>The three levels</p>
+        <h2 id="h-tiers">Choose the depth. <em>The care stays the same.</em></h2>
+      </div>
+      <div class="rv">
+        <p>Where budget decides, Essential is already a complete, professional piece of work. The levels above it add pages, storytelling and a smarter enquiry, not more attention. Pick one here to see its payment schedule and pairing price further down.</p>
+        <p style="margin-top:1rem"><label class="gst"><input type="checkbox" data-gst-toggle><span class="track" aria-hidden="true"></span>Show prices with 18% GST</label></p>
+      </div>
+    </div>
+
+    <div class="tiers">
+      <!-- Essential -->
+      <article class="tier rv is-picked" data-tier="essential" aria-labelledby="t-ess">
+        <p class="tier-flag">Recommended starting point</p>
+        <div class="tier-plate" aria-hidden="true">
+          <svg viewBox="0 0 320 200" fill="none" stroke="currentColor" style="color:#5c4633">
+            <rect x="46" y="28" width="228" height="148" rx="7" fill="#faf6ef" stroke-opacity=".35"/>
+            <path d="M46 44h228" stroke-opacity=".25"/><circle cx="56" cy="36" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/><circle cx="64" cy="36" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/><circle cx="72" cy="36" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/>
+            <rect x="62" y="56" width="196" height="46" rx="3" fill="#b07d4f" fill-opacity=".22" stroke="none"/>
+            <rect x="70" y="66" width="86" height="7" rx="3" fill="currentColor" fill-opacity=".55" stroke="none"/>
+            <rect x="70" y="79" width="60" height="4" rx="2" fill="currentColor" fill-opacity=".3" stroke="none"/>
+            <g fill="#ece2d3" stroke-opacity=".28">
+              <rect x="62" y="112" width="34" height="48" rx="3"/><rect x="102" y="112" width="34" height="48" rx="3"/><rect x="142" y="112" width="34" height="48" rx="3"/><rect x="182" y="112" width="34" height="48" rx="3"/><rect x="222" y="112" width="36" height="48" rx="3"/>
+            </g>
+            <g font-family="Inter,system-ui" font-size="7" fill="currentColor" fill-opacity=".6" stroke="none" text-anchor="middle">
+              <text x="79" y="171">Home</text><text x="119" y="171">About</text><text x="159" y="171">Offer</text><text x="199" y="171">Gallery</text><text x="240" y="171">Contact</text>
+            </g>
+          </svg>
+        </div>
+        <div class="tier-body">
+          <div class="tier-top"><span class="tier-num">No. I</span><span class="tier-kind">Complete and launch-ready</span></div>
+          <h3 id="t-ess">Essential</h3>
+          <div class="price"><b data-price="essential">₹50,000</b></div>
+          <p class="price-note" data-tax-label>one-time · ex-GST</p>
+          <p class="tier-pitch">The website your business needs today, built custom and handed over ready to take enquiries.</p>
+          <ul>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Custom design, no templates: Home, About, your services or collections, a gallery and Contact</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enquiry form with WhatsApp connect, one tap from any page</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Photo-led galleries for your work, products or spaces</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Mobile-first build, fast to load on Indian networks</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Essential SEO: titles, descriptions, sitemap and Google Business connect</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enquiries land in your inbox and your WhatsApp</span></li>
+          </ul>
+          <div class="tier-foot">
+            <div class="weeks" style="--w:40%"><span>2 to 3 weeks</span><i aria-hidden="true"></i></div>
+            <button class="pick" type="button" data-pick="essential" aria-pressed="true">Selected for the figures below</button>
+            <div class="tier-actions"><a class="btn" href="/start?tier=essential">Start with Essential <span class="arr" aria-hidden="true">&#8594;</span></a></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Signature -->
+      <article class="tier rv" data-tier="signature" aria-labelledby="t-sig">
+        <div class="tier-plate" aria-hidden="true">
+          <svg viewBox="0 0 320 200" fill="none" stroke="currentColor" style="color:#5c4633">
+            <rect x="46" y="22" width="228" height="160" rx="7" fill="#faf6ef" stroke-opacity=".35"/>
+            <path d="M46 38h228" stroke-opacity=".25"/><circle cx="56" cy="30" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/><circle cx="64" cy="30" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/><circle cx="72" cy="30" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/>
+            <rect x="62" y="48" width="118" height="54" rx="3" fill="#b07d4f" fill-opacity=".22" stroke="none"/>
+            <path d="M68 92c14-14 26-6 36-16s22-8 30 0 22 4 40-8" stroke="#b07d4f" stroke-opacity=".7" stroke-width="1.4"/>
+            <g stroke-opacity=".28"><rect x="188" y="48" width="70" height="54" rx="3" fill="#ece2d3"/></g>
+            <g fill="currentColor" fill-opacity=".38" stroke="none"><rect x="196" y="58" width="42" height="4" rx="2"/><rect x="196" y="68" width="52" height="3" rx="1.5" fill-opacity=".22"/><rect x="196" y="76" width="46" height="3" rx="1.5" fill-opacity=".22"/><rect x="196" y="84" width="50" height="3" rx="1.5" fill-opacity=".22"/></g>
+            <g fill="#ece2d3" stroke-opacity=".28">
+              <rect x="62" y="112" width="34" height="26" rx="3"/><rect x="101" y="112" width="34" height="26" rx="3"/><rect x="140" y="112" width="34" height="26" rx="3"/><rect x="179" y="112" width="34" height="26" rx="3"/><rect x="218" y="112" width="40" height="26" rx="3"/>
+              <rect x="62" y="144" width="34" height="26" rx="3"/><rect x="101" y="144" width="34" height="26" rx="3"/><rect x="140" y="144" width="34" height="26" rx="3"/><rect x="179" y="144" width="34" height="26" rx="3"/><rect x="218" y="144" width="40" height="26" rx="3" fill="#b07d4f" fill-opacity=".25"/>
+            </g>
+          </svg>
+        </div>
+        <div class="tier-body">
+          <div class="tier-top"><span class="tier-num">No. II</span><span class="tier-kind">For a richer telling</span></div>
+          <h3 id="t-sig">Signature</h3>
+          <div class="price"><b data-price="signature">₹80,000</b></div>
+          <p class="price-note" data-tax-label>one-time · ex-GST</p>
+          <p class="tier-pitch">Everything in Essential, with the depth of storytelling a considered brand deserves.</p>
+          <ul>
+            <li class="inherit"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Everything in Essential, plus:</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Up to 10 pages, including a page for each service, collection or location</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A guided enquiry flow that captures what matters to you, such as dates, numbers and budget, in one gentle form</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A journal for stories and photos, built to feed your SEO</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Quiet motion and scroll storytelling through the pages</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Expanded SEO setup with structured data</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Two rounds of revisions built into the timeline</span></li>
+          </ul>
+          <div class="tier-foot">
+            <div class="weeks" style="--w:70%"><span>3 to 5 weeks</span><i aria-hidden="true"></i></div>
+            <button class="pick" type="button" data-pick="signature" aria-pressed="false">Use this level for the figures below</button>
+            <div class="tier-actions"><a class="btn" href="/start?tier=signature">Start with Signature <span class="arr" aria-hidden="true">&#8594;</span></a></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Flagship -->
+      <article class="tier rv" data-tier="flagship" aria-labelledby="t-flag">
+        <div class="tier-plate" aria-hidden="true">
+          <svg viewBox="0 0 320 200" fill="none" stroke="currentColor" style="color:#5c4633">
+            <rect x="30" y="18" width="200" height="140" rx="7" fill="#faf6ef" stroke-opacity=".35"/>
+            <path d="M30 34h200" stroke-opacity=".25"/><circle cx="40" cy="26" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/><circle cx="48" cy="26" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/><circle cx="56" cy="26" r="2" fill="currentColor" fill-opacity=".35" stroke="none"/>
+            <rect x="44" y="44" width="172" height="40" rx="3" fill="#b07d4f" fill-opacity=".22" stroke="none"/>
+            <rect x="52" y="54" width="76" height="7" rx="3" fill="currentColor" fill-opacity=".55" stroke="none"/>
+            <g fill="#ece2d3" stroke-opacity=".28"><rect x="44" y="92" width="26" height="22" rx="2"/><rect x="74" y="92" width="26" height="22" rx="2"/><rect x="104" y="92" width="26" height="22" rx="2"/><rect x="134" y="92" width="26" height="22" rx="2"/><rect x="164" y="92" width="26" height="22" rx="2"/><rect x="194" y="92" width="22" height="22" rx="2"/>
+            <rect x="44" y="120" width="26" height="22" rx="2"/><rect x="74" y="120" width="26" height="22" rx="2"/><rect x="104" y="120" width="26" height="22" rx="2"/><rect x="134" y="120" width="26" height="22" rx="2"/></g>
+            <g stroke="#b07d4f" stroke-opacity=".75" stroke-dasharray="3 3"><rect x="164" y="120" width="26" height="22" rx="2"/><rect x="194" y="120" width="22" height="22" rx="2"/></g>
+            <!-- planner card -->
+            <rect x="198" y="96" width="96" height="86" rx="7" fill="#1e1a16" stroke="none"/>
+            <g fill="#f4ede3" stroke="none"><rect x="210" y="108" width="46" height="4" rx="2" fill-opacity=".85"/>
+            <rect x="210" y="122" width="72" height="10" rx="5" fill-opacity=".14"/><rect x="210" y="138" width="72" height="10" rx="5" fill-opacity=".14"/>
+            <rect x="210" y="154" width="36" height="12" rx="6" fill="#d7a878"/></g>
+            <circle cx="216" cy="127" r="2.4" fill="#d7a878" stroke="none"/><circle cx="216" cy="143" r="2.4" fill="#f4ede3" fill-opacity=".4" stroke="none"/>
+          </svg>
+        </div>
+        <div class="tier-body">
+          <div class="tier-top"><span class="tier-num">No. III</span><span class="tier-kind">The full expression</span></div>
+          <h3 id="t-flag">Flagship</h3>
+          <div class="price"><b data-price="flagship">₹1,10,000</b></div>
+          <p class="price-note" data-tax-label>one-time · ex-GST</p>
+          <p class="tier-pitch">Everything in Signature, built for a brand that intends to keep growing its site for years.</p>
+          <ul>
+            <li class="inherit"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Everything in Signature, plus:</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>An architecture that grows: add collections, services or locations without a redesign</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>An interactive planner: a short set of questions that shapes the enquiry before you ever speak</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Copywriting for every core page, in your voice</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Photography curation and art direction for the galleries</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Priority build, with launch support and training for 60 days</span></li>
+            <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Three rounds of revisions built into the timeline</span></li>
+          </ul>
+          <div class="tier-foot">
+            <div class="weeks" style="--w:100%"><span>5 to 6 weeks</span><i aria-hidden="true"></i></div>
+            <button class="pick" type="button" data-pick="flagship" aria-pressed="false">Use this level for the figures below</button>
+            <div class="tier-actions"><a class="btn" href="/start?tier=flagship">Start with Flagship <span class="arr" aria-hidden="true">&#8594;</span></a></div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="tiers-note">Not sure which level fits? <a href="/start?service=web">Write us a short brief</a> and we will recommend one honestly, even if it is the smallest.</p>
+  </section>
+
+  <!-- III. side by side -->
+  <section class="sec" id="compare" aria-labelledby="h-compare">
+    <div class="sec-head">
+      <div class="rv">
+        <p class="kicker"><span class="n">II</span>Side by side</p>
+        <h2 id="h-compare">What changes as you <em>go deeper.</em></h2>
+      </div>
+      <p class="rv">Each column includes everything to its left. The rows below are the whole of the difference; nothing is held back at the lower levels to push you upwards.</p>
+    </div>
+
+    <div class="compare rv" role="table" aria-label="Comparison of the three website levels">
+      <div class="c-row c-head" role="row">
+        <span class="c-l" role="columnheader">What you get</span>
+        <span class="c-t" role="columnheader">Essential<small>2 to 3 weeks</small></span>
+        <span class="c-t" role="columnheader">Signature<small>3 to 5 weeks</small></span>
+        <span class="c-t" role="columnheader">Flagship<small>5 to 6 weeks</small></span>
+      </div>
+      <div class="c-row c-group" role="row"><span role="cell">Design and pages</span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Custom design, no templates</span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Pages</span><span class="c-v" role="cell">5 core pages</span><span class="c-v" role="cell">Up to 10</span><span class="c-v" role="cell">Grows with you</span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Photo-led galleries</span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Quiet motion and scroll storytelling</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Journal for stories and photos</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Copywriting for every core page</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Photography curation and art direction</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row c-group" role="row"><span role="cell">Enquiries</span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Enquiry form with WhatsApp connect</span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Guided enquiry flow</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-y></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Interactive planner</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-y></span></div>
+      <div class="c-row c-group" role="row"><span role="cell">Search and support</span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">SEO</span><span class="c-v" role="cell">Essential</span><span class="c-v" role="cell">Expanded, with structured data</span><span class="c-v" role="cell">Expanded, with structured data</span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Revision rounds in the timeline</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell">Two</span><span class="c-v" role="cell">Three</span></div>
+      <div class="c-row" role="row"><span class="c-l" role="rowheader">Launch support and training</span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell" data-n></span><span class="c-v" role="cell">60 days</span></div>
+      <div class="c-row c-price" role="row"><span class="c-l" role="rowheader"><span data-tax-short>One-time, ex-GST</span></span><span class="c-v" role="cell" data-price="essential">₹50,000</span><span class="c-v" role="cell" data-price="signature">₹80,000</span><span class="c-v" role="cell" data-price="flagship">₹1,10,000</span></div>
+    </div>
+  </section>
+
+  <!-- IV. every level -->
+  <section class="sec" aria-labelledby="h-inc">
+    <div class="sec-head">
+      <div class="rv">
+        <p class="kicker"><span class="n">III</span>At every level</p>
+        <h2 id="h-inc">Four things we never <em>leave out.</em></h2>
+      </div>
+      <p class="rv">These come with the smallest site as surely as the largest, because a website without them is not finished.</p>
+    </div>
+    <div class="includes rv">
+      <div class="inc">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M8 32l6-18 6 10 4-6 8 14z"/><circle cx="28" cy="10" r="3"/><path d="M4 36h32"/></svg>
+        <h3>Drawn for you, never templated</h3>
+        <p>Structure and flow are drawn before a single pixel, then designed around your business and your customers.</p>
+      </div>
+      <div class="inc">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="12" y="4" width="16" height="32" rx="3"/><path d="M18 31h4"/><path d="M4 18c3-3 3-7 0-10M36 18c-3-3-3-7 0-10"/></svg>
+        <h3>Phone first, and fast</h3>
+        <p>Built and tested on the phones and networks your customers actually use, because that is where decisions begin.</p>
+      </div>
+      <div class="inc">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M5 10h30v20H5z"/><path d="M5 10l15 11 15-11"/><circle cx="31" cy="30" r="5" fill="#f4ede3"/><path d="M29 30l1.5 1.5L33 29"/></svg>
+        <h3>Enquiries that reach you</h3>
+        <p>Every enquiry lands in your inbox and on WhatsApp, so a lead is never lost in a form nobody checks.</p>
+      </div>
+      <div class="inc">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="14" cy="20" r="6"/><path d="M20 20h16M30 20v6M35 20v4"/></svg>
+        <h3>Handed over in full</h3>
+        <p>At launch you receive everything: files, accounts and passwords. The site is yours, with no lock-in and nothing held back.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- V. pairing band -->
+<section class="band" id="pairing" aria-labelledby="h-pair">
+  <div class="wrap band-grid">
+    <div class="rv">
+      <p class="kicker"><span class="n">IV</span>Pair it with branding</p>
+      <h2 id="h-pair">A brand and a site, built as <em>one piece of work.</em></h2>
+      <p class="lead">Our branding engagement is ₹20,000, one-time, over about two weeks. Take it together with any website level and a straight 20% comes off both.</p>
+      <ul>
+        <li>Three complete design directions, each with its own logo concept, palette and type</li>
+        <li>Your chosen direction refined into the finished brand</li>
+        <li>Logo in every version you need, for print and screen</li>
+        <li>Social-ready profile and cover assets</li>
+        <li>The full brand kit handed over, yours to keep</li>
+      </ul>
+    </div>
+    <div class="calc rv" aria-live="polite">
+      <div class="seg" role="group" aria-label="Website level for this package">
+        <button type="button" data-pick="essential" aria-pressed="true">Essential</button>
+        <button type="button" data-pick="signature" aria-pressed="false">Signature</button>
+        <button type="button" data-pick="flagship" aria-pressed="false">Flagship</button>
+      </div>
+      <div class="calc-lines">
+        <div class="calc-line"><span>Website, <span data-tier-name>Essential</span></span><b data-calc="site">₹50,000</b></div>
+        <div class="calc-line"><span>Branding, three directions and the full kit</span><b data-calc="brand">₹20,000</b></div>
+        <div class="calc-line minus"><span>Package saving, 20% on both</span><b data-calc="save">− ₹14,000</b></div>
+      </div>
+      <div class="calc-total"><span>Together</span><b><s data-calc="was">₹70,000</s><span data-calc="total">₹56,000</span></b></div>
+      <a class="btn" data-calc-link href="/start?tier=essential&amp;with=branding">Start with this package <span class="arr" aria-hidden="true">&#8594;</span></a>
+      <p class="calc-fine" data-calc-fine>One-time, ex-GST. 18% GST applies separately.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <!-- VI. process -->
+  <section class="sec" id="process" aria-labelledby="h-process" style="border-top:0">
+    <div class="sec-head">
+      <div class="rv">
+        <p class="kicker"><span class="n">V</span>How we work</p>
+        <h2 id="h-process">Five steps, <em>no surprises.</em></h2>
+      </div>
+      <p class="rv">The same order for every level. What changes is how long each step takes, never whether it happens.</p>
+    </div>
+    <ol class="steps rv">
+      <li class="step"><span class="dot">i</span><h3>Discovery</h3><p>A conversation about your business, your customers and the ones you want more of.</p></li>
+      <li class="step"><span class="dot">ii</span><h3>Direction</h3><p>The structure of the site drawn out and agreed, along with any branding directions.</p></li>
+      <li class="step"><span class="dot">iii</span><h3>Design</h3><p>The pages take shape in your brand, reviewed with you as they come together.</p></li>
+      <li class="step"><span class="dot">iv</span><h3>Build</h3><p>Built clean and fast, then tested on the phones and networks your customers use.</p></li>
+      <li class="step"><span class="dot">v</span><h3>Handover</h3><p>Launched, walked through and handed over complete: files, accounts and passwords, all yours.</p></li>
+    </ol>
+    <div class="timing rv">
+      <div><b>Website, 2 to 6 weeks</b><span>By level, counted from the day your content and inputs reach us. Timelines are confirmed at kickoff.</span></div>
+      <div><b>Branding, about 2 weeks</b><span>Three directions in the first week, then refinement and the finished kit in the second.</span></div>
+      <div><b>Starting</b><span>We can usually begin within a week of confirmation.</span></div>
+    </div>
+  </section>
+
+  <!-- VII. payment -->
+  <section class="sec" id="terms" aria-labelledby="h-terms">
+    <div class="sec-head">
+      <div class="rv">
+        <p class="kicker"><span class="n">VI</span>Payment and terms</p>
+        <h2 id="h-terms">Paid in three parts, <em>as the work arrives.</em></h2>
+      </div>
+      <p class="rv">You never pay for work you have not seen. Each milestone follows a moment you can review.</p>
+    </div>
+    <div class="pay">
+      <div class="rv">
+        <p class="pay-for">Showing the schedule for <b data-tier-name>Essential</b>, <span data-tax-inline>ex-GST</span>. Choose another level above to update it.</p>
+        <div class="bar" aria-hidden="true"><div class="b1">50%</div><div class="b2">30%</div><div class="b3">20%</div></div>
+        <div class="milestones">
+          <div class="ms"><span class="pc">50%</span><div><b>At kickoff</b><p>Confirms your slot and starts discovery.</p></div><span class="amt" data-ms="0.5">₹25,000</span></div>
+          <div class="ms"><span class="pc">30%</span><div><b>At design approval</b><p>Once you have signed off the pages you have seen.</p></div><span class="amt" data-ms="0.3">₹15,000</span></div>
+          <div class="ms"><span class="pc">20%</span><div><b>Before launch and handover</b><p>The site goes live and everything passes to you.</p></div><span class="amt" data-ms="0.2">₹10,000</span></div>
+        </div>
+      </div>
+      <div class="notes rv">
+        <h3>Good to know</h3>
+        <dl>
+          <dt>Tax</dt><dd>All figures are quoted ex-GST. 18% GST applies separately on each invoice.</dd>
+          <dt>Your quote</dt><dd>These are our standard levels. After a short discovery call we confirm your exact scope, price and timeline in writing before any work begins.</dd>
+          <dt>Timelines</dt><dd>Counted from the day your content and inputs reach us, and confirmed at kickoff.</dd>
+          <dt>Ownership</dt><dd>On handover the site, its files and its accounts are yours outright, to keep or move as you please.</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- VIII. close -->
+<section class="close" aria-labelledby="h-close">
+  <div class="wrap">
+    <p class="kicker rv">Start a project</p>
+    <h2 id="h-close" class="rv">Tell us where you are <em>headed.</em></h2>
+    <p class="rv">A paragraph is plenty. We will read the market with you, recommend a level honestly, and reply within two working days.</p>
+    <div class="hero-cta rv">
+      <a class="btn" href="/start?service=web">Write us a brief <span class="arr" aria-hidden="true">&#8594;</span></a>
+      <a class="btn btn-line" href="https://wa.me/918109367848?text=Hello%20Social%27s%20Way%2C%20I%20would%20like%20to%20talk%20about%20a%20website." target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a>
+    </div>
+    <div class="people rv">
+      <div><b>Romil</b>Head of Product and Research<br><a href="tel:+918109367848">+91 81093 67848</a> · <a href="mailto:romil@regnor.systems">romil@regnor.systems</a></div>
+      <div><b>Alisha</b>Creative Director<br><a href="tel:+919179704671">+91 91797 04671</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-foot">
+  <span>&copy; 2026 Regnor, operating as Social's Way.</span>
+  <nav aria-label="Footer">
+    <a href="/">Home</a><a href="/studies/">Studies</a><a href="/start">Start a project</a>
+    <a href="https://www.instagram.com/socials_way/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a>
+  </nav>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  document.documentElement.classList.add("js");
+  var BASE = { essential: 50000, signature: 80000, flagship: 110000 };
+  var NAMES = { essential: "Essential", signature: "Signature", flagship: "Flagship" };
+  var BRANDING = 20000, GST = 0.18, PACK = 0.20;
+  var state = { tier: "essential", gst: false };
+
+  var inr = function(n){ return "₹" + Math.round(n).toLocaleString("en-IN"); };
+  var tax = function(n){ return state.gst ? n * (1 + GST) : n; };
+  var q = function(s){ return Array.prototype.slice.call(document.querySelectorAll(s)); };
+
+  function render(){
+    q("[data-price]").forEach(function(el){ el.textContent = inr(tax(BASE[el.dataset.price])); });
+    q("[data-tax-label]").forEach(function(el){ el.textContent = state.gst ? "one-time · incl. 18% GST" : "one-time · ex-GST"; });
+    q("[data-tax-short]").forEach(function(el){ el.textContent = state.gst ? "One-time, incl. GST" : "One-time, ex-GST"; });
+    q("[data-tax-inline]").forEach(function(el){ el.textContent = state.gst ? "including 18% GST" : "ex-GST"; });
+    q("[data-tax-note]").forEach(function(el){ el.textContent = state.gst ? "One-time fees, shown including 18% GST." : "One-time fees, quoted ex-GST. 18% GST applies separately."; });
+    q("[data-gst-toggle]").forEach(function(el){ el.checked = state.gst; });
+
+    q(".tier").forEach(function(t){ t.classList.toggle("is-picked", t.dataset.tier === state.tier); });
+    q("[data-pick]").forEach(function(b){
+      var on = b.dataset.pick === state.tier;
+      b.setAttribute("aria-pressed", String(on));
+      if (b.classList.contains("pick")) b.textContent = on ? "Selected for the figures below" : "Use this level for the figures below";
+    });
+    q("[data-tier-name]").forEach(function(el){ el.textContent = NAMES[state.tier]; });
+
+    var site = BASE[state.tier], was = site + BRANDING, save = was * PACK, total = was - save;
+    var set = function(k, v){ q('[data-calc="' + k + '"]').forEach(function(el){ el.textContent = v; }); };
+    set("site", inr(tax(site))); set("brand", inr(tax(BRANDING)));
+    set("save", "− " + inr(tax(save))); set("was", inr(tax(was))); set("total", inr(tax(total)));
+    q("[data-calc-fine]").forEach(function(el){ el.textContent = state.gst ? "One-time, including 18% GST." : "One-time, ex-GST. 18% GST applies separately."; });
+    q("[data-calc-link]").forEach(function(a){ a.href = "/start?tier=" + state.tier + "&with=branding"; });
+
+    q("[data-ms]").forEach(function(el){ el.textContent = inr(tax(site * parseFloat(el.dataset.ms))); });
+  }
+
+  q("[data-gst-toggle]").forEach(function(el){ el.addEventListener("change", function(){ state.gst = el.checked; render(); }); });
+  q("[data-pick]").forEach(function(b){ b.addEventListener("click", function(){ state.tier = b.dataset.pick; render(); }); });
+
+  // comparison marks
+  var yes = '<svg viewBox="0 0 16 16" role="img" aria-label="Included"><path d="M3 8.5l3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  q("[data-y]").forEach(function(el){ el.innerHTML = yes; });
+  q("[data-n]").forEach(function(el){ el.innerHTML = '<span class="no" role="img" aria-label="Not included"></span>'; });
+
+  // reveal on scroll (enhancement only; content is visible without JS)
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add("is-in"); io.unobserve(e.target); } }); }, { rootMargin: "0px 0px -8% 0px" });
+    q(".rv").forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ q(".rv").forEach(function(el){ el.classList.add("is-in"); }); }, 2500);
+  } else {
+    q(".rv").forEach(function(el){ el.classList.add("is-in"); });
+  }
+  render();
+})();
+</script>
+</body>
+</html>

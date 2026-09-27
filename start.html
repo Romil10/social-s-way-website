@@ -160,6 +160,7 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
     <a href="/#work">Work</a>
     <a href="/#services">Services</a>
     <a href="/studies/">Studies</a>
+    <a href="/websites">Websites</a>
   </nav>
   <a class="btn" href="#brief-form">Write a brief</a>
 </header>
@@ -289,7 +290,7 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
 
 </main>
 
-<footer>&copy; Social's Way, Marketing Atelier. <a href="/studies/">Studies</a> · <a href="https://www.instagram.com/socials_way/" target="_blank" rel="noopener noreferrer">Instagram</a> · <a href="/terms">Terms</a> · <a href="/privacy">Privacy</a></footer>
+<footer>&copy; Social's Way, Marketing Atelier. <a href="/studies/">Studies</a> · <a href="/websites">Websites</a> · <a href="https://www.instagram.com/socials_way/" target="_blank" rel="noopener noreferrer">Instagram</a> · <a href="/terms">Terms</a> · <a href="/privacy">Privacy</a></footer>
 
 <script>
 (function(){
@@ -376,6 +377,20 @@ footer{ border-top:1px solid rgba(30,26,22,.12); padding:2rem var(--space-edge);
       .catch(function(){ show("failed", d); });
   });
 
+
+  /* prefill from links on the website pricing page: ?tier=signature&with=branding, ?service=web */
+  (function(){
+    var p = new URLSearchParams(location.search);
+    var TIERS = { essential: ["Essential", "₹50,000"], signature: ["Signature", "₹80,000"], flagship: ["Flagship", "₹1,10,000"] };
+    var tick = function(v){ var c = form.querySelector('input[name="services"][value="' + v + '"]'); if (c) c.checked = true; };
+    var tier = TIERS[p.get("tier")];
+    if (tier || p.get("service") === "web") tick("Web Design");
+    if (p.get("with") === "branding") tick("Branding, Zero to One");
+    if (tier && !form.message.value.trim()) {
+      form.message.value = "We are interested in the " + tier[0] + " website (" + tier[1] + " ex-GST)" +
+        (p.get("with") === "branding" ? ", together with branding" : "") + ".\n\nAbout us and what we need: ";
+    }
+  })();
   form.querySelectorAll("input,textarea").forEach(function(el){
     el.addEventListener("input", function(){ el.style.borderColor = ""; });
   });

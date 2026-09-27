@@ -819,3 +819,6 @@ a:focus-visible, button:focus-visible, .rail:focus-visible {
   .card-contact .card-body > p:not(.card-tag) { display: none; }   /* the button carries the invitation on very short phones */
   .card-contact .contact-role { font-size: 0.62rem; }
 }
+
+.card-more { display: inline-block; margin-top: 0.7rem; font-size: var(--fs-small); color: var(--walnut); text-decoration: none; border-bottom: 1px solid currentColor; width: fit-content; }
+.card-more:hover { color: var(--ink); }
